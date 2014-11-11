@@ -33,7 +33,8 @@ public class Unit {
     };
 
     private String name;
-    private UnitModel models;
+    private UnitModel[][] models;
+    private UnitModel unitModel;
     private UnitModel hero;
     private UnitModel champion;
     private int numModels;
@@ -49,17 +50,92 @@ public class Unit {
     private boolean hasMusician;
     private int overkill;
 
+    public void createUnit(UnitModel model, int numModels, int files, UnitModel champion, UnitModel hero){
+        this.unitModel = model;
+        this.files = files;
+        this.champion = champion;
+        this.hero = hero;
+        numModels = champion != null ? numModels + 1 : numModels;
+        numModels = hero != null ? numModels + 1 : numModels;
+        int ranks = numModels / files;
+        int remainder = numModels % files;
+        if(remainder > 0){
+            models = new UnitModel[ranks+1][files];
+        }else{
+            models = new UnitModel[ranks][files];
+        }
+        int startJ = 0;
+        if(champion != null){
+            models[0][startJ] = champion;
+            startJ++;
+        }
+        if(hero != null){
+            models[0][startJ] = hero;
+            startJ++;
+        }
+        for(int i=0; i<ranks; i++){
+            for(int j= startJ; j < files; j++){
+                UnitModel copy = new UnitModel(model);
+                copy.setRank(i);
+                copy.setFile(j);
+                models[i][j] = copy;
+            }
+            startJ = 0;
+        }
+        if(remainder > 0){
+            for (int k = 0; k < remainder; k++){
+                UnitModel copy = new UnitModel(model);
+                copy.setRank(ranks);
+                copy.setFile(k);
+                models[ranks][k] = copy;
+            }
+        }
+    }
+
     public int getRanks(){
-        return (numModels / files);
+        int ranks = 0;
+        for(int i = 0; i < models.length; i++){
+            if(null !=models[i][0]){
+                ranks++;
+            }else{
+                break;
+            }
+        }
+        return ranks;
+    }
+
+    public int getFullRanks(){
+        int ranks = 0;
+        for(int i = 0; i < models.length; i++){
+            int filesFilled = 0;
+            for(int j = 0; j < models[i].length; j++){
+                if(null !=models[i][j]){
+                    filesFilled++;
+                }else{
+                    break;
+                }
+            }
+            if(filesFilled != this.getFiles()){
+                break;
+            }else{
+                ranks++;
+            }
+        }
+        return ranks;
     }
 
     public boolean testLeadership(int modifier){
-        System.out.println("\n" + this.getModels().getName() + " rolls for a break test with a modified leadership of " +
-                (this.leadership - modifier) + "... ");
+        int modifiedLeadership = this.leadership - modifier;
+        if(this.leadership - modifier < 0){
+            modifiedLeadership = 0;
+        }
+        String modified = modifier == 0 ? "" : "modified ";
+        System.out.println("\n" + this.getUnitModel().getName() + " rolls for a break test with a " + modified + "leadership of " +
+                modifiedLeadership + "... ");
         Dice die = Dice.getD6();
         int test = 0;
         int[] rolls;
-        if(this.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.COLD_BLOODED)){
+        if(this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.COLD_BLOODED)){
             rolls = die.rollSeparateDice(3);
         }else {
             rolls = die.rollSeparateDice(2);
@@ -72,7 +148,7 @@ public class Unit {
                 highest = i;
             }
         }
-        if (this.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.COLD_BLOODED)) {
+        if (this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.COLD_BLOODED)) {
             test -= highest;
         }
         if(rolls[0] == 1 && rolls[1] == 1){
@@ -82,54 +158,88 @@ public class Unit {
     }
 
     public int calculateCombatScore(Unit other){
-        int score = other.getWoundsReceived();
-        score += this.charging ? 1 : 0;
+        System.out.println("\n********************** " + this.getUnitModel().getName() + " Combat Score **********************");
 
-        score += getRanks() > 3 ? (getRanks() - 3) : 0;
-        score += this.hasBanner ? 1 : 0;
-        score += this.flankAttack ? 1 : 0;
-        score += this.rearAttack ? 2 : 0;
-        score += overkill;
+        int score = other.getWoundsReceived();
+        System.out.println("    Wounds dealt: " + other.getWoundsReceived());
+
+        if(this.charging){
+            score++;
+            System.out.println("    Charge bonus: 1");
+        }
+        if(other.isFlankAttack() && other.getFullRanks() >= 2){
+            System.out.println("    Unit is disrupted and receives no rank bonus");
+        }else if(this.getRanks() > 3){
+            score += getRanks() > 3 ? (getRanks() - 3) : 0;
+            System.out.println("    Rank bonus: " + (getRanks() - 3));
+        }
+        if(this.hasBanner){
+            score ++;
+            System.out.println("    Standard bearer bonus: 1");
+        }
+        if(this.flankAttack){
+            score ++;
+            System.out.println("    Flank attack bonus: 1");
+        }
+        if(this.rearAttack){
+            score += 2;
+            System.out.println("    Rear attack bonus");
+        }
+        if(this.hasHighGround){
+            score++;
+            System.out.println("    High Ground bonus: 1");
+        }
+        if(this.overkill > 0){
+            score += overkill;
+            System.out.println("    Challenge overkill bonus: " + overkill);
+        }
         other.setWoundsReceived(0);
-        System.out.println("\n    " + this.getModels().getName() + " score: " + score);
+        System.out.println("\nTotal Score: " + score);
+        System.out.println("*******************************************************************\n");
         return score;
     }
 
     public int getUnitInitiative(){
-        return models.getInitiative();
+        return unitModel.getInitiative();
     }
 
-    public UnitModel getModels() {
-        return models;
+    public UnitModel getUnitModel() {
+        return unitModel;
     }
 
     public void attack(Unit defender, AttackDirectionEnum direction){
-        int difficulty = toHitChart[this.getModels().getWeaponSkill()][defender.getModels().getWeaponSkill()];
-        System.out.println("    " + this.getModels().getName() + " hits on " + difficulty + "+");
-        int hits = rollCombatDice(defender, this.getNumAttacks(defender, direction), difficulty, true);
+        int difficulty = toHitChart[this.getUnitModel().getWeaponSkill()][defender.getUnitModel().getWeaponSkill()];
+        System.out.println("    " + this.getUnitModel().getName() + " hits on " + difficulty + "+");
+        int hits = rollCombatDice(defender, this.getNumAttacks(defender), difficulty, true);
         System.out.println("    " + hits + " attacks hit");
         int totalHits = hits;
         int wounds = 0;
         if(hits > 0){
-            wounds += defender.getWoundsReceived() + this.getWounds(defender, hits, this.getModels().getStrength());
+            wounds += defender.getWoundsReceived() + this.getWounds(defender, hits, this.getUnitModel().getStrength());
         }
 
         if(this.getChampion() != null){
             System.out.println("\n    Rolling for " + this.getChampion().getName() + "....");
             System.out.println("    " + this.getChampion().getName() + " has " + this.getChampion().getAttacks() + " attacks");
-            difficulty = toHitChart[this.getChampion().getWeaponSkill()][defender.getModels().getWeaponSkill()];
+
+            difficulty = toHitChart[this.getChampion().getWeaponSkill()][defender.getUnitModel().getWeaponSkill()];
+
             System.out.println("    " + this.getChampion().getName() + " hits on " + difficulty + "+");
+
             hits = rollCombatDice(defender, this.getChampion().getAttacks(), difficulty, true);
+
             System.out.println("    " + hits + " attacks hit");
+
             totalHits += hits;
             if(hits > 0){
                 wounds += getWounds(defender, hits, this.champion.getStrength());
             }
+            this.getChampion().setAttacks(0);
         }
         if(this.getHero() != null){
             System.out.println("\n    Rolling for " + this.getHero().getName() + "....");
             System.out.println("    " + this.getHero().getName() + " has " + this.getHero().getAttacks() + " attacks");
-            difficulty = toHitChart[this.getHero().getWeaponSkill()][defender.getModels().getWeaponSkill()];
+            difficulty = toHitChart[this.getHero().getWeaponSkill()][defender.getUnitModel().getWeaponSkill()];
             System.out.println("    " + this.getHero().getName() + " hits on " + difficulty + "+");
             hits = rollCombatDice(defender, this.getHero().getAttacks(), difficulty, true);
             System.out.println("    " + hits + " attacks hit");
@@ -137,31 +247,32 @@ public class Unit {
             if(hits > 0){
                 wounds += getWounds(defender, hits, this.hero.getStrength());
             }
+            this.getHero().setAttacks(0);
         }
-        System.out.println("    " + this.getModels().getName() + " hits: " + totalHits);
-        System.out.println("    " + this.getModels().getName() + " wounds : " + wounds);
+        System.out.println("    " + this.getUnitModel().getName() + " hits: " + totalHits);
+        System.out.println("    " + this.getUnitModel().getName() + " wounds : " + wounds);
         defender.setWoundsReceived(wounds);
     }
 
     private int getWounds(Unit defender, int numHits, int attackStrength){
         System.out.println("    Rolling for wounds....");
-        int difficulty = toWoundChart[attackStrength][defender.getModels().getToughness()];
-        System.out.println("    " + this.getModels().getName() + " wounds on " + difficulty + "+");
+        int difficulty = toWoundChart[attackStrength][defender.getUnitModel().getToughness()];
+        System.out.println("    " + this.getUnitModel().getName() + " wounds on " + difficulty + "+");
         int wounds = rollCombatDice(defender, numHits, difficulty, false);
-        if(null != defender.getModels().getArmorSave()){
-            int save = defender.getModels().getArmorSave() + (3-attackStrength);
+        if(null != defender.getUnitModel().getModifiedArmorSave()){
+            int save = defender.getUnitModel().getModifiedArmorSave() + Math.abs(3 - attackStrength);
             if(save <= 6){
                 if(wounds > 0){
-                    System.out.println("    " + defender.getModels().getName() + " have a " + save + "+ armor save...");
+                    System.out.println("    " + defender.getUnitModel().getName() + " have a " + save + "+ armor save...");
                     wounds = rollSave(wounds, save);
                 }
             }
         }
-        if(null != defender.getModels().getWardSave()){
-            int save = defender.getModels().getWardSave();
+        if(null != defender.getUnitModel().getModifiedWardSave()){
+            int save = defender.getUnitModel().getModifiedWardSave();
             if(save <= 6){
                 if(wounds > 0){
-                    System.out.println("    " + defender.getModels().getName() + " have a " + save + "+ ward save...");
+                    System.out.println("    " + defender.getUnitModel().getName() + " have a " + save + "+ ward save...");
                     wounds = rollSave(wounds, save);
                 }
             }
@@ -182,7 +293,7 @@ public class Unit {
             }
         }
 
-        if(this.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.PREDATORY_FIGHTER) && reRollAllowed){
+        if(this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.PREDATORY_FIGHTER) && reRollAllowed){
             int additionalAttacks = 0;
             for(int i=0; i<amt; i++) {
                 if(attacks[i] == 6){
@@ -190,17 +301,17 @@ public class Unit {
                 }
             }
             if(additionalAttacks > 0) {
-                System.out.println("    " + this.getModels().getName() + " gets " + additionalAttacks + " additional attacks....");
+                System.out.println("    " + this.getUnitModel().getName() + " gets " + additionalAttacks + " additional attacks....");
                 hits += rollCombatDice(defender, additionalAttacks, difficulty, false);
             }
         }
 
-        if(this.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST) && reRollAllowed){
+        if(this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST) && reRollAllowed){
             if(amt - hits > 0) {
                 System.out.println("    Re-rolling " + (amt - hits) + " misses....");
 
                 if (this.getUnitInitiative() >= defender.getUnitInitiative() &&
-                        !defender.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST)) {
+                        !defender.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST)) {
                     hits += rollCombatDice(defender, amt - hits, difficulty, false);
                 }
             }
@@ -222,44 +333,64 @@ public class Unit {
         return wounds;
     }
 
-    private int getNumAttacks(Unit defender, AttackDirectionEnum direction){
-        int numAttacks = this.getModels().getAttacks();
-        if(this.getRanks() < this.getSupportingRanks()){
-            numAttacks *= this.getNumModels();
-        }else {
-            int modelsInBaseContact;
-            if(direction.equals(AttackDirectionEnum.FLANK)){
-                modelsInBaseContact = this.getRanks() <= defender.getFiles() ? this.getRanks() : defender.getFiles();
-                numAttacks *= modelsInBaseContact;
-            }else {
-                modelsInBaseContact = this.getFiles() <= defender.getFiles() ? this.getFiles() : defender.getFiles();
-                numAttacks = numAttacks * modelsInBaseContact * (1 + this.getSupportingRanks());
-                if (this.getChampion() != null) {
-                    numAttacks--;
+    private int getNumAttacks(Unit defender){
+        int numAttacks = 0;
+        int ranks = this.getSupportingRanks() + 1 > this.getRanks() ? this.getRanks() : this.getSupportingRanks() + 1;
+        if(defender.isFlankAttack()){
+            int flankAttacks = this.getRanks() > defender.getFiles() ? this.getRanks() : defender.getFiles();
+            for(int f = 0; f < flankAttacks; f++){
+                if(!models[f][0].isChampionHero()){
+                    numAttacks += models[f][0].getAttacks();
+                    models[f][0].setAttacks(0);
                 }
-                if (this.getHero() != null) {
-                    numAttacks --;
+            }
+        }else if(defender.isRearAttack()){
+            int rearAttacks = this.getFiles() > defender.getFiles() ? defender.getFiles() : this.getFiles();
+            for(int r = this.getFiles(); r < rearAttacks; r++){
+                UnitModel model = models[this.getRanks()-1][r];
+                if(null == model){
+                    if(r > 0){
+                        model = models[this.getRanks() - 2][r];
+                    }else{
+                        break;
+                    }
+                }else{
+                    numAttacks += model.getAttacks();
+                    model.setAttacks(0);
+                }
+            }
+        }else {
+            for(int i = 0; i < ranks; i++){
+                for(int j = 0; j < this.getFiles(); j++){
+                    if(null == models[i][j]){
+                        break;
+                    }
+                    if(!models[i][j].isChampionHero()){
+                        numAttacks += models[i][j].getAttacks();
+                        models[i][j].setAttacks(0);
+                    }
                 }
             }
         }
-        System.out.println("    " + this.getModels().getName() + " gets " + numAttacks + " attacks....");
+
+        System.out.println("    " + this.getUnitModel().getName() + " gets " + numAttacks + " attacks....");
         return numAttacks;
     }
 
     public Unit strikeFirst(Unit other){
-        if(this.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST) &&
-                !this.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_LAST)){
-            if(!other.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST)){
+        if(this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST) &&
+                !this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_LAST)){
+            if(!other.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST)){
                 return this;
             }
-        }else if(other.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST)){
+        }else if(other.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST)){
             return other;
         }
-        if(this.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_LAST)){
-            if(!other.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_LAST)){
+        if(this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_LAST)){
+            if(!other.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_LAST)){
                 return other;
             }
-        }else if(other.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_LAST)){
+        }else if(other.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_LAST)){
             return this;
         }
 
@@ -267,8 +398,54 @@ public class Unit {
                 (this.getUnitInitiative() == other.getUnitInitiative() ? null : other);
     }
 
-    public void setModels(UnitModel models) {
-        this.models = models;
+    public void removeCasualties(int amt){
+        int casualtiesToRemove = amt;
+        for(int i = this.models.length-1; i >= 0; i--){
+            for(int j = this.models[i].length-1; j >= 0; j--){
+                UnitModel model = models[i][j];
+                if(casualtiesToRemove == 0){
+                    return;
+                }
+                if(model != null){
+                    if(model.getWounds() <= casualtiesToRemove){
+                        casualtiesToRemove -= model.getWounds();
+                        models[i][j] = null;
+                    }else{
+                        model.setWounds(model.getWounds() - casualtiesToRemove);
+                        casualtiesToRemove = 0;
+                    }
+                }
+            }
+        }
+    }
+
+    public boolean isSteadfast(Unit other){
+        return countRanksForSteadfast(this) > countRanksForSteadfast(other);
+    }
+
+    private int countRanksForSteadfast(Unit unit){
+        int ranks = 0;
+        int requiredNumberOfFiles = unit.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.MONSTEROUS_INFANTRY) ? 3 : 5;
+        for(int i = 0; i < unit.getModels().length; i++){
+            int filesFilled = 0;
+            for(int j = 0; j < unit.getModels()[i].length; j++){
+                if(null !=unit.getModels()[i][j]){
+                    filesFilled++;
+                }else{
+                    break;
+                }
+            }
+            if(filesFilled != requiredNumberOfFiles){
+                break;
+            }else{
+                ranks++;
+            }
+        }
+        return ranks;
+    }
+
+    public void setUnitModel(UnitModel unitModel) {
+        this.unitModel = unitModel;
     }
 
     public UnitModel getChampion() {
@@ -288,6 +465,14 @@ public class Unit {
     }
 
     public int getNumModels() {
+        int numModels = 0;
+        for(int i = 0; i < this.getRanks(); i++){
+            for(int j = 0; j < this.getFiles(); j++){
+                if(null != models[i][j]){
+                    numModels++;
+                }
+            }
+        }
         return numModels;
     }
 
@@ -304,8 +489,9 @@ public class Unit {
     }
 
     public int getSupportingRanks() {
+        if(this.unitModel.getSpecialRules().contains(SpecialRuleTypeEnum.MONSTEROUS_INFANTRY)) return 3;
         int supportingRanks = 1;
-        for(SpecialRuleTypeEnum specialRule : this.models.getSpecialRules()){
+        for(SpecialRuleTypeEnum specialRule : this.unitModel.getSpecialRules()){
             if(specialRule.equals(SpecialRuleTypeEnum.MARTIAL_PROWESS)) supportingRanks++;
             if(specialRule.equals(SpecialRuleTypeEnum.FIGHT_IN_EXTRA_RANKS) && !charging) supportingRanks++;
         }
@@ -400,4 +586,11 @@ public class Unit {
         this.name = name;
     }
 
+    public UnitModel[][] getModels() {
+        return models;
+    }
+
+    public void setModels(UnitModel[][] models) {
+        this.models = models;
+    }
 }

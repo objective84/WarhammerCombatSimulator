@@ -23,27 +23,37 @@ public class UnitModel {
     private Armor armor;
     private Armor shield;
     private List<SpecialRuleTypeEnum> specialRules = new ArrayList<>();
+    private int rank;
+    private int file;
+    private boolean championHero;
 
     public UnitModel() {
     }
 
-    public UnitModel(String name, String race, int movement, int weaponSkill, int ballisticSkill, int strength, int toughness, int wounds,
-                     int initiative, int attacks, int leadership) {
-        this.name = name;
-        this.race = race;
-        this.movement = movement;
-        this.weaponSkill = weaponSkill;
-        this.ballisticSkill = ballisticSkill;
-        this.strength = strength;
-        this.toughness = toughness;
-        this.wounds = wounds;
-        this.initiative = initiative;
-        this.attacks = attacks;
-        this.leadership = leadership;
+    public UnitModel(UnitModel copy){
+        this.name = copy.getName();
+        this.race = copy.getRace();
+        this.movement = copy.getMovement();
+        this.weaponSkill = copy.getWeaponSkill();
+        this.ballisticSkill = copy.getBallisticSkill();
+        this.strength = copy.getStrength();
+        this.toughness = copy.getToughness();
+        this.initiative = copy.getInitiative();
+        this.attacks = copy.getAttacks();
+        this.wounds = copy.getWounds();
+        this.leadership = copy.getLeadership();
+        this.championHero = copy.isChampionHero();
+        this.armorSave = copy.getArmorSave();
+        this.wardSave = copy.getWardSave();
+        this.weapon = copy.getWeapon();
+        this.armor = copy.getArmor();
+        this.shield = copy.getShield();
+        this.specialRules = copy.getSpecialRules();
     }
 
     public UnitModel(String name, String race, int movement, int weaponSkill, int ballisticSkill, int strength, int toughness, int wounds,
-                     int initiative, int attacks, int leadership, Weapon weapon, Armor armor, Armor shield, List<SpecialRuleTypeEnum> specialRules) {
+                     int initiative, int attacks, int leadership, boolean championHero, Integer armorSave, Integer wardSave, Weapon weapon,
+                     Armor armor, Armor shield, List<SpecialRuleTypeEnum> specialRules) {
         this.name = name;
         this.race = race;
         this.movement = movement;
@@ -55,26 +65,7 @@ public class UnitModel {
         this.initiative = initiative;
         this.attacks = attacks;
         this.leadership = leadership;
-        this.weapon = weapon;
-        this.armor = armor;
-        this.shield = shield;
-        this.specialRules = specialRules;
-    }
-
-    public UnitModel(String name, String race, int movement, int weaponSkill, int ballisticSkill, int strength, int toughness, int wounds,
-                     int initiative, int attacks, int leadership, Integer armorSave, Integer wardSave, Weapon weapon, Armor armor, Armor shield,
-                     List<SpecialRuleTypeEnum> specialRules) {
-        this.name = name;
-        this.race = race;
-        this.movement = movement;
-        this.weaponSkill = weaponSkill;
-        this.ballisticSkill = ballisticSkill;
-        this.strength = strength;
-        this.toughness = toughness;
-        this.wounds = wounds;
-        this.initiative = initiative;
-        this.attacks = attacks;
-        this.leadership = leadership;
+        this.championHero = championHero;
         this.armorSave = armorSave;
         this.wardSave = wardSave;
         this.weapon = weapon;
@@ -188,7 +179,7 @@ public class UnitModel {
         this.specialRules = specialRules;
     }
 
-    public Integer getArmorSave() {
+    public Integer getModifiedArmorSave() {
         Integer armorSave = this.armorSave == null ? 7 : this.armorSave;
             if (null != armor && null != armor.getArmorSave()) {
                 if (armor.getArmorSave() < armorSave) armorSave = armor.getArmorSave();
@@ -203,7 +194,7 @@ public class UnitModel {
         return null;    }
 
 
-    public Integer getWardSave() {
+    public Integer getModifiedWardSave() {
         Integer wardSave = this.wardSave == null ? 7 : this.wardSave;
         if (null != armor && armor.getWardSave() != null) {
             if (armor.getWardSave() < wardSave) wardSave = armor.getWardSave();
@@ -223,5 +214,61 @@ public class UnitModel {
 
     public void setWeapon(Weapon weapon) {
         this.weapon = weapon;
+    }
+
+    public Armor getArmor() {
+        return armor;
+    }
+
+    public void setArmor(Armor armor) {
+        this.armor = armor;
+    }
+
+    public Armor getShield() {
+        return shield;
+    }
+
+    public void setShield(Armor shield) {
+        this.shield = shield;
+    }
+
+    public int getRank() {
+        return rank;
+    }
+
+    public void setRank(int rank) {
+        this.rank = rank;
+    }
+
+    public int getFile() {
+        return file;
+    }
+
+    public void setFile(int file) {
+        this.file = file;
+    }
+
+    public boolean isChampionHero() {
+        return championHero;
+    }
+
+    public void setChampionHero(boolean championHero) {
+        this.championHero = championHero;
+    }
+
+    public Integer getArmorSave() {
+        return armorSave;
+    }
+
+    public void setArmorSave(Integer armorSave) {
+        this.armorSave = armorSave;
+    }
+
+    public Integer getWardSave() {
+        return wardSave;
+    }
+
+    public void setWardSave(Integer wardSave) {
+        this.wardSave = wardSave;
     }
 }
