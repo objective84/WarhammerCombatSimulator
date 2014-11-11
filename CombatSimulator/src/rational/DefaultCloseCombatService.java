@@ -31,13 +31,14 @@ public class DefaultCloseCombatService implements CloseCombatService {
                 winner = unitA;
             }else if(unitB.isHasMusician() && !unitA.isHasMusician()){
                 winner = unitB;
+            }else {
+                System.out.println("Draw!");
+                return null;
             }
-            System.out.println("Draw!");
-            return null;
         }
         result = Math.abs(result);
         Unit loser = winner == unitA ? unitB : unitA;
-        if(loser.getRanks() > winner.getRanks()){
+        if(loser.getRanks() > winner.getRanks() || loser.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.STUBBORN)){
             result = 0;
         }
         System.out.println(winner.getModels().getName() + " wins!");

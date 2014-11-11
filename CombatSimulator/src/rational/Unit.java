@@ -63,21 +63,20 @@ public class Unit {
             rolls = die.rollSeparateDice(3);
         }else {
             rolls = die.rollSeparateDice(2);
-            System.out.println("    " + Arrays.toString(rolls));
-            int highest = 0;
-            for (int i : rolls) {
-                test += i;
-                if (i > highest) {
-                    highest = i;
-                }
+        }
+        System.out.println("    " + Arrays.toString(rolls));
+        int highest = 0;
+        for (int i : rolls) {
+            test += i;
+            if (i > highest) {
+                highest = i;
             }
-
-            if (this.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.COLD_BLOODED)) {
-                test -= highest;
-            }
-            if(rolls[0] == 1 && rolls[1] == 1){
-                return true;
-            }
+        }
+        if (this.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.COLD_BLOODED)) {
+            test -= highest;
+        }
+        if(rolls[0] == 1 && rolls[1] == 1){
+            return true;
         }
         return test + modifier <= this.leadership;
     }
@@ -248,19 +247,20 @@ public class Unit {
     }
 
     public Unit strikeFirst(Unit other){
-        if(this.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST)){
+        if(this.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST) &&
+                !this.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_LAST)){
             if(!other.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST)){
                 return this;
             }
         }else if(other.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST)){
-                return other;
+            return other;
         }
         if(this.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_LAST)){
             if(!other.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_LAST)){
                 return other;
             }
         }else if(other.getModels().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_LAST)){
-                return this;
+            return this;
         }
 
         return this.getUnitInitiative() < other.getUnitInitiative() ? this :

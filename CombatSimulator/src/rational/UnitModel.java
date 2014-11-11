@@ -19,7 +19,9 @@ public class UnitModel {
     private int leadership;
     private Integer armorSave = 7;
     private Integer wardSave = 7;
-    private List<Equipment> equipment = new ArrayList<>();
+    private Weapon weapon;
+    private Armor armor;
+    private Armor shield;
     private List<SpecialRuleTypeEnum> specialRules = new ArrayList<>();
 
     public UnitModel() {
@@ -41,7 +43,7 @@ public class UnitModel {
     }
 
     public UnitModel(String name, String race, int movement, int weaponSkill, int ballisticSkill, int strength, int toughness, int wounds,
-                     int initiative, int attacks, int leadership, List<Equipment> equipment, List<SpecialRuleTypeEnum> specialRules) {
+                     int initiative, int attacks, int leadership, Weapon weapon, Armor armor, Armor shield, List<SpecialRuleTypeEnum> specialRules) {
         this.name = name;
         this.race = race;
         this.movement = movement;
@@ -53,12 +55,14 @@ public class UnitModel {
         this.initiative = initiative;
         this.attacks = attacks;
         this.leadership = leadership;
-        this.equipment = equipment;
+        this.weapon = weapon;
+        this.armor = armor;
+        this.shield = shield;
         this.specialRules = specialRules;
     }
 
     public UnitModel(String name, String race, int movement, int weaponSkill, int ballisticSkill, int strength, int toughness, int wounds,
-                     int initiative, int attacks, int leadership, Integer armorSave, Integer wardSave, List<Equipment> equipment,
+                     int initiative, int attacks, int leadership, Integer armorSave, Integer wardSave, Weapon weapon, Armor armor, Armor shield,
                      List<SpecialRuleTypeEnum> specialRules) {
         this.name = name;
         this.race = race;
@@ -73,7 +77,9 @@ public class UnitModel {
         this.leadership = leadership;
         this.armorSave = armorSave;
         this.wardSave = wardSave;
-        this.equipment = equipment;
+        this.weapon = weapon;
+        this.armor = armor;
+        this.shield = shield;
         this.specialRules = specialRules;
     }
 
@@ -118,6 +124,11 @@ public class UnitModel {
     }
 
     public int getStrength() {
+        if(null != weapon.getStrength()){
+            return weapon.getStrength();
+        }else if(null != weapon.getStrengthBonus()){
+            return this.strength + weapon.getStrengthBonus();
+        }
         return strength;
     }
 
@@ -167,9 +178,9 @@ public class UnitModel {
 
     public List<SpecialRuleTypeEnum> getSpecialRules() {
         List<SpecialRuleTypeEnum> modifiedList = new ArrayList<>(specialRules);
-        for(Equipment equipment : this.equipment){
-            modifiedList.addAll(equipment.getSpecialRules());
-        }
+        if(null != this.armor) modifiedList.addAll(armor.getSpecialRules());
+        if(null != this.shield) modifiedList.addAll(shield.getSpecialRules());
+        if(null != this.weapon) modifiedList.addAll(this.weapon.getSpecialRules());
         return modifiedList;
     }
 
@@ -178,29 +189,39 @@ public class UnitModel {
     }
 
     public Integer getArmorSave() {
-        Integer armorSave = this.armorSave;
-        for(Equipment equipment : this.equipment){
-            if(equipment.isArmorSaveModifiable()){
-                return equipment.getArmorSave();
-            }else if(equipment.getArmorSave() != 0){
-                if(equipment.getArmorSave() < armorSave) armorSave = equipment.getArmorSave();
-            }else if(equipment.getArmorSaveMod() != 0){
-                armorSave -= equipment.getArmorSaveMod();
+        Integer armorSave = this.armorSave == null ? 7 : this.armorSave;
+            if (null != armor && null != armor.getArmorSave()) {
+                if (armor.getArmorSave() < armorSave) armorSave = armor.getArmorSave();
             }
+            if(null != armor && armor.isArmorSaveModifiable() && null != this.shield){
+                armorSave -= shield.getArmorSaveMod();
+            }
+
+        if(null != armorSave){
+            return armorSave < 2 ? 2 : armorSave;
         }
-        return armorSave < 2 ? 2 : armorSave;
-    }
+        return null;    }
 
 
     public Integer getWardSave() {
-        Integer wardSave = this.wardSave;
-        for(Equipment equipment : this.equipment){
-            if(equipment.isWardSaveModifiable()){
-                return equipment.getWardSave();
-            }else if(equipment.getWardSave() != 0){
-                if(equipment.getWardSave() < wardSave) wardSave = equipment.getWardSave();
-            }
+        Integer wardSave = this.wardSave == null ? 7 : this.wardSave;
+        if (null != armor && armor.getWardSave() != null) {
+            if (armor.getWardSave() < wardSave) wardSave = armor.getWardSave();
         }
-        return wardSave < 2 ? 2 : wardSave;
+        if(null != armor && armor.isWardSaveModifiable() && null != this.shield){
+            wardSave -= shield.getWardSave();
+        }
+        if(null != wardSave){
+            return wardSave < 2 ? 2 : wardSave;
+        }
+        return null;
+    }
+
+    public Weapon getWeapon() {
+        return weapon;
+    }
+
+    public void setWeapon(Weapon weapon) {
+        this.weapon = weapon;
     }
 }
