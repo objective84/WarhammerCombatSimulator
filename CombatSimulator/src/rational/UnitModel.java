@@ -26,6 +26,7 @@ public class UnitModel {
     private int rank;
     private int file;
     private boolean championHero;
+    private UnitModel mount;
 
     public UnitModel() {
     }
@@ -53,7 +54,7 @@ public class UnitModel {
 
     public UnitModel(String name, String race, int movement, int weaponSkill, int ballisticSkill, int strength, int toughness, int wounds,
                      int initiative, int attacks, int leadership, boolean championHero, Integer armorSave, Integer wardSave, Weapon weapon,
-                     Armor armor, Armor shield, List<SpecialRuleTypeEnum> specialRules) {
+                     Armor armor, Armor shield, List<SpecialRuleTypeEnum> specialRules, UnitModel mount) {
         this.name = name;
         this.race = race;
         this.movement = movement;
@@ -72,6 +73,7 @@ public class UnitModel {
         this.armor = armor;
         this.shield = shield;
         this.specialRules = specialRules;
+        this.mount = mount;
     }
 
     public String getName() {
@@ -115,10 +117,12 @@ public class UnitModel {
     }
 
     public int getStrength() {
-        if(null != weapon.getStrength()){
-            return weapon.getStrength();
-        }else if(null != weapon.getStrengthBonus()){
-            return this.strength + weapon.getStrengthBonus();
+        if(null != weapon) {
+            if (null != weapon.getStrength()) {
+                return weapon.getStrength();
+            } else if (null != weapon.getStrengthBonus()) {
+                return this.strength + weapon.getStrengthBonus();
+            }
         }
         return strength;
     }
@@ -270,5 +274,13 @@ public class UnitModel {
 
     public void setWardSave(Integer wardSave) {
         this.wardSave = wardSave;
+    }
+
+    public UnitModel getMount() {
+        return mount;
+    }
+
+    public void setMount(UnitModel mount) {
+        this.mount = mount;
     }
 }

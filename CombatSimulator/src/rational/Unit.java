@@ -1,9 +1,10 @@
 package rational;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Random;
 
-public class Unit {
+public class Unit implements Comparator<Unit>, Comparable<Unit> {
     public static int[][] toHitChart = {
             {},
             {0,4,5,5,5,5,5,5,5,5,5},
@@ -34,6 +35,7 @@ public class Unit {
 
     private String name;
     private UnitModel[][] models;
+    private Unit mounts;
     private UnitModel unitModel;
     private UnitModel hero;
     private UnitModel champion;
@@ -49,10 +51,10 @@ public class Unit {
     private boolean hasHighGround;
     private boolean hasMusician;
     private int overkill;
+    private boolean mount;
 
     public void createUnit(UnitModel model, int numModels, int files, UnitModel champion, UnitModel hero){
         this.unitModel = model;
-        this.files = files;
         this.champion = champion;
         this.hero = hero;
         numModels = champion != null ? numModels + 1 : numModels;
@@ -89,6 +91,24 @@ public class Unit {
                 copy.setFile(k);
                 models[ranks][k] = copy;
             }
+        }
+
+        if(null != model.getMount()){
+            UnitModel[][] mounts = new UnitModel[1][files];
+            for(int i=0; i<files; i++){
+                UnitModel mount = new UnitModel(model.getMount());
+                mount.setFile(i);
+                mount.setRank(0);
+                mounts[0][i] = mount;
+            }
+            Unit mountUnit = new Unit();
+            mountUnit.setMount(true);
+            mountUnit.setUnitModel(new UnitModel(model.getMount()));
+            mountUnit.setModels(mounts);
+            mountUnit.setName(model.getMount().getName());
+            mountUnit.setFlankAttack(this.flankAttack);
+            mountUnit.setRearAttack(this.rearAttack);
+            this.setMounts(mountUnit);
         }
     }
 
@@ -409,6 +429,9 @@ public class Unit {
                 if(model != null){
                     if(model.getWounds() <= casualtiesToRemove){
                         casualtiesToRemove -= model.getWounds();
+                        if(null != models[i][j].getMount()){
+                            this.mounts.getModels()[i][j] = null;
+                        }
                         models[i][j] = null;
                     }else{
                         model.setWounds(model.getWounds() - casualtiesToRemove);
@@ -481,11 +504,15 @@ public class Unit {
     }
 
     public int getFiles() {
+        int files = 0;
+        for(int i = 0; i < models[0].length; i++){
+            if(null !=models[0][i]){
+                files++;
+            }else{
+                break;
+            }
+        }
         return files;
-    }
-
-    public void setFiles(int files) {
-        this.files = files;
     }
 
     public int getSupportingRanks() {
@@ -592,5 +619,77 @@ public class Unit {
 
     public void setModels(UnitModel[][] models) {
         this.models = models;
+    }
+
+    public Unit getMounts() {
+        return mounts;
+    }
+
+    public void setMounts(Unit mounts) {
+        this.mounts = mounts;
+    }
+
+    public boolean isMount() {
+        return mount;
+    }
+
+    public void setMount(boolean mount) {
+        this.mount = mount;
+    }
+
+    @Override
+    public int compare(Unit o1, Unit o2) {
+        return o1.getUnitInitiative() > o2.getUnitInitiative() ? 1 : (o1.getUnitInitiative() == o2.getUnitInitiative() ? 0 :-1);
+    }
+
+    @Override
+    public int compareTo(Unit other) {
+        return this.getUnitInitiative() > other.getUnitInitiative() ? 1 : (this.getUnitInitiative() == other.getUnitInitiative() ? 0 :-1);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Unit unit = (Unit) o;
+
+        if (charging != unit.charging) return false;
+        if (files != unit.files) return false;
+        if (flankAttack != unit.flankAttack) return false;
+        if (hasBanner != unit.hasBanner) return false;
+        if (hasBattleStandard != unit.hasBattleStandard) return false;
+        if (hasHighGround != unit.hasHighGround) return false;
+        if (hasMusician != unit.hasMusician) return false;
+        if (leadership != unit.leadership) return false;
+        if (numModels != unit.numModels) return false;
+        if (overkill != unit.overkill) return false;
+        if (rearAttack != unit.rearAttack) return false;
+        if (woundsReceived != unit.woundsReceived) return false;
+        if (mounts != null ? !mounts.equals(unit.mounts) : unit.mounts != null) return false;
+        if (name != null ? !name.equals(unit.name) : unit.name != null) return false;
+        if (unitModel != null ? !unitModel.equals(unit.unitModel) : unit.unitModel != null) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + (mounts != null ? mounts.hashCode() : 0);
+        result = 31 * result + (unitModel != null ? unitModel.hashCode() : 0);
+        result = 31 * result + numModels;
+        result = 31 * result + files;
+        result = 31 * result + leadership;
+        result = 31 * result + woundsReceived;
+        result = 31 * result + (charging ? 1 : 0);
+        result = 31 * result + (hasBanner ? 1 : 0);
+        result = 31 * result + (hasBattleStandard ? 1 : 0);
+        result = 31 * result + (flankAttack ? 1 : 0);
+        result = 31 * result + (rearAttack ? 1 : 0);
+        result = 31 * result + (hasHighGround ? 1 : 0);
+        result = 31 * result + (hasMusician ? 1 : 0);
+        result = 31 * result + overkill;
+        return result;
     }
 }

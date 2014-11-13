@@ -3,9 +3,11 @@ package rational;
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Main {
+    private static Weapon handWeapons = new Weapon("Hand Weapons", null, null, new ArrayList<SpecialRuleTypeEnum>());
     private static Weapon spear = new Weapon("Spear", null, null, Arrays.asList(SpecialRuleTypeEnum.FIGHT_IN_EXTRA_RANKS));
     private static Weapon halberd = new Weapon("Halberd", null, 1, Arrays.asList(SpecialRuleTypeEnum.FIGHT_IN_EXTRA_RANKS));
     private static Weapon greatWeapon = new Weapon("Great Weapon", null, 2, Arrays.asList(SpecialRuleTypeEnum.ALWAYS_STRIKE_LAST));
@@ -17,42 +19,55 @@ public class Main {
 
     //High Elves
     private static UnitModel highElfSpearmen = new UnitModel("Spearmen", "High Elves", 5, 4, 4, 3, 3, 1, 5, 1, 8, false, null, null, spear, lightArmor, shield,
-            Arrays.asList(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST, SpecialRuleTypeEnum.MARTIAL_PROWESS));
+            Arrays.asList(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST, SpecialRuleTypeEnum.MARTIAL_PROWESS), null);
     private static UnitModel sentinel = new UnitModel("Sentinel", "High Elves", 5, 4, 4, 3, 3, 1, 5, 2, 8, true, null, null, spear, lightArmor, shield,
-            Arrays.asList(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST, SpecialRuleTypeEnum.MARTIAL_PROWESS));
+            Arrays.asList(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST, SpecialRuleTypeEnum.MARTIAL_PROWESS), null);
 
     private static UnitModel swordMastersOfHoeth = new UnitModel("Swordmasters of Hoeth", "High Elves", 5, 6, 4, 3, 3, 1, 5, 2, 8, false, null, null, greatWeapon,
-            heavyArmor, null, Arrays.asList(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST, SpecialRuleTypeEnum.MARTIAL_PROWESS));
+            heavyArmor, null, Arrays.asList(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST, SpecialRuleTypeEnum.MARTIAL_PROWESS), null);
     private static UnitModel bladeLord = new UnitModel("Bladelord", "High Elves", 5, 6, 4, 3, 3, 1, 5, 3, 8, true, null, null, greatWeapon,
-            heavyArmor, null, Arrays.asList(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST, SpecialRuleTypeEnum.MARTIAL_PROWESS));
+            heavyArmor, null, Arrays.asList(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST, SpecialRuleTypeEnum.MARTIAL_PROWESS), null);
 
     private static UnitModel phoenixGuard = new UnitModel("Phoenix Guard", "High Elves", 4, 5, 4, 3, 3, 1, 6, 1, 9, false, null, 4, halberd,
-            heavyArmor, null, Arrays.asList(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST, SpecialRuleTypeEnum.MARTIAL_PROWESS));
+            heavyArmor, null, Arrays.asList(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST, SpecialRuleTypeEnum.MARTIAL_PROWESS), null);
     private static UnitModel keeperOfTheFlame = new UnitModel("Keeper of the Flame", "High Elves", 4, 5, 4, 3, 3, 1, 6, 2, 9, true, null, 4, halberd,
-            heavyArmor, null, Arrays.asList(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST, SpecialRuleTypeEnum.MARTIAL_PROWESS));
+            heavyArmor, null, Arrays.asList(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST, SpecialRuleTypeEnum.MARTIAL_PROWESS), null);
 
+    private static UnitModel elvenSteed = new UnitModel("Elven Steeds", "High Elves", 9, 3, 0, 3, 3, 1, 4, 1, 5, false, null, null, null,
+            null, null, new ArrayList<SpecialRuleTypeEnum>(), null);
+    private static UnitModel silverHelm = new UnitModel("Silver Helms", "High Elves", 5, 4, 4, 3, 3, 1, 5, 1, 8, false, null, 4, handWeapons,
+            heavyArmor, null, Arrays.asList(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST, SpecialRuleTypeEnum.MARTIAL_PROWESS), elvenSteed);
+    private static UnitModel highHelm = new UnitModel("High Helm", "High Elves", 5, 4, 4, 3, 3, 1, 5, 2, 8, true, null, 4, handWeapons,
+            heavyArmor, null, Arrays.asList(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST, SpecialRuleTypeEnum.MARTIAL_PROWESS), elvenSteed);
 
     //Lizardmen
     private static UnitModel saurusWarriors = new UnitModel("Saurus Warriors", "Lizardmen", 4, 3, 0, 4, 4, 1, 1, 2, 8, false, 5, null, spear, null, shield,
-            Arrays.asList(SpecialRuleTypeEnum.COLD_BLOODED, SpecialRuleTypeEnum.PREDATORY_FIGHTER));
+            Arrays.asList(SpecialRuleTypeEnum.COLD_BLOODED, SpecialRuleTypeEnum.PREDATORY_FIGHTER), null);
     private static UnitModel spawnLeader = new UnitModel("Spawn Leader", "Lizardmen", 4, 3, 0, 4, 4, 1, 1, 3, 8, true, 5, null, spear, null, shield,
-            Arrays.asList(SpecialRuleTypeEnum.COLD_BLOODED, SpecialRuleTypeEnum.PREDATORY_FIGHTER));
+            Arrays.asList(SpecialRuleTypeEnum.COLD_BLOODED, SpecialRuleTypeEnum.PREDATORY_FIGHTER), null);
 
     private static UnitModel templeGuard = new UnitModel("Temple Guard", "Lizardmen", 4, 3, 0, 4, 4, 1, 1, 2, 8, true, 5, null, halberd, lightArmor, shield,
-            Arrays.asList(SpecialRuleTypeEnum.COLD_BLOODED, SpecialRuleTypeEnum.PREDATORY_FIGHTER, SpecialRuleTypeEnum.STUBBORN));
+            Arrays.asList(SpecialRuleTypeEnum.COLD_BLOODED, SpecialRuleTypeEnum.PREDATORY_FIGHTER, SpecialRuleTypeEnum.STUBBORN), null);
     private static UnitModel reveredGuardian = new UnitModel("Revered Guardian", "Lizardmen", 4, 4, 0, 4, 4, 1, 2, 3, 8, true, 5, null, spear, null, shield,
-            Arrays.asList(SpecialRuleTypeEnum.COLD_BLOODED, SpecialRuleTypeEnum.PREDATORY_FIGHTER, SpecialRuleTypeEnum.STUBBORN));
+            Arrays.asList(SpecialRuleTypeEnum.COLD_BLOODED, SpecialRuleTypeEnum.PREDATORY_FIGHTER, SpecialRuleTypeEnum.STUBBORN), null);
 
     private static UnitModel kroxigor = new UnitModel("Kroxigor", "Lizardmen", 6, 3, 0, 5, 4, 3, 1, 3, 7, false, 4, null, greatWeapon, null, null,
-            Arrays.asList(SpecialRuleTypeEnum.COLD_BLOODED, SpecialRuleTypeEnum.PREDATORY_FIGHTER, SpecialRuleTypeEnum.MONSTEROUS_INFANTRY));
+            Arrays.asList(SpecialRuleTypeEnum.COLD_BLOODED, SpecialRuleTypeEnum.PREDATORY_FIGHTER, SpecialRuleTypeEnum.MONSTEROUS_INFANTRY), null);
     private static UnitModel kroxigorAncient = new UnitModel("Kroxigor Ancient", "Lizardmen", 6, 3, 0, 5, 4, 3, 1, 4, 7, true, 4, null, greatWeapon, null, null,
-            Arrays.asList(SpecialRuleTypeEnum.COLD_BLOODED, SpecialRuleTypeEnum.PREDATORY_FIGHTER, SpecialRuleTypeEnum.MONSTEROUS_INFANTRY));
+            Arrays.asList(SpecialRuleTypeEnum.COLD_BLOODED, SpecialRuleTypeEnum.PREDATORY_FIGHTER, SpecialRuleTypeEnum.MONSTEROUS_INFANTRY), null);
 
 
+//    private static UnitModel test1 = new UnitModel("Test A", "", 4, 3, 0, 4, 4, 1, 4, 2, 8, false, 5, null, spear, null, shield, new ArrayList<SpecialRuleTypeEnum>());
+//    private static UnitModel test2 = new UnitModel("Test B", "", 4, 3, 0, 4, 4, 1, 4, 2, 8, false, 5, null, spear, null, shield, new ArrayList<SpecialRuleTypeEnum>());
+//
+//    private static UnitModel mountTestA = new UnitModel("Warhorse A", "", 8, 3, 0, 3, 3, 1, 3, 1, 5, false, null, null, null, null, null, new ArrayList<SpecialRuleTypeEnum>());
+//    private static UnitModel mountTestB = new UnitModel("Warhorse B", "", 8, 3, 0, 3, 3, 1, 3, 1, 5, false, null, null, null, null, null, new ArrayList<SpecialRuleTypeEnum>());
 
     CloseCombatService combatService;
     private Unit unitA;
     private Unit unitB;
+    private Unit mountA;
+    private Unit mountB;
     private UnitModel modelA;
     private UnitModel modelB;
     private UnitModel championA;
@@ -68,19 +83,19 @@ public class Main {
     }
 
     public void start(){
-        startingModelsA = 8;
+        startingModelsA = 5;
         startingModelsB = 30;
 
         combatService = new DefaultCloseCombatService();
         unitA = new Unit();
         unitB = new Unit();
-        modelA = kroxigor;
-        modelB = highElfSpearmen;
-        championA = kroxigorAncient;
-        championB = sentinel;
+        modelA = silverHelm;
+        modelB = saurusWarriors;
+        championA = highHelm;
+        championB = spawnLeader;
 
 
-        unitA.createUnit(modelA, startingModelsA, 3, championA, null);
+        unitA.createUnit(silverHelm, startingModelsA, 5, championA, null);
         unitA.setName(modelA.getRace() + ": " + modelA.getName());
         unitA.setChampion(championA);
         unitA.setLeadership(championA.getLeadership() > modelA.getLeadership() ? championA.getLeadership() : modelA.getLeadership());
