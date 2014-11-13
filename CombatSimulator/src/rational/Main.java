@@ -34,11 +34,19 @@ public class Main {
             heavyArmor, null, Arrays.asList(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST, SpecialRuleTypeEnum.MARTIAL_PROWESS), null);
 
     private static UnitModel elvenSteed = new UnitModel("Elven Steeds", "High Elves", 9, 3, 0, 3, 3, 1, 4, 1, 5, false, null, null, null,
-            null, null, new ArrayList<SpecialRuleTypeEnum>(), null);
-    private static UnitModel silverHelm = new UnitModel("Silver Helms", "High Elves", 5, 4, 4, 3, 3, 1, 5, 1, 8, false, null, 4, handWeapons,
+            null, shield, new ArrayList<SpecialRuleTypeEnum>(), null);
+    private static UnitModel silverHelm = new UnitModel("Silver Helms", "High Elves", 5, 4, 4, 3, 3, 1, 5, 1, 8, false, null, null, handWeapons,
             heavyArmor, null, Arrays.asList(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST, SpecialRuleTypeEnum.MARTIAL_PROWESS), elvenSteed);
-    private static UnitModel highHelm = new UnitModel("High Helm", "High Elves", 5, 4, 4, 3, 3, 1, 5, 2, 8, true, null, 4, handWeapons,
+    private static UnitModel highHelm = new UnitModel("High Helm", "High Elves", 5, 4, 4, 3, 3, 1, 5, 2, 8, true, null, null, handWeapons,
             heavyArmor, null, Arrays.asList(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST, SpecialRuleTypeEnum.MARTIAL_PROWESS), elvenSteed);
+
+    //Empire
+    private static UnitModel empireWarhorse = new UnitModel("Warhorse", "Empire", 8, 3, 0, 3, 3, 1, 3, 1, 5, false, null, null, null,
+            null, shield, new ArrayList<SpecialRuleTypeEnum>(), null);
+    private static UnitModel empireKnight = new UnitModel("Empire Knight", "Empire", 4, 4, 3, 3, 3, 1, 3, 1, 8, false, null, null, handWeapons, fullPlateArmor,
+            shield, new ArrayList<SpecialRuleTypeEnum>(), empireWarhorse);
+    private static UnitModel preceptor = new UnitModel("Preceptor", "Empire", 4, 4, 3, 3, 3, 1, 3, 2, 8, true, null, null, handWeapons, fullPlateArmor,
+            shield, new ArrayList<SpecialRuleTypeEnum>(), empireWarhorse);
 
     //Lizardmen
     private static UnitModel saurusWarriors = new UnitModel("Saurus Warriors", "Lizardmen", 4, 3, 0, 4, 4, 1, 1, 2, 8, false, 5, null, spear, null, shield,
@@ -55,7 +63,6 @@ public class Main {
             Arrays.asList(SpecialRuleTypeEnum.COLD_BLOODED, SpecialRuleTypeEnum.PREDATORY_FIGHTER, SpecialRuleTypeEnum.MONSTEROUS_INFANTRY), null);
     private static UnitModel kroxigorAncient = new UnitModel("Kroxigor Ancient", "Lizardmen", 6, 3, 0, 5, 4, 3, 1, 4, 7, true, 4, null, greatWeapon, null, null,
             Arrays.asList(SpecialRuleTypeEnum.COLD_BLOODED, SpecialRuleTypeEnum.PREDATORY_FIGHTER, SpecialRuleTypeEnum.MONSTEROUS_INFANTRY), null);
-
 
 //    private static UnitModel test1 = new UnitModel("Test A", "", 4, 3, 0, 4, 4, 1, 4, 2, 8, false, 5, null, spear, null, shield, new ArrayList<SpecialRuleTypeEnum>());
 //    private static UnitModel test2 = new UnitModel("Test B", "", 4, 3, 0, 4, 4, 1, 4, 2, 8, false, 5, null, spear, null, shield, new ArrayList<SpecialRuleTypeEnum>());
@@ -84,15 +91,15 @@ public class Main {
 
     public void start(){
         startingModelsA = 5;
-        startingModelsB = 30;
+        startingModelsB = 5;
 
         combatService = new DefaultCloseCombatService();
         unitA = new Unit();
         unitB = new Unit();
         modelA = silverHelm;
-        modelB = saurusWarriors;
+        modelB = empireKnight;
         championA = highHelm;
-        championB = spawnLeader;
+        championB = preceptor;
 
 
         unitA.createUnit(silverHelm, startingModelsA, 5, championA, null);
@@ -109,8 +116,8 @@ public class Main {
         unitB.setHasBanner(true);
         unitB.setFlankAttack(false);
 
-        combatService.resolveCombat(unitA, unitB);
-//        printAverages();
+//        combatService.resolveCombat(unitA, unitB);
+        printAverages();
     }
 
     public void printAverages(){

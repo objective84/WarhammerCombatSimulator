@@ -191,6 +191,12 @@ public class UnitModel {
             if(null != armor && armor.isArmorSaveModifiable() && null != this.shield){
                 armorSave -= shield.getArmorSaveMod();
             }
+            if(null != this.getMount()){
+                armorSave--;
+                if(null != this.getMount().getShield()){
+                    armorSave--;
+                }
+            }
 
         if(null != armorSave){
             return armorSave < 2 ? 2 : armorSave;
