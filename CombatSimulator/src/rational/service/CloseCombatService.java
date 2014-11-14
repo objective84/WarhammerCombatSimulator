@@ -1,4 +1,6 @@
-package rational;
+package rational.service;
+
+import rational.model.Unit;
 
 public interface CloseCombatService {
 

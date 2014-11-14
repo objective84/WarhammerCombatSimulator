@@ -1,4 +1,4 @@
-package rational;
+package rational.model;
 
 import java.util.Random;
 

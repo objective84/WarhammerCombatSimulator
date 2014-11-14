@@ -1,4 +1,7 @@
-package rational;
+package rational.model;
+
+import rational.enums.AttackDirectionEnum;
+import rational.enums.SpecialRuleTypeEnum;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -53,11 +56,12 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
     private int overkill;
     private boolean mount;
 
-    public void createUnit(UnitModel model, int numModels, int files, UnitModel champion, UnitModel hero){
-        this.unitModel = model;
-        this.champion = champion;
-        this.hero = hero;
-        numModels = champion != null ? numModels + 1 : numModels;
+    public void createUnit(UnitModel model, int numModels, int files, UnitModel hero){
+        this.setUnitModel(model);
+        this.setChampion(model.getChampion());
+        this.setHero(hero);
+        this.setLeadership(model.getLeadership());
+        numModels = this.getChampion() != null ? numModels + 1 : numModels;
         numModels = hero != null ? numModels + 1 : numModels;
         int ranks = numModels / files;
         int remainder = numModels % files;
@@ -67,8 +71,8 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
             models = new UnitModel[ranks][files];
         }
         int startJ = 0;
-        if(champion != null){
-            models[0][startJ] = champion;
+        if(this.getChampion() != null){
+            models[0][startJ] = model.getChampion();
             startJ++;
         }
         if(hero != null){
@@ -92,7 +96,6 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
                 models[ranks][k] = copy;
             }
         }
-
         if(null != model.getMount()){
             UnitModel[][] mounts = new UnitModel[1][files];
             for(int i=0; i<files; i++){
@@ -109,6 +112,17 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
             mountUnit.setFlankAttack(this.flankAttack);
             mountUnit.setRearAttack(this.rearAttack);
             this.setMounts(mountUnit);
+        }
+
+        if(null != this.getChampion()){
+            if(this.getChampion().getLeadership() > this.getLeadership() ){
+                this.setLeadership(this.getChampion().getLeadership());
+            }
+        }
+        if(null != this.getHero()){
+            if(this.getHero().getLeadership() > this.getLeadership()){
+                this.setLeadership(this.getHero().getLeadership());
+            }
         }
     }
 

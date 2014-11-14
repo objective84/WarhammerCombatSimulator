@@ -1,4 +1,6 @@
-package rational;
+package rational.model;
+
+import rational.enums.SpecialRuleTypeEnum;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +29,7 @@ public class UnitModel {
     private int file;
     private boolean championHero;
     private UnitModel mount;
+    private UnitModel champion;
 
     public UnitModel() {
     }
@@ -54,7 +57,7 @@ public class UnitModel {
 
     public UnitModel(String name, String race, int movement, int weaponSkill, int ballisticSkill, int strength, int toughness, int wounds,
                      int initiative, int attacks, int leadership, boolean championHero, Integer armorSave, Integer wardSave, Weapon weapon,
-                     Armor armor, Armor shield, List<SpecialRuleTypeEnum> specialRules, UnitModel mount) {
+                     Armor armor, Armor shield, List<SpecialRuleTypeEnum> specialRules, UnitModel mount, UnitModel champion) {
         this.name = name;
         this.race = race;
         this.movement = movement;
@@ -74,6 +77,7 @@ public class UnitModel {
         this.shield = shield;
         this.specialRules = specialRules;
         this.mount = mount;
+        this.champion = champion;
     }
 
     public String getName() {
@@ -288,5 +292,13 @@ public class UnitModel {
 
     public void setMount(UnitModel mount) {
         this.mount = mount;
+    }
+
+    public UnitModel getChampion() {
+        return champion;
+    }
+
+    public void setChampion(UnitModel champion) {
+        this.champion = champion;
     }
 }
