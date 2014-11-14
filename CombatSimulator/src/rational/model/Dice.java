@@ -1,5 +1,7 @@
 package rational.model;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class Dice {
@@ -38,11 +40,11 @@ public class Dice {
         return totalRoll;
     }
 
-    public int[] rollSeparateDice(Integer amt) {
+    public List<Integer> rollSeparateDice(Integer amt) {
         Random rand = new Random();
-        int[] rolls = new int[amt];
+        ArrayList<Integer> rolls = new ArrayList<Integer>();
         for(int i=0; i<amt; i++) {
-            rolls[i] = rand.nextInt(this.getMaxRoll()) + this.getMinRoll();
+            rolls.add(rand.nextInt(this.getMaxRoll()) + this.getMinRoll());
         }
         return rolls;
     }
