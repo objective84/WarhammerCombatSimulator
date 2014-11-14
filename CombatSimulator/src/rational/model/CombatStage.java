@@ -1,4 +1,6 @@
-package rational;
+package rational.model;
+
+import rational.enums.AttackDirectionEnum;
 
 import java.util.Comparator;
 

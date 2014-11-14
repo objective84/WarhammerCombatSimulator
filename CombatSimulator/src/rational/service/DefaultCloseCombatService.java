@@ -1,4 +1,10 @@
-package rational;
+package rational.service;
+
+import rational.model.Dice;
+import rational.model.SimultaneousCombatStage;
+import rational.enums.SpecialRuleTypeEnum;
+import rational.model.Unit;
+import rational.model.CombatStage;
 
 import java.util.*;
 

@@ -1,4 +1,6 @@
-package rational;
+package rational.model;
+
+import rational.enums.SpecialRuleTypeEnum;
 
 import java.util.List;
 
