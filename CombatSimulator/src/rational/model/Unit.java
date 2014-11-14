@@ -3,9 +3,7 @@ package rational.model;
 import rational.enums.AttackDirectionEnum;
 import rational.enums.SpecialRuleTypeEnum;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.Random;
+import java.util.*;
 
 public class Unit implements Comparator<Unit>, Comparable<Unit> {
     public static int[][] toHitChart = {
@@ -168,13 +166,13 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
                 modifiedLeadership + "... ");
         Dice die = Dice.getD6();
         int test = 0;
-        int[] rolls;
+        List<Integer> rolls;
         if(this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.COLD_BLOODED)){
             rolls = die.rollSeparateDice(3);
         }else {
             rolls = die.rollSeparateDice(2);
         }
-        System.out.println("    " + Arrays.toString(rolls));
+        System.out.println("    " + Arrays.toString(rolls.toArray()));
         int highest = 0;
         for (int i : rolls) {
             test += i;
@@ -185,7 +183,7 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
         if (this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.COLD_BLOODED)) {
             test -= highest;
         }
-        if(rolls[0] == 1 && rolls[1] == 1){
+        if(rolls.get(0) == 1 && rolls.get(1) == 1){
             return true;
         }
         return test + modifier <= this.leadership;
@@ -317,12 +315,12 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
     public int rollCombatDice(Unit defender, Integer amt, int difficulty, boolean reRollAllowed) {
         Dice d6 = Dice.getD6();
         Random rand = new Random();
-        int[] attacks = d6.rollSeparateDice(amt);
-        System.out.println("    " + Arrays.toString(attacks));
+        List<Integer> attacks = d6.rollSeparateDice(amt);
+        System.out.println("    " + Arrays.toString(attacks.toArray()));
 
         int hits = 0;
         for(int i=0; i<amt; i++) {
-            if(attacks[i] >= difficulty){
+            if(attacks.get(i) >= difficulty){
                 hits++;
             }
         }
@@ -330,7 +328,7 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
         if(this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.PREDATORY_FIGHTER) && reRollAllowed){
             int additionalAttacks = 0;
             for(int i=0; i<amt; i++) {
-                if(attacks[i] == 6){
+                if(attacks.get(i) == 6){
                     additionalAttacks++;
                 }
             }
@@ -357,10 +355,10 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
     private int rollSave(int amt, int save){
         Dice d6 = Dice.getD6();
         int wounds = amt;
-        int[] saves = d6.rollSeparateDice(amt);
-        System.out.println("    " + Arrays.toString(saves));
+        List<Integer> saves = d6.rollSeparateDice(amt);
+        System.out.println("    " + Arrays.toString(saves.toArray()));
         for(int i=0; i<amt; i++) {
-            if(saves[i] >= save){
+            if(saves.get(i) >= save){
                 wounds--;
             }
         }

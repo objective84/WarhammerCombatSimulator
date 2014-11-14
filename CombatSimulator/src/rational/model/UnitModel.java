@@ -1,6 +1,7 @@
 package rational.model;
 
 import rational.enums.SpecialRuleTypeEnum;
+import rational.service.specialRules.ToHitSpecialRuleService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,6 +31,8 @@ public class UnitModel {
     private boolean championHero;
     private UnitModel mount;
     private UnitModel champion;
+
+    private List<ToHitSpecialRuleService> toHitSpecialRuleServices;
 
     public UnitModel() {
     }
@@ -78,6 +81,16 @@ public class UnitModel {
         this.specialRules = specialRules;
         this.mount = mount;
         this.champion = champion;
+    }
+
+    public List<Integer> rollToHit(int numAttacks){
+        Dice d6 = Dice.getD6();
+        List<Integer> toHitRolls = d6.rollSeparateDice(numAttacks);
+        for(ToHitSpecialRuleService toHitService : this.getToHitSpecialRuleServices()){
+            toHitRolls = toHitService.doSpecialRule(toHitRolls);
+        }
+
+        return toHitRolls;
     }
 
     public String getName() {
@@ -205,7 +218,8 @@ public class UnitModel {
         if(null != armorSave){
             return armorSave < 2 ? 2 : armorSave;
         }
-        return null;    }
+        return null;
+    }
 
 
     public Integer getModifiedWardSave() {
@@ -300,5 +314,13 @@ public class UnitModel {
 
     public void setChampion(UnitModel champion) {
         this.champion = champion;
+    }
+
+    public List<ToHitSpecialRuleService> getToHitSpecialRuleServices() {
+        return toHitSpecialRuleServices;
+    }
+
+    public void setToHitSpecialRuleServices(List<ToHitSpecialRuleService> toHitSpecialRuleServices) {
+        this.toHitSpecialRuleServices = toHitSpecialRuleServices;
     }
 }

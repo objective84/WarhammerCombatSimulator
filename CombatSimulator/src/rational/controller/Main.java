@@ -5,10 +5,15 @@ import rational.model.UnitModel;
 import rational.repository.Constants;
 import rational.service.CloseCombatService;
 import rational.service.DefaultCloseCombatService;
+import rational.service.specialRules.PredatoryStrikeSpecialRuleService;
+import rational.service.specialRules.ToHitSpecialRuleService;
 
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Main {
     CloseCombatService combatService = new DefaultCloseCombatService();
@@ -21,7 +26,15 @@ public class Main {
 
     public static void main(String[] args){
         Main main = new Main();
-        main.start();
+        main.toHitPoC();
+    }
+
+    public void toHitPoC(){
+        UnitModel model = Constants.Models.Lizardmen.saurusWarriors;
+        List<ToHitSpecialRuleService> toHitServices = new ArrayList<>();
+        toHitServices.add(new PredatoryStrikeSpecialRuleService());
+        model.setToHitSpecialRuleServices(toHitServices);
+        System.out.println(Arrays.toString(model.rollToHit(20).toArray()));
     }
 
     public void start(){
