@@ -1,0 +1,119 @@
+
+Unit A: Lizardmen Saurus Warriors
+    Mount count: 30
+    Ranks: 5
+    Files: 6
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+
+Unit B: Empire Swordsmen
+    Mount count: 42
+    Ranks: 8
+    Files: 5
+    Model: Swordsmen
+    Champion: Duelist
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+
+Swordsmen attacks at initiative 3
+    Swordsmen hits on 3+
+    Swordsmen gets 7 attacks....
+    [3, 6, 6, 6, 6, 4, 3]
+    7 attacks hit
+    Rolling for wounds....
+    Swordsmen wounds on 5+
+    [5, 3, 4, 2, 2, 4, 4]
+    Saurus Warriors have a 5+ armor save...
+    [1]
+
+    Rolling for Duelist....
+    Duelist has 2 attacks
+    Duelist hits on 3+
+    [4, 5]
+    2 attacks hit
+    Rolling for wounds....
+    Duelist wounds on 5+
+    [4, 5]
+    Saurus Warriors have a 5+ armor save...
+    [4]
+
+    Rolling for General Of The Empire....
+    General Of The Empire has 3 attacks
+    General Of The Empire hits on 3+
+    [1, 5, 3]
+    2 attacks hit
+    Rolling for wounds....
+    General Of The Empire wounds on 2+
+    [5, 2]
+
+    Rolling for Captain Of The Empire....
+    Captain Of The Empire has 3 attacks
+    Captain Of The Empire hits on 3+
+    [6, 5, 3]
+    3 attacks hit
+    Rolling for wounds....
+    Captain Of The Empire wounds on 2+
+    [1, 6, 2]
+
+    Swordsmen hits: 14
+    Swordsmen wounds : 6
+
+
+Saurus Warriors attacks at initiative 1
+    Saurus Warriors hits on 4+
+    Saurus Warriors gets 22 attacks....
+    [6, 6, 1, 3, 3, 6, 2, 2, 5, 5, 2, 2, 5, 1, 1, 2, 5, 2, 5, 5, 5, 3]
+    Saurus Warriors gets 3 additional attacks....
+    [5, 4, 5]
+    13 attacks hit
+    Rolling for wounds....
+    Saurus Warriors wounds on 3+
+    [3, 1, 3, 1, 3, 6, 5, 3, 3, 4, 3, 4, 1]
+    Swordsmen have a 6+ armor save...
+    [1, 6, 2, 6, 4, 3, 1, 2, 5, 4]
+    Swordsmen have a 6+ ward save...
+    [2, 1, 4, 3, 3, 6, 2, 1]
+
+    Rolling for Spawn Leader....
+    Spawn Leader has 3 attacks
+    Spawn Leader hits on 4+
+    [4, 1, 3]
+    1 attacks hit
+    Rolling for wounds....
+    Spawn Leader wounds on 3+
+    [1]
+
+    Saurus Warriors hits: 14
+    Saurus Warriors wounds : 7
+
+
+*********************** Saurus Warriors Combat Score ***********************
+    Wounds dealt: 7
+    Unit is disrupted and receives no rank bonus
+    Standard bearer bonus: 1
+
+Total Score: 8
+****************************************************************************
+
+
+************************** Swordsmen Combat Score **************************
+    Wounds dealt: 6
+    Rank bonus: 3
+    Griffin Battle Standard bonus: 3
+    Standard bearer bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 14
+****************************************************************************
+
+Swordsmen wins!
+
+Saurus Warriors rolls for a break test with a modified leadership of 2... 
+    [3, 5, 6]
+Saurus Warriors fails their break test!
+Saurus Warriors flees 5 inches
+Swordsmen pursues 10 inches
+Swordsmen has caught Saurus Warriors!
+Saurus Warriors has been annihilated!
+********************************************************************************************************************************************************

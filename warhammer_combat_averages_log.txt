@@ -1,0 +1,3282 @@
+Lizardmen Saurus Warriors
+    Mount count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Halberdier
+    Mount count: 37
+    Ranks: 7
+    Files: 5
+    Model: Halberdier
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 5.34%
+Average wounds dealt: 6.43492
+Annihilation rate: 39.95%
+Average combat score: 7.40
+
+Halberdier:
+Win rate: 90.79%
+Average wounds dealt: 3.48538
+Annihilation rate: 0.01%
+Average combat score: 13.14
+
+Draw rate: 3.88%********************************************************************************************************************************************************
+Lizardmen Saurus Warriors
+    Mount count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Swordsmen
+    Mount count: 37
+    Ranks: 7
+    Files: 5
+    Model: Swordsmen
+    Champion: Duelist
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 5.18%
+Average wounds dealt: 5.31922
+Annihilation rate: 41.19%
+Average combat score: 6.31
+
+Swordsmen:
+Win rate: 91.05%
+Average wounds dealt: 2.48714
+Annihilation rate: 0.23%
+Average combat score: 11.88
+
+Draw rate: 3.78%********************************************************************************************************************************************************
+Lizardmen Saurus Warriors
+    Mount count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Greatswords
+    Mount count: 37
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 0.31%
+Average wounds dealt: 4.48548
+Annihilation rate: 51.54%
+Average combat score: 5.49
+
+Greatswords:
+Win rate: 99.28%
+Average wounds dealt: 3.29294
+Annihilation rate: 0.01%
+Average combat score: 14.73
+
+Draw rate: 0.43%********************************************************************************************************************************************************
+Lizardmen Saurus Warriors
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Halberdier
+    Model count: 42
+    Ranks: 8
+    Files: 5
+    Model: Halberdier
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 1.62%
+Average wounds dealt: 6.67467
+Annihilation rate: 45.18%
+Average combat score: 7.67
+
+Halberdier:
+Win rate: 97.17%
+Average wounds dealt: 3.29787
+Annihilation rate: 0.01%
+Average combat score: 14.17
+
+Draw rate: 1.23%
+********************************************************************************************************************************************************
+
+Lizardmen Saurus Warriors
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Halberdier
+    Model count: 47
+    Ranks: 9
+    Files: 5
+    Model: Halberdier
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 1.22%
+Average wounds dealt: 6.64932
+Annihilation rate: 45.37%
+Average combat score: 7.64
+
+Halberdier:
+Win rate: 97.35%
+Average wounds dealt: 3.27351
+Annihilation rate: 0.01%
+Average combat score: 14.16
+
+Draw rate: 1.44%
+********************************************************************************************************************************************************
+
+Lizardmen Saurus Warriors
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Swordsmen
+    Model count: 42
+    Ranks: 8
+    Files: 5
+    Model: Swordsmen
+    Champion: Duelist
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 1.15%
+Average wounds dealt: 5.52571
+Annihilation rate: 44.02%
+Average combat score: 6.52
+
+Swordsmen:
+Win rate: 97.50%
+Average wounds dealt: 2.46759
+Annihilation rate: 0.03%
+Average combat score: 12.53
+
+Draw rate: 1.36%
+********************************************************************************************************************************************************
+
+Lizardmen Saurus Warriors
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Greatswords
+    Model count: 42
+    Ranks: 8
+    Files: 5
+    Model: Greatswords
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 0.05%
+Average wounds dealt: 4.54
+Annihilation rate: 52.23%
+Average combat score: 5.54
+
+Greatswords:
+Win rate: 99.88%
+Average wounds dealt: 3.27
+Annihilation rate: 0.00%
+Average combat score: 14.91
+
+Draw rate: 0.08%
+********************************************************************************************************************************************************
+
+Lizardmen Saurus Warriors
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Greatswords
+    Model count: 37
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 0.31%
+Average wounds dealt: 4.49
+Annihilation rate: 51.51%
+Average combat score: 5.48
+
+Greatswords:
+Win rate: 99.24%
+Average wounds dealt: 3.30
+Annihilation rate: 0.00%
+Average combat score: 14.73
+
+Draw rate: 0.46%
+********************************************************************************************************************************************************
+
+Lizardmen Saurus Warriors
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Halberdier
+    Model count: 37
+    Ranks: 7
+    Files: 5
+    Model: Halberdier
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 5.31%
+Average wounds dealt: 6.43
+Annihilation rate: 40.23%
+Average combat score: 7.39
+
+Halberdier:
+Win rate: 90.74%
+Average wounds dealt: 3.47
+Annihilation rate: 0.01%
+Average combat score: 13.15
+
+Draw rate: 3.97%
+********************************************************************************************************************************************************
+
+Lizardmen Saurus Warriors
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Halberdier
+    Model count: 42
+    Ranks: 8
+    Files: 5
+    Model: Halberdier
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 1.70%
+Average wounds dealt: 6.66
+Annihilation rate: 44.99%
+Average combat score: 7.65
+
+Halberdier:
+Win rate: 97.01%
+Average wounds dealt: 3.31
+Annihilation rate: 0.01%
+Average combat score: 14.16
+
+Draw rate: 1.31%
+********************************************************************************************************************************************************
+
+Lizardmen Saurus Warriors
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Halberdier
+    Model count: 47
+    Ranks: 9
+    Files: 5
+    Model: Halberdier
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 1.20%
+Average wounds dealt: 6.65
+Annihilation rate: 45.38%
+Average combat score: 7.64
+
+Halberdier:
+Win rate: 97.45%
+Average wounds dealt: 3.28
+Annihilation rate: 0.01%
+Average combat score: 14.17
+
+Draw rate: 1.36%
+********************************************************************************************************************************************************
+
+Lizardmen Saurus Warriors
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Halberdier
+    Model count: 47
+    Ranks: 9
+    Files: 5
+    Model: Halberdier
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 1.23%
+Average wounds dealt: 6.66
+Annihilation rate: 45.10%
+Average combat score: 7.65
+
+Halberdier:
+Win rate: 97.46%
+Average wounds dealt: 3.30
+Annihilation rate: 0.01%
+Average combat score: 14.17
+
+Draw rate: 1.33%
+********************************************************************************************************************************************************
+
+Lizardmen Saurus Warriors
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Spearmen
+    Model count: 47
+    Ranks: 9
+    Files: 5
+    Model: Spearmen
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 0.49%
+Average wounds dealt: 5.60
+Annihilation rate: 47.84%
+Average combat score: 6.59
+
+Spearmen:
+Win rate: 98.78%
+Average wounds dealt: 2.95
+Annihilation rate: 0.00%
+Average combat score: 13.81
+
+Draw rate: 0.74%
+********************************************************************************************************************************************************
+
+Lizardmen Saurus Warriors
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Greatswords
+    Model count: 37
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 0.32%
+Average wounds dealt: 4.50
+Flee rate: 0.99576
+Annihilation rate: 0.00%
+Average combat score: 5.50
+
+Greatswords:
+Win rate: 99.27%
+Average wounds dealt: 6.89
+Flee rate: 0.99576
+Annihilation rate: 0.00%
+Average combat score: 14.71
+
+Draw rate: 0.43%
+********************************************************************************************************************************************************
+
+Lizardmen Saurus Warriors
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Greatswords
+    Model count: 37
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 0.34%
+Average wounds dealt: 4.51
+Flee rate: 99.59500
+Annihilation rate: 0.00%
+Average combat score: 5.50
+
+Greatswords:
+Win rate: 99.26%
+Average wounds dealt: 6.90
+Flee rate: 99.59500
+Annihilation rate: 0.00%
+Average combat score: 14.72
+
+Draw rate: 0.41%
+********************************************************************************************************************************************************
+
+Lizardmen Saurus Warriors
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Greatswords
+    Model count: 37
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 0.30%
+Average wounds dealt: 4.51
+Flee rate: 99.56500
+Annihilation rate: 0.00%
+Average combat score: 5.51
+
+Greatswords:
+Win rate: 99.27%
+Average wounds dealt: 6.91
+Flee rate: 0
+Annihilation rate: 0.00%
+Average combat score: 14.72
+
+Draw rate: 0.44%
+********************************************************************************************************************************************************
+
+Lizardmen Saurus Warriors
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Greatswords
+    Model count: 37
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 0.32%
+Average wounds dealt: 4.49
+Flee rate: 99.57300
+Annihilation rate: 51.36%
+Average combat score: 5.49
+
+Greatswords:
+Win rate: 99.26%
+Average wounds dealt: 3.31
+Flee rate: 0
+Annihilation rate: 0.02%
+Average combat score: 14.73
+
+Draw rate: 0.43%
+********************************************************************************************************************************************************
+
+Lizardmen Saurus Warriors
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Greatswords
+    Model count: 37
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 0.32%
+Average wounds dealt: 4.49
+Flee rate: 99.5900
+Annihilation rate: 51.82%
+Average combat score: 5.49
+
+Greatswords:
+Win rate: 99.28%
+Average wounds dealt: 3.28
+Flee rate: 0
+Annihilation rate: 0.02%
+Average combat score: 14.72
+
+Draw rate: 0.41%
+********************************************************************************************************************************************************
+
+Lizardmen Saurus Warriors
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Greatswords
+    Model count: 37
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 1.61%
+Average wounds dealt: 4.41
+Flee rate: 98.49700
+Annihilation rate: 44.73%
+Average combat score: 5.40
+
+Greatswords:
+Win rate: 96.89%
+Average wounds dealt: 3.62
+Flee rate: 0
+Annihilation rate: 0.06%
+Average combat score: 11.70
+
+Draw rate: 1.51%
+********************************************************************************************************************************************************
+
+Lizardmen Saurus Warriors
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Saurus Warriors
+    Champion: Spawn Leader
+
+Empire Greatswords
+    Model count: 37
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Saurus Warriors:
+Win rate: 4.28%
+Average wounds dealt: 4.23
+Flee rate: 95.89800
+Annihilation rate: 38.79%
+Average combat score: 6.34
+
+Greatswords:
+Win rate: 91.63%
+Average wounds dealt: 3.82
+Flee rate: 0
+Annihilation rate: 0.22%
+Average combat score: 11.45
+
+Draw rate: 4.11%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Champion: Revered Guardian
+
+Empire Greatswords
+    Model count: 37
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire
+
+Temple Guard:
+Win rate: 7.68%
+Average wounds dealt: 4.77
+Flee rate: 93.71900
+Annihilation rate: 5.14%
+Average combat score: 6.87
+
+Greatswords:
+Win rate: 86.05%
+Average wounds dealt: 6.13
+Flee rate: 0
+Annihilation rate: 0.38%
+Average combat score: 11.06
+
+Draw rate: 6.28%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Champion: Revered Guardian
+    Heroes:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Champion: Sergeant
+    Heroes:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.02%
+Average wounds dealt: 5.01
+Flee rate: 7.3400
+Annihilation rate: 4.15%
+Average combat score: 7.51
+
+Greatswords:
+Win rate: 68.85%
+Average wounds dealt: 4.93
+Flee rate: 2.4700
+Annihilation rate: 1.39%
+Average combat score: 9.52
+
+Draw rate: 11.14%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.32%
+Average wounds dealt: 5.01
+Flee rate: 7.3300
+Annihilation rate: 4.09%
+Average combat score: 7.51
+
+Greatswords:
+Win rate: 68.58%
+Average wounds dealt: 4.93
+Flee rate: 2.55200
+Annihilation rate: 1.41%
+Average combat score: 9.52
+
+Draw rate: 11.12%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.64%
+Average wounds dealt: 5.03
+Flee rate: 7.32200
+Annihilation rate: 4.00%
+Average combat score: 7.55
+
+Greatswords:
+Win rate: 68.47%
+Average wounds dealt: 4.94
+Flee rate: 2.55800
+Annihilation rate: 1.45%
+Average combat score: 9.53
+
+Draw rate: 10.90%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 19.72%
+Average wounds dealt: 5.02
+Flee rate: 7.1800
+Annihilation rate: 4.19%
+Average combat score: 7.51
+
+Greatswords:
+Win rate: 69.39%
+Average wounds dealt: 4.95
+Flee rate: 2.1900
+Annihilation rate: 1.22%
+Average combat score: 9.56
+
+Draw rate: 10.89%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 19.30%
+Average wounds dealt: 4.90
+Flee rate: 7.100
+Annihilation rate: 3.20%
+Average combat score: 7.35
+
+Greatswords:
+Win rate: 68.60%
+Average wounds dealt: 4.93
+Flee rate: 1.600
+Annihilation rate: 1.30%
+Average combat score: 9.43
+
+Draw rate: 12.10%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 23.00%
+Average wounds dealt: 5.19
+Flee rate: 5.00
+Annihilation rate: 2.00%
+Average combat score: 7.75
+
+Greatswords:
+Win rate: 71.00%
+Average wounds dealt: 5.51
+Flee rate: 2.00
+Annihilation rate: 1.00%
+Average combat score: 10.22
+
+Draw rate: 6.00%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 18.80%
+Average wounds dealt: 4.98
+Flee rate: 6.600
+Annihilation rate: 4.00%
+Average combat score: 7.53
+
+Greatswords:
+Win rate: 72.20%
+Average wounds dealt: 5.10
+Flee rate: 2.200
+Annihilation rate: 1.60%
+Average combat score: 9.79
+
+Draw rate: 9.00%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.70%
+Average wounds dealt: 5.04
+Flee rate: 6.400
+Annihilation rate: 3.70%
+Average combat score: 7.56
+
+Greatswords:
+Win rate: 69.10%
+Average wounds dealt: 4.96
+Flee rate: 2.400
+Annihilation rate: 1.40%
+Average combat score: 9.56
+
+Draw rate: 10.20%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 18.60%
+Average wounds dealt: 4.95
+Flee rate: 7.100
+Annihilation rate: 3.80%
+Average combat score: 7.42
+
+Greatswords:
+Win rate: 70.10%
+Average wounds dealt: 5.08
+Flee rate: 2.100
+Annihilation rate: 1.40%
+Average combat score: 9.64
+
+Draw rate: 11.30%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 21.70%
+Average wounds dealt: 5.01
+Flee rate: 7.700
+Annihilation rate: 4.30%
+Average combat score: 7.46
+
+Greatswords:
+Win rate: 66.20%
+Average wounds dealt: 4.75
+Flee rate: 2.100
+Annihilation rate: 1.00%
+Average combat score: 9.31
+
+Draw rate: 12.10%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 21.70%
+Average wounds dealt: 5.05
+Flee rate: 7.700
+Annihilation rate: 4.20%
+Average combat score: 7.56
+
+Greatswords:
+Win rate: 67.70%
+Average wounds dealt: 4.93
+Flee rate: 2.700
+Annihilation rate: 1.40%
+Average combat score: 9.54
+
+Draw rate: 10.60%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 19.80%
+Average wounds dealt: 5.02
+Flee rate: 7.400
+Annihilation rate: 3.80%
+Average combat score: 7.44
+
+Greatswords:
+Win rate: 68.30%
+Average wounds dealt: 4.95
+Flee rate: 1.400
+Annihilation rate: 0.90%
+Average combat score: 9.50
+
+Draw rate: 11.90%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 18.40%
+Average wounds dealt: 5.14
+Flee rate: 6.300
+Annihilation rate: 3.20%
+Average combat score: 7.59
+
+Greatswords:
+Win rate: 71.70%
+Average wounds dealt: 5.13
+Flee rate: 2.00
+Annihilation rate: 0.90%
+Average combat score: 9.74
+
+Draw rate: 9.90%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.86%
+Average wounds dealt: 5.04
+Flee rate: 7.5400
+Annihilation rate: 4.28%
+Average combat score: 7.55
+
+Greatswords:
+Win rate: 68.36%
+Average wounds dealt: 4.92
+Flee rate: 2.4800
+Annihilation rate: 1.30%
+Average combat score: 9.53
+
+Draw rate: 10.78%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 19.28%
+Average wounds dealt: 4.90
+Flee rate: 7.2400
+Annihilation rate: 3.72%
+Average combat score: 7.36
+
+Greatswords:
+Win rate: 68.30%
+Average wounds dealt: 4.88
+Flee rate: 2.3400
+Annihilation rate: 1.40%
+Average combat score: 9.39
+
+Draw rate: 12.42%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.66%
+Average wounds dealt: 5.08
+Flee rate: 7.7800
+Annihilation rate: 4.20%
+Average combat score: 7.59
+
+Greatswords:
+Win rate: 68.88%
+Average wounds dealt: 4.99
+Flee rate: 2.0400
+Annihilation rate: 1.32%
+Average combat score: 9.61
+
+Draw rate: 10.46%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.54%
+Average wounds dealt: 5.02
+Flee rate: 7.9200
+Annihilation rate: 4.60%
+Average combat score: 7.48
+
+Greatswords:
+Win rate: 68.34%
+Average wounds dealt: 4.92
+Flee rate: 2.2800
+Annihilation rate: 1.18%
+Average combat score: 9.54
+
+Draw rate: 11.12%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.96%
+Average wounds dealt: 5.00
+Flee rate: 7.8800
+Annihilation rate: 3.92%
+Average combat score: 7.50
+
+Greatswords:
+Win rate: 67.36%
+Average wounds dealt: 4.89
+Flee rate: 2.7200
+Annihilation rate: 1.36%
+Average combat score: 9.43
+
+Draw rate: 11.68%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 19.36%
+Average wounds dealt: 4.97
+Flee rate: 6.8400
+Annihilation rate: 3.92%
+Average combat score: 7.41
+
+Greatswords:
+Win rate: 69.12%
+Average wounds dealt: 4.97
+Flee rate: 2.0800
+Annihilation rate: 1.04%
+Average combat score: 9.52
+
+Draw rate: 11.52%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 21.32%
+Average wounds dealt: 5.08
+Flee rate: 7.5600
+Annihilation rate: 3.84%
+Average combat score: 7.56
+
+Greatswords:
+Win rate: 67.64%
+Average wounds dealt: 4.95
+Flee rate: 2.3600
+Annihilation rate: 1.24%
+Average combat score: 9.52
+
+Draw rate: 11.04%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.32%
+Average wounds dealt: 5.02
+Flee rate: 6.5600
+Annihilation rate: 3.88%
+Average combat score: 7.49
+
+Greatswords:
+Win rate: 68.36%
+Average wounds dealt: 4.94
+Flee rate: 2.200
+Annihilation rate: 1.16%
+Average combat score: 9.50
+
+Draw rate: 11.32%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.66%
+Average wounds dealt: 5.05
+Flee rate: 7.2400
+Annihilation rate: 4.14%
+Average combat score: 7.58
+
+Greatswords:
+Win rate: 69.14%
+Average wounds dealt: 4.96
+Flee rate: 2.4600
+Annihilation rate: 1.34%
+Average combat score: 9.60
+
+Draw rate: 10.20%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.73%
+Average wounds dealt: 5.08
+Flee rate: 6.7500
+Annihilation rate: 3.55%
+Average combat score: 7.61
+
+Greatswords:
+Win rate: 68.58%
+Average wounds dealt: 5.02
+Flee rate: 2.700
+Annihilation rate: 1.65%
+Average combat score: 9.60
+
+Draw rate: 10.70%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.33%
+Average wounds dealt: 5.02
+Flee rate: 7.9500
+Annihilation rate: 4.35%
+Average combat score: 7.60
+
+Greatswords:
+Win rate: 69.10%
+Average wounds dealt: 4.97
+Flee rate: 3.100
+Annihilation rate: 1.95%
+Average combat score: 9.61
+
+Draw rate: 10.58%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 21.30%
+Average wounds dealt: 5.05
+Flee rate: 7.62500
+Annihilation rate: 4.23%
+Average combat score: 7.57
+
+Greatswords:
+Win rate: 67.65%
+Average wounds dealt: 4.89
+Flee rate: 2.500
+Annihilation rate: 1.53%
+Average combat score: 9.49
+
+Draw rate: 11.05%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 19.90%
+Average wounds dealt: 4.95
+Flee rate: 7.80%
+Annihilation rate: 4.30%
+Average combat score: 7.47
+
+Greatswords:
+Win rate: 68.95%
+Average wounds dealt: 4.97
+Flee rate: 2.73
+Annihilation rate: 1.63%
+Average combat score: 9.57
+
+Draw rate: 11.15%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.03%
+Average wounds dealt: 5.00
+Flee rate: 6.98%
+Annihilation rate: 3.90%
+Average combat score: 7.49
+
+Greatswords:
+Win rate: 68.73%
+Average wounds dealt: 4.96
+Flee rate: 2.20%
+Annihilation rate: 1.33%
+Average combat score: 9.54
+
+Draw rate: 11.25%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.40%
+Average wounds dealt: 5.01
+Flee rate: 7.05%
+Annihilation rate: 4.23%
+Average combat score: 7.53
+
+Greatswords:
+Win rate: 68.73%
+Average wounds dealt: 4.89
+Flee rate: 2.58%
+Annihilation rate: 1.55%
+Average combat score: 9.51
+
+Draw rate: 10.88%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.03%
+Average wounds dealt: 5.02
+Flee rate: 7.65%
+Annihilation rate: 4.53%
+Average combat score: 7.50
+
+Greatswords:
+Win rate: 68.68%
+Average wounds dealt: 4.93
+Flee rate: 2.18%
+Annihilation rate: 1.25%
+Average combat score: 9.54
+
+Draw rate: 11.30%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.00%
+Average wounds dealt: 4.99
+Flee rate: 7.25%
+Annihilation rate: 4.35%
+Average combat score: 7.51
+
+Greatswords:
+Win rate: 68.53%
+Average wounds dealt: 4.92
+Flee rate: 2.60%
+Annihilation rate: 1.70%
+Average combat score: 9.51
+
+Draw rate: 11.48%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 19.15%
+Average wounds dealt: 5.01
+Flee rate: 6.80%
+Annihilation rate: 3.65%
+Average combat score: 7.50
+
+Greatswords:
+Win rate: 69.80%
+Average wounds dealt: 4.99
+Flee rate: 2.53%
+Annihilation rate: 1.45%
+Average combat score: 9.57
+
+Draw rate: 11.05%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.53%
+Average wounds dealt: 5.08
+Flee rate: 7.10%
+Annihilation rate: 4.03%
+Average combat score: 7.63
+
+Greatswords:
+Win rate: 68.90%
+Average wounds dealt: 4.98
+Flee rate: 3.10%
+Annihilation rate: 1.75%
+Average combat score: 9.59
+
+Draw rate: 10.58%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.88%
+Average wounds dealt: 4.98
+Flee rate: 7.40%
+Annihilation rate: 4.35%
+Average combat score: 8
+
+Greatswords:
+Win rate: 67.75%
+Average wounds dealt: 4.90
+Flee rate: 2.65%
+Annihilation rate: 1.48%
+Average combat score: 10
+
+Draw rate: 11.38%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 19.70%
+Average wounds dealt: 5.00
+Flee rate: 7.98%
+Annihilation rate: 4.48%
+Average combat score: 7
+
+Greatswords:
+Win rate: 69.25%
+Average wounds dealt: 4.95
+Flee rate: 2.13%
+Annihilation rate: 1.20%
+Average combat score: 10
+
+Draw rate: 11.05%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 19.35%
+Average wounds dealt: 5
+Flee rate: 7%
+Annihilation rate: 3.73%
+Average combat score: 7
+
+Greatswords:
+Win rate: 69.73%
+Average wounds dealt: 5
+Flee rate: 3%
+Annihilation rate: 1.80%
+Average combat score: 10
+
+Draw rate: 10.93%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 20.55%
+Average wounds dealt: 5
+Flee rate: 7%
+Annihilation rate: 4%
+Average combat score: 8
+
+Greatswords:
+Win rate: 68.70%
+Average wounds dealt: 5
+Flee rate: 3%
+Annihilation rate: 1%
+Average combat score: 9
+
+Draw rate: 10.75%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 19.43%
+Average wounds dealt: 5
+Flee rate: 7%
+Annihilation rate: 4%
+Average combat score: 7
+
+Greatswords:
+Win rate: 69.65%
+Average wounds dealt: 5
+Flee rate: 3%
+Annihilation rate: 1%
+Average combat score: 10
+
+Draw rate: 10.93%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 19.65%
+Average wounds dealt: 5
+Flee rate: 7%
+Annihilation rate: 4%
+Average combat score: 7
+
+Greatswords:
+Win rate: 68.43%
+Average wounds dealt: 5
+Flee rate: 2%
+Annihilation rate: 1%
+Average combat score: 9
+
+Draw rate: 11.93%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 21.68%
+Average wounds dealt: 5
+Flee rate: 7%
+Annihilation rate: 4%
+Average combat score: 8
+
+Greatswords:
+Win rate: 67.40%
+Average wounds dealt: 5
+Flee rate: 2%
+Annihilation rate: 2%
+Average combat score: 10
+
+Draw rate: 10.93%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 19.78%
+Average wounds dealt: 5
+Flee rate: 7%
+Annihilation rate: 4%
+Average combat score: 7
+
+Greatswords:
+Win rate: 68.45%
+Average wounds dealt: 5
+Flee rate: 2%
+Annihilation rate: 1%
+Average combat score: 9
+
+Draw rate: 11.78%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+Empire Greatswords
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Greatswords
+    Characters:  General Of The Empire, Captain Of The Empire, Sergeant
+
+Temple Guard:
+Win rate: 19%
+Average wounds dealt: 5
+Flee rate: 8%
+Annihilation rate: 4%
+Average combat score: 8
+
+Greatswords:
+Win rate: 70%
+Average wounds dealt: 5
+Flee rate: 3%
+Annihilation rate: 2%
+Average combat score: 10
+
+Draw rate: 11%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+High Elves Dragon Princes of Calendor
+    Model count: 38
+    Ranks: 7
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Tyrion, Captain Of The Empire, High Helm
+
+Temple Guard:
+Win rate: 10%
+Average wounds dealt: 5
+Flee rate: 9%
+Annihilation rate: 5%
+Average combat score: 7
+
+Dragon Princes of Calendor:
+Win rate: 82%
+Average wounds dealt: 6
+Flee rate: 2%
+Annihilation rate: 1%
+Average combat score: 11
+
+Draw rate: 8%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Temple Guard:
+Win rate: 20%
+Average wounds dealt: 2
+Flee rate: 7%
+Annihilation rate: 4%
+Average combat score: 4
+
+Dragon Princes of Calendor:
+Win rate: 70%
+Average wounds dealt: 8
+Flee rate: 2%
+Annihilation rate: 1%
+Average combat score: 6
+
+Draw rate: 11%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Tyrion, Drakemaster
+
+Temple Guard:
+Win rate: 5%
+Average wounds dealt: 2
+Flee rate: 9%
+Annihilation rate: 5%
+Average combat score: 4
+
+Dragon Princes of Calendor:
+Win rate: 91%
+Average wounds dealt: 11
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 8
+
+Draw rate: 4%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Temple Guard:
+Win rate: 21%
+Average wounds dealt: 2
+Flee rate: 7%
+Annihilation rate: 4%
+Average combat score: 4
+
+Dragon Princes of Calendor:
+Win rate: 68%
+Average wounds dealt: 7
+Flee rate: 3%
+Annihilation rate: 1%
+Average combat score: 6
+
+Draw rate: 11%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Temple Guard:
+Win rate: 20%
+Average wounds dealt: 2
+Flee rate: 7%
+Annihilation rate: 4%
+Average combat score: 4
+
+Dragon Princes of Calendor:
+Win rate: 70%
+Average wounds dealt: 8
+Flee rate: 2%
+Annihilation rate: 1%
+Average combat score: 6
+
+Draw rate: 10%
+********************************************************************************************************************************************************
+
+Lizardmen Temple Guard
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Temple Guard
+    Characters:  Revered Guardian
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Tyrion, Drakemaster
+
+Temple Guard:
+Win rate: 5%
+Average wounds dealt: 2
+Flee rate: 11%
+Annihilation rate: 6%
+Average combat score: 4
+
+Dragon Princes of Calendor:
+Win rate: 91%
+Average wounds dealt: 11
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 8
+
+Draw rate: 4%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 97%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 10
+
+Stormvermin:
+Win rate: 1%
+Average wounds dealt: 1
+Flee rate: 80%
+Annihilation rate: 35%
+Average combat score: 4
+
+Draw rate: 2%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Tyrion, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 99%
+Average wounds dealt: 8
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 11
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 88%
+Annihilation rate: 38%
+Average combat score: 4
+
+Draw rate: 1%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Tyrion, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 99%
+Average wounds dealt: 8
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 11
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 89%
+Annihilation rate: 39%
+Average combat score: 4
+
+Draw rate: 1%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Tyrion, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 99%
+Average wounds dealt: 8
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 11
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 89%
+Annihilation rate: 40%
+Average combat score: 4
+
+Draw rate: 1%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Tyrion, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 9
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 12
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 93%
+Annihilation rate: 41%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 99%
+Average wounds dealt: 9
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 11
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 89%
+Annihilation rate: 39%
+Average combat score: 4
+
+Draw rate: 1%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Tyrion, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 9
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 12
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 93%
+Annihilation rate: 42%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Tyrion, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 12
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 93%
+Annihilation rate: 58%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 99%
+Average wounds dealt: 6
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 11
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 89%
+Annihilation rate: 55%
+Average combat score: 4
+
+Draw rate: 1%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 99%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 11
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 75%
+Annihilation rate: 47%
+Average combat score: 4
+
+Draw rate: 1%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 99%
+Average wounds dealt: 6
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 11
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 76%
+Annihilation rate: 55%
+Average combat score: 4
+
+Draw rate: 1%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 99%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 11
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 76%
+Annihilation rate: 46%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 99%
+Average wounds dealt: 6
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 11
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 75%
+Annihilation rate: 54%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 12
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 76%
+Annihilation rate: 47%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 13
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 86%
+Annihilation rate: 53%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 13
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 86%
+Annihilation rate: 52%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 13
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 86%
+Annihilation rate: 54%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 13
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 86%
+Annihilation rate: 53%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 14
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 86%
+Annihilation rate: 54%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 14
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 86%
+Annihilation rate: 55%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 14
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 87%
+Annihilation rate: 53%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 12
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 76%
+Annihilation rate: 47%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 14
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 86%
+Annihilation rate: 54%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 13
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 85%
+Annihilation rate: 53%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 13
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 76%
+Annihilation rate: 47%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 8
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 14
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 87%
+Annihilation rate: 54%
+Average combat score: 3
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Tyrion, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 13
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 85%
+Annihilation rate: 53%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 17
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 32
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 8
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 14
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 88%
+Annihilation rate: 54%
+Average combat score: 3
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 8
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 14
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 87%
+Annihilation rate: 54%
+Average combat score: 3
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 8
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 14
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 87%
+Annihilation rate: 54%
+Average combat score: 3
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 12
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 77%
+Annihilation rate: 48%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 12
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 77%
+Annihilation rate: 48%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 12
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 77%
+Annihilation rate: 48%
+Average combat score: 4
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 8
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 14
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 88%
+Annihilation rate: 55%
+Average combat score: 3
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 8
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 14
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 88%
+Annihilation rate: 54%
+Average combat score: 3
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 8
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 14
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 89%
+Annihilation rate: 55%
+Average combat score: 3
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 8
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 14
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 89%
+Annihilation rate: 55%
+Average combat score: 3
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 8
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 14
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 88%
+Annihilation rate: 54%
+Average combat score: 3
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 13
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 85%
+Annihilation rate: 53%
+Average combat score: 3
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 8
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 14
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 87%
+Annihilation rate: 54%
+Average combat score: 3
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
+High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Dragon Princes of Calendor:
+Win rate: 100%
+Average wounds dealt: 7
+Flee rate: 0%
+Annihilation rate: 0%
+Average combat score: 13
+
+Stormvermin:
+Win rate: 0%
+Average wounds dealt: 1
+Flee rate: 85%
+Annihilation rate: 52%
+Average combat score: 3
+
+Draw rate: 0%
+********************************************************************************************************************************************************
+
