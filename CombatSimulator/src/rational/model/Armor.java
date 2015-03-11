@@ -9,15 +9,15 @@ public class Armor extends Equipment {
     private Integer armorSaveMod;
     private Integer wardSave;
     private boolean armorSaveModifiable;
-    private boolean wardSaveModifiable;
 
     public Armor(){
 
     }
 
-    public Armor(String name, int armorSaveMod) {
+    public Armor(String name, int armorSaveMod, int wardSave) {
         this.name = name;
         this.armorSaveMod = armorSaveMod;
+        this.wardSave = wardSave;
     }
 
     public Armor(String name, Integer armorSave, Integer wardSave, boolean armorSaveModifiable, boolean wardSaveModifiable) {
@@ -25,7 +25,6 @@ public class Armor extends Equipment {
         this.armorSave = armorSave;
         this.wardSave = wardSave;
         this.armorSaveModifiable = armorSaveModifiable;
-        this.wardSaveModifiable = wardSaveModifiable;
     }
 
     public Armor(String name, int armorSave, int wardSave, boolean armorSaveModifiable, boolean wardSaveModifiable, List<SpecialRuleTypeEnum> specialRules) {
@@ -33,7 +32,6 @@ public class Armor extends Equipment {
         this.armorSave = armorSave;
         this.wardSave = wardSave;
         this.armorSaveModifiable = armorSaveModifiable;
-        this.wardSaveModifiable = wardSaveModifiable;
         this.specialRules = specialRules;
     }
 
@@ -67,13 +65,5 @@ public class Armor extends Equipment {
 
     public void setArmorSaveModifiable(boolean armorSaveModifiable) {
         this.armorSaveModifiable = armorSaveModifiable;
-    }
-
-    public boolean isWardSaveModifiable() {
-        return wardSaveModifiable;
-    }
-
-    public void setWardSaveModifiable(boolean wardSaveModifiable) {
-        this.wardSaveModifiable = wardSaveModifiable;
     }
 }

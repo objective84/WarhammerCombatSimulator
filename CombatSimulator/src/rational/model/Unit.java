@@ -1,9 +1,24 @@
 package rational.model;
 
-import rational.enums.AttackDirectionEnum;
 import rational.enums.SpecialRuleTypeEnum;
+import rational.enums.UnitTypeEnum;
+import rational.service.CloseCombatService;
+import rational.service.specialRules.leadership.LeadershipTestService;
+import rational.service.specialRules.leadership.breaktest.BreakTestService;
+import rational.service.specialRules.leadership.breaktest.impl.DefaultBreakTestService;
+import rational.service.specialRules.leadership.breaktest.impl.StrengthInNumbersBreakTestService;
+import rational.service.specialRules.leadership.impl.ColdBloodedLeadershipTestService;
+import rational.service.specialRules.leadership.impl.DefaultLeadershipTestService;
+import rational.service.specialRules.leadership.impl.StrengthInNumbersLeadershipTestService;
+import rational.service.specialRules.movement.SpecialMovementService;
+import rational.service.specialRules.movement.impl.DefaultSpecialMovementService;
+import rational.service.specialRules.movement.impl.ScurryAwaySpecialMovementService;
+import rational.service.specialRules.movement.impl.SwiftstrideMovementSpecialRuleService;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
 
 public class Unit implements Comparator<Unit>, Comparable<Unit> {
     public static int[][] toHitChart = {
@@ -34,103 +49,173 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
             {0,2,2,2,2,2,2,2,2,3,4},
     };
 
+    private CloseCombatService combatService;
     private String name;
     private UnitModel[][] models;
     private Unit mounts;
     private UnitModel unitModel;
-    private UnitModel hero;
-    private UnitModel champion;
-    private int numModels;
+    private List<UnitModel> characters = new ArrayList<>();
+    private int defaultNumModels;
     private int files;
     private int leadership;
     private int woundsReceived;
     private boolean charging;
     private boolean hasBanner;
     private boolean hasBattleStandard;
+    private boolean hasGriffinBattleStandard;
     private boolean flankAttack;
     private boolean rearAttack;
     private boolean hasHighGround;
     private boolean hasMusician;
+    private boolean hasChampion;
     private int overkill;
     private boolean mount;
+    private int combatScore;
+    private boolean isFlanked;
+    private boolean isBroken;
+    private UnitTypeEnum unitType;
 
-    public void createUnit(UnitModel model, int numModels, int files, UnitModel hero){
+    private SpecialMovementService specialMovementService;
+    private LeadershipTestService leadershipTestService;
+    private BreakTestService breakTestService;
+
+    public void initializeUnit(UnitModel model, int files, List<UnitModel> characters, CloseCombatService combatService){
+        this.combatService = combatService;
+        model.setCombatService(combatService);
+        model.setCharging(this.charging);
+        if(null != model.getMount()){
+            this.unitType = UnitTypeEnum.CAVALRY;
+        }else{
+            this.unitType = UnitTypeEnum.INFANTRY;
+        }
         this.setUnitModel(model);
-        this.setChampion(model.getChampion());
-        this.setHero(hero);
+        this.getCharacters().addAll(characters);
+        int numModels = this.defaultNumModels + this.characters.size();
+        if(this.hasChampion){
+            this.characters.add(model.getChampion());
+            this.defaultNumModels--;
+        }
         this.setLeadership(model.getLeadership());
-        numModels = this.getChampion() != null ? numModels + 1 : numModels;
-        numModels = hero != null ? numModels + 1 : numModels;
         int ranks = numModels / files;
         int remainder = numModels % files;
+
         if(remainder > 0){
             models = new UnitModel[ranks+1][files];
         }else{
             models = new UnitModel[ranks][files];
         }
         int startJ = 0;
-        if(this.getChampion() != null){
-            models[0][startJ] = model.getChampion();
-            startJ++;
+
+        if(this.unitType.equals(UnitTypeEnum.CAVALRY)){
+            UnitModel[][] mounts;
+            if(remainder > 0){
+                mounts = new UnitModel[ranks+1][files];
+            }else{
+                mounts = new UnitModel[ranks][files];
+            }
+            Unit mountUnit = new Unit();
+            mountUnit.setMount(true);
+            UnitModel mount = new UnitModel(model.getMount());
+            mount.setCombatService(combatService);
+            mountUnit.setUnitModel(mount);
+            mountUnit.setModels(mounts);
+            mountUnit.setName(model.getMount().getName());
+            mountUnit.setFlankAttack(this.flankAttack);
+            mountUnit.setRearAttack(this.rearAttack);
+            mountUnit.setCombatService(combatService);
+            this.setMounts(mountUnit);
         }
-        if(hero != null){
-            models[0][startJ] = hero;
-            startJ++;
+
+        List<UnitModel> temp = new ArrayList<>(this.characters);
+        if(!this.characters.isEmpty()){
+            for(int i=0; i < ranks; i++) {
+                for (int j = 0; j < files; j++) {
+                    UnitModel character = temp.get(0);
+                    character.setCombatService(combatService);
+                    character.setCharging(this.isCharging());
+                    character.setRank(ranks);
+                    character.setFile(j);
+                    models[i][j] = character;
+                    temp.remove(0);
+                    startJ++;
+                    if(this.unitType.equals(UnitTypeEnum.CAVALRY)){
+                        if(character.getMount().isCharacter()){
+                            character.getMount().setCombatService(combatService);
+                            this.mounts.getCharacters().add(character.getMount());
+                        }
+                        this.mounts.models[i][j] = character.getMount();
+                    }
+                    if(temp.isEmpty()) break;
+                }
+                if(temp.isEmpty()) break;
+            }
         }
         for(int i=0; i<ranks; i++){
             for(int j= startJ; j < files; j++){
                 UnitModel copy = new UnitModel(model);
+                copy.setCombatService(combatService);
                 copy.setRank(i);
                 copy.setFile(j);
                 models[i][j] = copy;
+                if(this.unitType.equals(UnitTypeEnum.CAVALRY)){
+                    this.mounts.models[i][j] = copy.getMount();
+                }
             }
             startJ = 0;
         }
         if(remainder > 0){
             for (int k = 0; k < remainder; k++){
                 UnitModel copy = new UnitModel(model);
+                copy.setCombatService(combatService);
                 copy.setRank(ranks);
                 copy.setFile(k);
                 models[ranks][k] = copy;
+                if(this.unitType.equals(UnitTypeEnum.CAVALRY)){
+                    this.mounts.models[ranks][k] = copy.getMount();
+                }
             }
-        }
-        if(null != model.getMount()){
-            UnitModel[][] mounts = new UnitModel[1][files];
-            for(int i=0; i<files; i++){
-                UnitModel mount = new UnitModel(model.getMount());
-                mount.setFile(i);
-                mount.setRank(0);
-                mounts[0][i] = mount;
-            }
-            Unit mountUnit = new Unit();
-            mountUnit.setMount(true);
-            mountUnit.setUnitModel(new UnitModel(model.getMount()));
-            mountUnit.setModels(mounts);
-            mountUnit.setName(model.getMount().getName());
-            mountUnit.setFlankAttack(this.flankAttack);
-            mountUnit.setRearAttack(this.rearAttack);
-            this.setMounts(mountUnit);
         }
 
-        if(null != this.getChampion()){
-            if(this.getChampion().getLeadership() > this.getLeadership() ){
-                this.setLeadership(this.getChampion().getLeadership());
+        if(null != this.getCharacters()){
+            for(UnitModel heroModel : this.characters) {
+                if (heroModel.getLeadership() > this.getLeadership()) {
+                    this.setLeadership(heroModel.getLeadership());
+                }
             }
         }
-        if(null != this.getHero()){
-            if(this.getHero().getLeadership() > this.getLeadership()){
-                this.setLeadership(this.getHero().getLeadership());
-            }
+        setRuleServices();
+    }
+
+    public void setRuleServices(){
+        List<SpecialRuleTypeEnum> specialRules = this.getUnitModel().getSpecialRules();
+        if(specialRules.contains(SpecialRuleTypeEnum.SWIFTSTRIDE)){
+            specialMovementService = new SwiftstrideMovementSpecialRuleService(this);
+        }else if(specialRules.contains(SpecialRuleTypeEnum.SCURRY_AWAY)){
+            specialMovementService = new ScurryAwaySpecialMovementService(this);
+        }else{
+            specialMovementService = new DefaultSpecialMovementService(this);
+        }
+        if(specialRules.contains(SpecialRuleTypeEnum.STRENGTH_IN_NUMBERS)){
+            breakTestService = new StrengthInNumbersBreakTestService(this);
+            leadershipTestService = new StrengthInNumbersLeadershipTestService(this);
+        }else if(specialRules.contains(SpecialRuleTypeEnum.COLD_BLOODED)){
+            leadershipTestService = new ColdBloodedLeadershipTestService(this);
+            breakTestService = new DefaultBreakTestService(this);
+        }else{
+            leadershipTestService = new DefaultLeadershipTestService(this);
+            breakTestService = new DefaultBreakTestService(this);
         }
     }
 
     public int getRanks(){
         int ranks = 0;
-        for(int i = 0; i < models.length; i++){
-            if(null !=models[i][0]){
-                ranks++;
-            }else{
-                break;
+        if(null != models){
+            for (int i = 0; i < models.length; i++) {
+                if (null != models[i][0]) {
+                    ranks++;
+                } else {
+                    break;
+                }
             }
         }
         return ranks;
@@ -156,79 +241,81 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
         return ranks;
     }
 
-    public boolean testLeadership(int modifier){
-        int modifiedLeadership = this.leadership - modifier;
-        if(this.leadership - modifier < 0){
-            modifiedLeadership = 0;
+    private String getStartLogDivider(){
+        int numDividers = (61 - this.getUnitModel().getName().length()) / 2;
+        String divider = "";
+        for(int i=0; i< numDividers; i++){
+            divider += "*";
         }
-        String modified = modifier == 0 ? "" : "modified ";
-        System.out.println("\n" + this.getUnitModel().getName() + " rolls for a break test with a " + modified + "leadership of " +
-                modifiedLeadership + "... ");
-        Dice die = Dice.getD6();
-        int test = 0;
-        List<Integer> rolls;
-        if(this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.COLD_BLOODED)){
-            rolls = die.rollSeparateDice(3);
-        }else {
-            rolls = die.rollSeparateDice(2);
+        return divider;
+    }
+
+    private String getEndLogDivider(String startDivider){
+        String divider = "";
+        for(int i=0; i< 76; i++){
+            divider += "*";
         }
-        System.out.println("    " + Arrays.toString(rolls.toArray()));
-        int highest = 0;
-        for (int i : rolls) {
-            test += i;
-            if (i > highest) {
-                highest = i;
-            }
-        }
-        if (this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.COLD_BLOODED)) {
-            test -= highest;
-        }
-        if(rolls.get(0) == 1 && rolls.get(1) == 1){
-            return true;
-        }
-        return test + modifier <= this.leadership;
+        return divider;
     }
 
     public int calculateCombatScore(Unit other){
-        System.out.println("\n********************** " + this.getUnitModel().getName() + " Combat Score **********************");
+        String divider = getStartLogDivider();
+        combatService.appendLog( "\n" + divider + " " + this.getUnitModel().getName() + " Combat Score " + divider);
 
-        int score = other.getWoundsReceived();
-        System.out.println("    Wounds dealt: " + other.getWoundsReceived());
+        int score = (other.getWoundsReceived());
+        combatService.appendLog( "    Wounds dealt: " + (other.getWoundsReceived()));
 
         if(this.charging){
             score++;
-            System.out.println("    Charge bonus: 1");
+            combatService.appendLog( "    Charge bonus: 1");
         }
-        if(other.isFlankAttack() && other.getFullRanks() >= 2){
-            System.out.println("    Unit is disrupted and receives no rank bonus");
-        }else if(this.getRanks() > 3){
-            score += getRanks() > 3 ? (getRanks() - 3) : 0;
-            System.out.println("    Rank bonus: " + (getRanks() - 3));
+        if((other.isFlankAttack() || this.isFlanked) && other.getFullRanks() >= 2){
+            combatService.appendLog( "    Unit is disrupted and receives no rank bonus");
+        }else if(this.getRanks() > 1){
+            int rankBonus = getFullRanks() > 1 ? (getFullRanks() - 1) : 0;
+            rankBonus = rankBonus > 3 ? 3 : rankBonus;
+            score += rankBonus;
+            combatService.appendLog( "    Rank bonus: " + rankBonus);
+            if(this.hasGriffinBattleStandard){
+                score+= rankBonus;
+                combatService.appendLog( "    Griffin Battle Standard bonus: " + rankBonus);
+            }
         }
         if(this.hasBanner){
             score ++;
-            System.out.println("    Standard bearer bonus: 1");
+            combatService.appendLog( "    Standard bearer bonus: 1");
         }
         if(this.flankAttack){
             score ++;
-            System.out.println("    Flank attack bonus: 1");
+            combatService.appendLog( "    Flank attack bonus: 1");
         }
         if(this.rearAttack){
             score += 2;
-            System.out.println("    Rear attack bonus");
+            combatService.appendLog( "    Rear attack bonus");
         }
         if(this.hasHighGround){
             score++;
-            System.out.println("    High Ground bonus: 1");
+            combatService.appendLog( "    High Ground bonus: 1");
+        }
+        if(this.hasBattleStandard){
+            score++;
+            combatService.appendLog( "    Battle Standard bonus: 1");
         }
         if(this.overkill > 0){
             score += overkill;
-            System.out.println("    Challenge overkill bonus: " + overkill);
+            combatService.appendLog( "    Challenge overkill bonus: " + overkill);
         }
         other.setWoundsReceived(0);
-        System.out.println("\nTotal Score: " + score);
-        System.out.println("*******************************************************************\n");
+        combatService.appendLog( "\nTotal Score: " + score);
+        combatService.appendLog( getEndLogDivider(divider) + "\n");
+        this.combatScore = score;
         return score;
+    }
+
+    public int getRankBonus(){
+        int rankBonus = getFullRanks() > 1 ? (getFullRanks() - 1) : 0;
+        rankBonus = rankBonus > 3 ? 3 : rankBonus;
+        return rankBonus;
     }
 
     public int getUnitInitiative(){
@@ -239,84 +326,10 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
         return unitModel;
     }
 
-    public void attack(Unit defender, AttackDirectionEnum direction){
-        int difficulty = toHitChart[this.getUnitModel().getWeaponSkill()][defender.getUnitModel().getWeaponSkill()];
-        System.out.println("    " + this.getUnitModel().getName() + " hits on " + difficulty + "+");
-        int hits = rollCombatDice(defender, this.getNumAttacks(defender), difficulty, true);
-        System.out.println("    " + hits + " attacks hit");
-        int totalHits = hits;
-        int wounds = 0;
-        if(hits > 0){
-            wounds += defender.getWoundsReceived() + this.getWounds(defender, hits, this.getUnitModel().getStrength());
-        }
-
-        if(this.getChampion() != null){
-            System.out.println("\n    Rolling for " + this.getChampion().getName() + "....");
-            System.out.println("    " + this.getChampion().getName() + " has " + this.getChampion().getAttacks() + " attacks");
-
-            difficulty = toHitChart[this.getChampion().getWeaponSkill()][defender.getUnitModel().getWeaponSkill()];
-
-            System.out.println("    " + this.getChampion().getName() + " hits on " + difficulty + "+");
-
-            hits = rollCombatDice(defender, this.getChampion().getAttacks(), difficulty, true);
-
-            System.out.println("    " + hits + " attacks hit");
-
-            totalHits += hits;
-            if(hits > 0){
-                wounds += getWounds(defender, hits, this.champion.getStrength());
-            }
-            this.getChampion().setAttacks(0);
-        }
-        if(this.getHero() != null){
-            System.out.println("\n    Rolling for " + this.getHero().getName() + "....");
-            System.out.println("    " + this.getHero().getName() + " has " + this.getHero().getAttacks() + " attacks");
-            difficulty = toHitChart[this.getHero().getWeaponSkill()][defender.getUnitModel().getWeaponSkill()];
-            System.out.println("    " + this.getHero().getName() + " hits on " + difficulty + "+");
-            hits = rollCombatDice(defender, this.getHero().getAttacks(), difficulty, true);
-            System.out.println("    " + hits + " attacks hit");
-            totalHits += hits;
-            if(hits > 0){
-                wounds += getWounds(defender, hits, this.hero.getStrength());
-            }
-            this.getHero().setAttacks(0);
-        }
-        System.out.println("    " + this.getUnitModel().getName() + " hits: " + totalHits);
-        System.out.println("    " + this.getUnitModel().getName() + " wounds : " + wounds);
-        defender.setWoundsReceived(wounds);
-    }
-
-    private int getWounds(Unit defender, int numHits, int attackStrength){
-        System.out.println("    Rolling for wounds....");
-        int difficulty = toWoundChart[attackStrength][defender.getUnitModel().getToughness()];
-        System.out.println("    " + this.getUnitModel().getName() + " wounds on " + difficulty + "+");
-        int wounds = rollCombatDice(defender, numHits, difficulty, false);
-        if(null != defender.getUnitModel().getModifiedArmorSave()){
-            int save = defender.getUnitModel().getModifiedArmorSave() + Math.abs(3 - attackStrength);
-            if(save <= 6){
-                if(wounds > 0){
-                    System.out.println("    " + defender.getUnitModel().getName() + " have a " + save + "+ armor save...");
-                    wounds = rollSave(wounds, save);
-                }
-            }
-        }
-        if(null != defender.getUnitModel().getModifiedWardSave()){
-            int save = defender.getUnitModel().getModifiedWardSave();
-            if(save <= 6){
-                if(wounds > 0){
-                    System.out.println("    " + defender.getUnitModel().getName() + " have a " + save + "+ ward save...");
-                    wounds = rollSave(wounds, save);
-                }
-            }
-        }
-        return wounds;
-    }
-
     public int rollCombatDice(Unit defender, Integer amt, int difficulty, boolean reRollAllowed) {
         Dice d6 = Dice.getD6();
-        Random rand = new Random();
         List<Integer> attacks = d6.rollSeparateDice(amt);
-        System.out.println("    " + Arrays.toString(attacks.toArray()));
+        combatService.appendLog( "    " + Arrays.toString(attacks.toArray()));
 
         int hits = 0;
         for(int i=0; i<amt; i++) {
@@ -333,14 +346,14 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
                 }
             }
             if(additionalAttacks > 0) {
-                System.out.println("    " + this.getUnitModel().getName() + " gets " + additionalAttacks + " additional attacks....");
+                combatService.appendLog( "    " + this.getUnitModel().getName() + " gets " + additionalAttacks + " additional attacks....");
                 hits += rollCombatDice(defender, additionalAttacks, difficulty, false);
             }
         }
 
         if(this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST) && reRollAllowed){
             if(amt - hits > 0) {
-                System.out.println("    Re-rolling " + (amt - hits) + " misses....");
+                combatService.appendLog( "    Re-rolling " + (amt - hits) + " misses....");
 
                 if (this.getUnitInitiative() >= defender.getUnitInitiative() &&
                         !defender.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST)) {
@@ -352,26 +365,15 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
         return hits;
     }
 
-    private int rollSave(int amt, int save){
-        Dice d6 = Dice.getD6();
-        int wounds = amt;
-        List<Integer> saves = d6.rollSeparateDice(amt);
-        System.out.println("    " + Arrays.toString(saves.toArray()));
-        for(int i=0; i<amt; i++) {
-            if(saves.get(i) >= save){
-                wounds--;
-            }
-        }
-        return wounds;
-    }
 
-    private int getNumAttacks(Unit defender){
+
+    public int getNumAttacks(Unit defender){
         int numAttacks = 0;
         int ranks = this.getSupportingRanks() + 1 > this.getRanks() ? this.getRanks() : this.getSupportingRanks() + 1;
         if(defender.isFlankAttack()){
             int flankAttacks = this.getRanks() > defender.getFiles() ? this.getRanks() : defender.getFiles();
             for(int f = 0; f < flankAttacks; f++){
-                if(!models[f][0].isChampionHero()){
+                if(!models[f][0].isCharacter()){
                     numAttacks += models[f][0].getAttacks();
                     models[f][0].setAttacks(0);
                 }
@@ -397,15 +399,20 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
                     if(null == models[i][j]){
                         break;
                     }
-                    if(!models[i][j].isChampionHero()){
-                        numAttacks += models[i][j].getAttacks();
+                    if(!models[i][j].isCharacter()){
+                        if(i > 0){
+                            //Supporting ranks do not get more than 1 attack.
+                            numAttacks++;
+                        }else {
+                            numAttacks += models[i][j].getAttacks();
+                        }
                         models[i][j].setAttacks(0);
                     }
                 }
             }
         }
 
-        System.out.println("    " + this.getUnitModel().getName() + " gets " + numAttacks + " attacks....");
+        combatService.appendLog( "    " + this.getUnitModel().getName() + " gets " + numAttacks + " attacks....");
         return numAttacks;
     }
 
@@ -455,12 +462,13 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
     }
 
     public boolean isSteadfast(Unit other){
-        return countRanksForSteadfast(this) > countRanksForSteadfast(other);
+        return (countRanksForSteadfast(this) > countRanksForSteadfast(other) && !isFlanked) ||
+                this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.STUBBORN);
     }
 
     private int countRanksForSteadfast(Unit unit){
         int ranks = 0;
-        int requiredNumberOfFiles = unit.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.MONSTEROUS_INFANTRY) ? 3 : 5;
+        int requiredNumberOfFiles = unit.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.MONSTROUS_INFANTRY) ? 3 : 5;
         for(int i = 0; i < unit.getModels().length; i++){
             int filesFilled = 0;
             for(int j = 0; j < unit.getModels()[i].length; j++){
@@ -483,20 +491,12 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
         this.unitModel = unitModel;
     }
 
-    public UnitModel getChampion() {
-        return champion;
+    public List<UnitModel> getCharacters() {
+        return characters;
     }
 
-    public void setChampion(UnitModel champion) {
-        this.champion = champion;
-    }
-
-    public UnitModel getHero() {
-        return hero;
-    }
-
-    public void setHero(UnitModel hero) {
-        this.hero = hero;
+    public void setCharacters(List<UnitModel> characters) {
+        this.characters = characters;
     }
 
     public int getNumModels() {
@@ -511,8 +511,12 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
         return numModels;
     }
 
-    public void setNumModels(int numModels) {
-        this.numModels = numModels;
+    public int getDefaultNumModels() {
+        return defaultNumModels;
+    }
+
+    public void setDefaultNumModels(int numModels) {
+        this.defaultNumModels = numModels;
     }
 
     public int getFiles() {
@@ -528,7 +532,7 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
     }
 
     public int getSupportingRanks() {
-        if(this.unitModel.getSpecialRules().contains(SpecialRuleTypeEnum.MONSTEROUS_INFANTRY)) return 3;
+        if(this.unitModel.getSpecialRules().contains(SpecialRuleTypeEnum.MONSTROUS_INFANTRY)) return 3;
         int supportingRanks = 1;
         for(SpecialRuleTypeEnum specialRule : this.unitModel.getSpecialRules()){
             if(specialRule.equals(SpecialRuleTypeEnum.MARTIAL_PROWESS)) supportingRanks++;
@@ -674,7 +678,7 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
         if (hasHighGround != unit.hasHighGround) return false;
         if (hasMusician != unit.hasMusician) return false;
         if (leadership != unit.leadership) return false;
-        if (numModels != unit.numModels) return false;
+        if (defaultNumModels != unit.defaultNumModels) return false;
         if (overkill != unit.overkill) return false;
         if (rearAttack != unit.rearAttack) return false;
         if (woundsReceived != unit.woundsReceived) return false;
@@ -690,7 +694,7 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
         int result = name != null ? name.hashCode() : 0;
         result = 31 * result + (mounts != null ? mounts.hashCode() : 0);
         result = 31 * result + (unitModel != null ? unitModel.hashCode() : 0);
-        result = 31 * result + numModels;
+        result = 31 * result + defaultNumModels;
         result = 31 * result + files;
         result = 31 * result + leadership;
         result = 31 * result + woundsReceived;
@@ -703,5 +707,105 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
         result = 31 * result + (hasMusician ? 1 : 0);
         result = 31 * result + overkill;
         return result;
+    }
+
+    public boolean isHasGriffinBattleStandard() {
+        return hasGriffinBattleStandard;
+    }
+
+    public void setHasGriffinBattleStandard(boolean hasGriffinBattleStandard) {
+        this.hasGriffinBattleStandard = hasGriffinBattleStandard;
+    }
+
+    public int getCombatScore() {
+        return combatScore;
+    }
+
+    public void setCombatScore(int combatScore) {
+        this.combatScore = combatScore;
+    }
+
+    public boolean isFlanked() {
+        return isFlanked;
+    }
+
+    public void setFlanked(boolean isFlanked) {
+        this.isFlanked = isFlanked;
+    }
+
+    @Override
+    public String toString(){
+        String heroes = "";
+        if(null != this.characters) {
+            for (UnitModel hero : this.characters) {
+                heroes = heroes.concat(", " + hero.toString());
+            }
+        }
+        if(!heroes.isEmpty()) heroes = heroes.substring(1, heroes.length());
+        String unit =
+                this.unitModel.getRace() + " " + this.unitModel.getName() + "\n" +
+                "    Model count: " + this.getNumModels() + "\n" +
+                "    Ranks: " + this.getFullRanks() + "\n" +
+                "    Files: " + this.getFiles() + "\n" +
+                "    Model: " + this.unitModel.toString() + "\n" +
+                (null != this.characters && !this.characters.isEmpty() ? "    Characters: " + heroes : "") +"\n";
+
+        return unit;
+    }
+
+    public boolean isBroken() {
+        return isBroken;
+    }
+
+    public void setBroken(boolean isBroken) {
+        this.isBroken = isBroken;
+    }
+
+    public boolean isHasChampion() {
+        return hasChampion;
+    }
+
+    public void setHasChampion(boolean hasChampion) {
+        this.hasChampion = hasChampion;
+    }
+
+    public CloseCombatService getCombatService() {
+        return combatService;
+    }
+
+    public void setCombatService(CloseCombatService combatService) {
+        this.combatService = combatService;
+    }
+
+    public UnitTypeEnum getUnitType() {
+        return unitType;
+    }
+
+    public void setUnitType(UnitTypeEnum unitType) {
+        this.unitType = unitType;
+    }
+
+    public SpecialMovementService getSpecialMovementService() {
+        return specialMovementService;
+    }
+
+    public void setSpecialMovementService(SpecialMovementService specialMovementService) {
+        this.specialMovementService = specialMovementService;
+    }
+
+    public LeadershipTestService getLeadershipTestService() {
+        return leadershipTestService;
+    }
+
+    public void setLeadershipTestService(LeadershipTestService leadershipTestService) {
+        this.leadershipTestService = leadershipTestService;
+    }
+
+    public BreakTestService getBreakTestService() {
+        return breakTestService;
+    }
+
+    public void setBreakTestService(BreakTestService breakTestService) {
+        this.breakTestService = breakTestService;
     }
 }
