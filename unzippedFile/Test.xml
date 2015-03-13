@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="1711-631f-7d27-d2d6" battleScribeVersion="1.15" name="New Roster" points="300.0" pointsLimit="300.0" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemName="Warhammer Fantasy 8th ed" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <forces>
+    <force id="623d-1a0f-6bcc-cc13" catalogueId="6d2bd945-b04e-6da5-26bb-7968529e33ec" catalogueRevision="6" catalogueName="High Elves - Army Book (2013-4) -V8.8.0." forceTypeId="5374616e6461726423232344415441232323" forceTypeName="Standard">
+      <categories>
+        <category id="f8ac-3647-19b6-9ef7" categoryId="(No Category)" name="(No Category)">
+          <selections>
+            <selection id="9df3-6e11-50c9-6837" entryId="82bb2dc3-461b-f42c-0138-f68b0c9b503b" name="- Army Size" points="0.0" number="1" type="upgrade" page="0">
+              <rules/>
+              <profiles/>
+              <selections>
+                <selection id="89a1-45a3-ead7-aa93" entryId="e5768c44-d802-2cfe-2dc0-1dc1a36f9459" entryGroupId="efc28233-7ea9-aa74-60a5-63013c95a365" name="Army (0-2999 points)" points="0.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles/>
+                  <selections/>
+                </selection>
+              </selections>
+            </selection>
+          </selections>
+        </category>
+        <category id="38fe-c72d-c3cc-13b0" categoryId="4c6f72647323232344415441232323" name="Lords">
+          <selections/>
+        </category>
+        <category id="42c6-9f49-e4fe-2c75" categoryId="4865726f657323232344415441232323" name="Heroes">
+          <selections/>
+        </category>
+        <category id="c7d4-10c2-70dc-a061" categoryId="436f726523232344415441232323" name="Core">
+          <selections>
+            <selection id="f500-6d99-8b8c-0581" entryId="fb031e53-ec5c-dbab-ab47-92e62785f98a" name="Spearmen" points="0.0" number="1" type="unit" page="0">
+              <rules>
+                <rule ruleId="0a6f8421-c881-fef8-c995-0a4b34193cf3::1bbb9bc8-82ab-405c-0fa5-1f635f58ae1c" name="Valour of Ages" hidden="false" book="AB" page="36">
+                  <description>.</description>
+                </rule>
+                <rule ruleId="e12ca4e1-c437-1704-0b7d-7e12777006cd::dff63dea-a2fd-42e3-8b5b-0adeaa5d26ad" name="Martial Prowess" hidden="false" book="AB" page="36">
+                  <description>.</description>
+                </rule>
+                <rule ruleId="2ef1d09f-4c10-083e-56d1-24e254d8f458::7768a3fb-06df-d5bb-a773-b1ef1bdcecf7" name="Always Strikes First (FAQ&apos;ed)" hidden="false" book="BRB" page="66">
+                  <description>ERRATA
+Change “[...]re-roll failed misses[...]” to “[...]re-roll
+misses[...]” in the first sentence of the third paragraph.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile profileId="a4791e2f-4257-d51d-0202-718a40e975a3::babb18c7-7b54-b2dc-5816-7651ae0fd0d6" name="Spear (Foot)" type="Weapon" hidden="false" book="AB" page="91">
+                  <characteristics>
+                    <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                    <characteristic name="Strength" value="As user" characteristicId="537472656e67746823232344415441232323"/>
+                    <characteristic name="Special Rules" value="Fight in extra rank (not when charged)" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="95f9407c-8f36-af43-ab70-8048ab2deccb::67b313e7-9ce0-4961-0814-1ba86d0fe8d4" name="Light Armour" type="Armour" hidden="false" book="BRB" page="43">
+                  <characteristics>
+                    <characteristic name="Saving Throw modifier" value="6+" characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
+                    <characteristic name="Special Rules" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="ae16cb67-adad-ec79-8570-522446e72cf3::57f88748-894e-0d99-46ca-18acf539f973" name="Shield" type="Armour" hidden="false" book="BRB" page="43">
+                  <characteristics>
+                    <characteristic name="Saving Throw modifier" value="-1" characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
+                    <characteristic name="Special Rules" value="Parry Save (BRB-88)" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="5170-e798-9200-695b" entryId="22218319-aba5-77c2-7bbf-08fed1ab56f0" name="Spearman" points="270.0" number="30" type="model" page="0">
+                  <rules/>
+                  <profiles>
+                    <profile profileId="f588fd05-7838-0490-4a0c-8c1ab765feef" name="Spearman" type="Model" hidden="false" book="AB" page="40">
+                      <characteristics>
+                        <characteristic name="M" value="5" characteristicId="4d23232344415441232323"/>
+                        <characteristic name="WS" value="4" characteristicId="575323232344415441232323"/>
+                        <characteristic name="BS" value="4" characteristicId="425323232344415441232323"/>
+                        <characteristic name="S" value="3" characteristicId="5323232344415441232323"/>
+                        <characteristic name="T" value="3" characteristicId="5423232344415441232323"/>
+                        <characteristic name="W" value="1" characteristicId="5723232344415441232323"/>
+                        <characteristic name="I" value="5" characteristicId="4923232344415441232323"/>
+                        <characteristic name="A" value="1" characteristicId="4123232344415441232323"/>
+                        <characteristic name="LD" value="8" characteristicId="4c4423232344415441232323"/>
+                        <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                        <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                        <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                        <characteristic name="Type" value="Infantry" characteristicId="5479706523232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+                <selection id="67fd-9f0e-6bec-f3cf" entryId="1e369cfa-230e-0d40-93cb-23d57bdc409b" entryGroupId="745004e2-0132-29e5-df7f-e2691409c543" name="Musician" points="10.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles/>
+                  <selections/>
+                </selection>
+                <selection id="4eef-b72e-c717-034d" entryId="15d7b209-fef1-8011-6b85-5d0d614f6443" entryGroupId="745004e2-0132-29e5-df7f-e2691409c543" name="Champion" points="10.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles>
+                    <profile profileId="a3d8dd90-b345-993b-bc3f-4b0078ca9d76" name="Sentinel" type="Model" hidden="false" book="AB" page="40">
+                      <characteristics>
+                        <characteristic name="M" value="5" characteristicId="4d23232344415441232323"/>
+                        <characteristic name="WS" value="4" characteristicId="575323232344415441232323"/>
+                        <characteristic name="BS" value="4" characteristicId="425323232344415441232323"/>
+                        <characteristic name="S" value="3" characteristicId="5323232344415441232323"/>
+                        <characteristic name="T" value="3" characteristicId="5423232344415441232323"/>
+                        <characteristic name="W" value="1" characteristicId="5723232344415441232323"/>
+                        <characteristic name="I" value="5" characteristicId="4923232344415441232323"/>
+                        <characteristic name="A" value="2" characteristicId="4123232344415441232323"/>
+                        <characteristic name="LD" value="8" characteristicId="4c4423232344415441232323"/>
+                        <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                        <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                        <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                        <characteristic name="Type" value="Infantry" characteristicId="5479706523232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+                <selection id="9830-ceb3-e3c1-dc9f" entryId="57a39d75-2b91-c647-0cb1-3923057b2ac4" entryGroupId="745004e2-0132-29e5-df7f-e2691409c543" name="Standard Bearer" points="10.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles/>
+                  <selections/>
+                </selection>
+              </selections>
+            </selection>
+          </selections>
+        </category>
+        <category id="644a-979c-b1fa-79e0" categoryId="4465746163686d656e7423232344415441232323" name="Detachment">
+          <selections/>
+        </category>
+        <category id="d3a7-a192-c48b-014d" categoryId="5370656369616c23232344415441232323" name="Special">
+          <selections/>
+        </category>
+        <category id="b1d6-8c2e-a367-e4f8" categoryId="5261726523232344415441232323" name="Rare">
+          <selections/>
+        </category>
+      </categories>
+      <forces/>
+    </force>
+  </forces>
+  <rules/>
+</roster>

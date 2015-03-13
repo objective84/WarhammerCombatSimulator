@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="d146-5a45-d3ba-dc25" battleScribeVersion="1.15" name="New Roster" points="2000.0" pointsLimit="2000.0" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemName="Warhammer Fantasy 8th ed" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <forces>
+    <force id="8b36-de6b-ffe8-a3c9" catalogueId="d0f6d5ae-af44-401a-9a02-e6df49652942" catalogueRevision="6" catalogueName="Empire - Army Book (2013-4) -V8.8.2." forceTypeId="5374616e6461726423232344415441232323" forceTypeName="Standard">
+      <categories>
+        <category id="67c3-cd94-d7b4-736b" categoryId="(No Category)" name="(No Category)">
+          <selections>
+            <selection id="98da-3eda-2af3-4af1" entryId="578a5b26-b90b-4c1d-a24d-72d54d6114d5" name="- Army Size" points="0.0" number="1" type="upgrade" page="0">
+              <rules/>
+              <profiles/>
+              <selections>
+                <selection id="c5e4-083c-82a4-9628" entryId="8d96fb8e-a094-4f8f-bf4b-921ce5fc2ca2" entryGroupId="da40f317-812b-4bcd-a79a-a09b4b370771" name="Army (0-2999 points)" points="0.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles/>
+                  <selections/>
+                </selection>
+              </selections>
+            </selection>
+          </selections>
+        </category>
+        <category id="a7a8-8934-0d5f-f2ed" categoryId="4c6f72647323232344415441232323" name="Lords">
+          <selections>
+            <selection id="45d1-76ab-6575-5353" entryId="a9471c68-b6dd-49b4-9108-13e9de5f290a" name="Battle Wizard Lord" points="165.0" number="1" type="model" page="0">
+              <rules/>
+              <profiles>
+                <profile profileId="15b119bf-bc45-76f4-f73a-4212c5791e6d" name="Battle Wizard Lord" type="Model" hidden="false" book="AB" page="33">
+                  <characteristics>
+                    <characteristic name="M" value="4" characteristicId="4d23232344415441232323"/>
+                    <characteristic name="WS" value="3" characteristicId="575323232344415441232323"/>
+                    <characteristic name="BS" value="3" characteristicId="425323232344415441232323"/>
+                    <characteristic name="S" value="3" characteristicId="5323232344415441232323"/>
+                    <characteristic name="T" value="4" characteristicId="5423232344415441232323"/>
+                    <characteristic name="W" value="3" characteristicId="5723232344415441232323"/>
+                    <characteristic name="I" value="3" characteristicId="4923232344415441232323"/>
+                    <characteristic name="A" value="1" characteristicId="4123232344415441232323"/>
+                    <characteristic name="LD" value="8" characteristicId="4c4423232344415441232323"/>
+                    <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                    <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                    <characteristic name="Type" value="Infantry" characteristicId="5479706523232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="47ad440d-e64c-2826-cb30-0c03f7ad37ba::91e334ae-14c6-755f-5911-48ff700f784f" name="Hand Weapon" type="Weapon" hidden="false" book="BRB" page="88">
+                  <characteristics>
+                    <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                    <characteristic name="Strength" value="As User" characteristicId="537472656e67746823232344415441232323"/>
+                    <characteristic name="Special Rules" value="None" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="5aa7-734b-dd25-21b1" entryId="aaeb4a30-2dae-4be5-8c67-6f62dd3af1f6" entryGroupId="d3e9ddd3-1fdf-42a8-9285-168a11628223" name="Lore of Life" points="0.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles/>
+                  <selections/>
+                </selection>
+                <selection id="0397-5f8c-8338-2e74" entryId="e173c539-508b-404e-9a19-49da8639d908" entryGroupId="d5b4e5eb-f64e-4fe6-8d60-c1a95fc107d9" name="Wizard Level 4" points="35.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles/>
+                  <selections/>
+                </selection>
+              </selections>
+            </selection>
+            <selection id="fc84-6700-5582-f4c3" entryId="3820a9b8-486e-4e7e-aa0d-a697ace59295" name="General of the Empire" points="95.0" number="1" type="model" page="0">
+              <rules>
+                <rule ruleId="1c8b78fb-0d2e-194d-1008-e8f80c42dd0c" name="Hold the Line!" hidden="false" book="AB" page="32">
+                  <description>.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile profileId="54a7d943-7ea5-336d-10b2-897173fbc23d" name="General of the Empire" type="Model" hidden="false" book="AB" page="32">
+                  <characteristics>
+                    <characteristic name="M" value="4" characteristicId="4d23232344415441232323"/>
+                    <characteristic name="WS" value="5" characteristicId="575323232344415441232323"/>
+                    <characteristic name="BS" value="5" characteristicId="425323232344415441232323"/>
+                    <characteristic name="S" value="4" characteristicId="5323232344415441232323"/>
+                    <characteristic name="T" value="4" characteristicId="5423232344415441232323"/>
+                    <characteristic name="W" value="3" characteristicId="5723232344415441232323"/>
+                    <characteristic name="I" value="5" characteristicId="4923232344415441232323"/>
+                    <characteristic name="A" value="3" characteristicId="4123232344415441232323"/>
+                    <characteristic name="LD" value="9" characteristicId="4c4423232344415441232323"/>
+                    <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                    <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                    <characteristic name="Type" value="Infantry" characteristicId="5479706523232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="04520455-5358-b5ce-8ef3-327e8a0a3eba::91e334ae-14c6-755f-5911-48ff700f784f" name="Hand Weapon" type="Weapon" hidden="false" book="BRB" page="88">
+                  <characteristics>
+                    <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                    <characteristic name="Strength" value="As User" characteristicId="537472656e67746823232344415441232323"/>
+                    <characteristic name="Special Rules" value="None" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="9c4a-ab26-6e98-fe3c" entryId="52ca8416-6a93-46ee-ae3a-2b2820a76f01" entryGroupId="5b9b93ac-8d23-40c6-8d4a-9a1122703c22" name="Full Plate Armour" points="9.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles>
+                    <profile profileId="296fc7be-7983-4a6c-4a89-acd83a38b926::b65335cd-c572-49ae-fbb8-48f59ffb85d9" name="Full Plate Armour" type="Armour" hidden="false" book="AB" page="31">
+                      <characteristics>
+                        <characteristic name="Saving Throw modifier" value="4+" characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
+                        <characteristic name="Special Rules" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+                <selection id="887d-5b05-3da3-6629" entryId="e7b2e85d-d2b4-4930-85d0-028afe20b0bd" entryGroupId="e960fb97-8edb-4257-bf5d-9814743e2d08" name="Great Weapon" points="6.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles>
+                    <profile profileId="8ce3324c-26e2-e97d-fe5e-fc406973f693::868ba624-13d1-db13-af64-e3cd3c3aa31e" name="Great Weapon" type="Weapon" hidden="false" book="BRB" page="90">
+                      <characteristics>
+                        <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                        <characteristic name="Strength" value="&apos;+2" characteristicId="537472656e67746823232344415441232323"/>
+                        <characteristic name="Special Rules" value="Requires Two Hands (BRB-75), Always Strikes Last (BRB-66)" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+              </selections>
+            </selection>
+          </selections>
+        </category>
+        <category id="8030-8806-70af-c126" categoryId="4865726f657323232344415441232323" name="Heroes">
+          <selections>
+            <selection id="0a60-8a69-d22b-34d5" entryId="48ce530a-6fad-47c5-80bd-df13f8db1823" name="Battle Wizard" points="65.0" number="1" type="model" page="0">
+              <rules/>
+              <profiles>
+                <profile profileId="8e8699af-36d1-fca4-c9c5-c5f4cab83891" name="Battle Wizard" type="Model" hidden="false" book="AB" page="33">
+                  <characteristics>
+                    <characteristic name="M" value="4" characteristicId="4d23232344415441232323"/>
+                    <characteristic name="WS" value="3" characteristicId="575323232344415441232323"/>
+                    <characteristic name="BS" value="3" characteristicId="425323232344415441232323"/>
+                    <characteristic name="S" value="3" characteristicId="5323232344415441232323"/>
+                    <characteristic name="T" value="3" characteristicId="5423232344415441232323"/>
+                    <characteristic name="W" value="2" characteristicId="5723232344415441232323"/>
+                    <characteristic name="I" value="3" characteristicId="4923232344415441232323"/>
+                    <characteristic name="A" value="1" characteristicId="4123232344415441232323"/>
+                    <characteristic name="LD" value="7" characteristicId="4c4423232344415441232323"/>
+                    <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                    <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                    <characteristic name="Type" value="Infantry" characteristicId="5479706523232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="15eca856-3c8f-4fd6-dab6-ba8052010327::91e334ae-14c6-755f-5911-48ff700f784f" name="Hand Weapon" type="Weapon" hidden="false" book="BRB" page="88">
+                  <characteristics>
+                    <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                    <characteristic name="Strength" value="As User" characteristicId="537472656e67746823232344415441232323"/>
+                    <characteristic name="Special Rules" value="None" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="6e2e-5a35-da59-fb74" entryId="deea6a15-3835-44e2-aec8-820fc961493d" entryGroupId="018c43b2-71df-457a-a712-4b74b93a22c3" name="Lore of Light" points="0.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles/>
+                  <selections/>
+                </selection>
+                <selection id="6529-492b-b5a3-07d7" entryId="e71e9a57-0b76-4213-8332-7528f29637f1" name="Magic Items" points="0.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles/>
+                  <selections>
+                    <selection id="6021-4f50-a064-492b" entryId="0471b3c0-1ea1-8bda-933c-69b86af9872e::62cd953e-49ac-4d73-0503-c90984e2dcce" entryGroupId="0471b3c0-1ea1-8bda-933c-69b86af9872e::056f21eb-c2dc-0a28-127c-95bad7a50816" name="BRB - Dispel Scroll" points="25.0" number="1" type="upgrade" page="0">
+                      <rules/>
+                      <profiles>
+                        <profile profileId="0471b3c0-1ea1-8bda-933c-69b86af9872e::96f67ed3-9322-3c04-4f16-63b77a9608fc" name="Dispel Scroll" type="Arcane and Enchanted Item" hidden="false" book="BRB" page="504">
+                          <characteristics>
+                            <characteristic name="Magic Property" value="One use only. Dispel spell if no IF." characteristicId="4d616769632050726f706572747923232344415441232323"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <selections/>
+                    </selection>
+                  </selections>
+                </selection>
+                <selection id="8d11-a258-6765-b341" entryId="e6444e96-ffaa-47df-bb11-96af8df7f3c7" entryGroupId="c24875c6-345b-4f17-aacf-dcf1b31b3052" name="Wizard Level 1" points="0.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles/>
+                  <selections/>
+                </selection>
+              </selections>
+            </selection>
+            <selection id="1452-303e-4eb9-c644" entryId="69371494-f60d-4543-bb06-1cf285f1b433" name="Captain of the Empire" points="60.0" number="1" type="model" page="0">
+              <rules>
+                <rule ruleId="1ca63e4b-6a81-35ad-8131-db65086c012f" name="Hold the Line!" hidden="false" book="AB" page="32">
+                  <description>.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile profileId="d747b4f2-9d2b-a828-6bd7-a7f720a7f5b1" name="Captain of the Empire" type="Model" hidden="false" book="AB" page="32">
+                  <characteristics>
+                    <characteristic name="M" value="4" characteristicId="4d23232344415441232323"/>
+                    <characteristic name="WS" value="5" characteristicId="575323232344415441232323"/>
+                    <characteristic name="BS" value="5" characteristicId="425323232344415441232323"/>
+                    <characteristic name="S" value="4" characteristicId="5323232344415441232323"/>
+                    <characteristic name="T" value="4" characteristicId="5423232344415441232323"/>
+                    <characteristic name="W" value="2" characteristicId="5723232344415441232323"/>
+                    <characteristic name="I" value="5" characteristicId="4923232344415441232323"/>
+                    <characteristic name="A" value="3" characteristicId="4123232344415441232323"/>
+                    <characteristic name="LD" value="8" characteristicId="4c4423232344415441232323"/>
+                    <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                    <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                    <characteristic name="Type" value="Infantry" characteristicId="5479706523232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="a318f7f4-add6-bd24-e0bb-004f8e0c4777::91e334ae-14c6-755f-5911-48ff700f784f" name="Hand Weapon" type="Weapon" hidden="false" book="BRB" page="88">
+                  <characteristics>
+                    <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                    <characteristic name="Strength" value="As User" characteristicId="537472656e67746823232344415441232323"/>
+                    <characteristic name="Special Rules" value="None" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="59ce-32d5-2b11-246b" entryId="6574042b-acfe-44fd-9d2e-d779d02e92a5" name="Battle Standard Bearer" points="25.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles/>
+                  <selections>
+                    <selection id="833e-ff68-014c-a9a4" entryId="0436b100-72a4-7449-b659-72aecf039de2::265f62e1-b2ea-fa48-73fc-ca8524132e46" entryGroupId="0436b100-72a4-7449-b659-72aecf039de2::772334a1-fcdb-7260-068a-f8fe5ef49a0a" name="AB - Griffon Standard" points="60.0" number="1" type="upgrade" page="0">
+                      <rules/>
+                      <profiles>
+                        <profile profileId="0436b100-72a4-7449-b659-72aecf039de2::dd649ecf-a37d-5e0d-8205-a9fedefb9757" name="Griffon Standard" type="Magic Standard" hidden="false" book="AB" page="63">
+                          <characteristics>
+                            <characteristic name="Magical Emination" value="Double rank bonus for Combat Resolution. Never pursue." characteristicId="4d61676963616c20456d696e6174696f6e23232344415441232323"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <selections/>
+                    </selection>
+                  </selections>
+                </selection>
+                <selection id="48b1-652f-85ed-d1af" entryId="e1978c92-7283-4494-a7e0-0ca8e006d287" entryGroupId="6c27059a-aab3-40ba-8de1-4031f5cc5794" name="Full Plate Armour" points="6.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles>
+                    <profile profileId="b847f8cc-b570-7887-6595-a474295c7889::b65335cd-c572-49ae-fbb8-48f59ffb85d9" name="Full Plate Armour" type="Armour" hidden="false" book="AB" page="31">
+                      <characteristics>
+                        <characteristic name="Saving Throw modifier" value="4+" characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
+                        <characteristic name="Special Rules" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+                <selection id="4892-fc0a-6b50-ab69" entryId="8c74c737-8c6a-46a7-8617-ee62ca656083" entryGroupId="26a5cd96-f2e1-4ab2-bb25-e9a052f9a098" name="Great Weapon" points="6.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles>
+                    <profile profileId="05fe2568-bd5c-e564-a976-cf6ea1f1ad73::868ba624-13d1-db13-af64-e3cd3c3aa31e" name="Great Weapon" type="Weapon" hidden="false" book="BRB" page="90">
+                      <characteristics>
+                        <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                        <characteristic name="Strength" value="&apos;+2" characteristicId="537472656e67746823232344415441232323"/>
+                        <characteristic name="Special Rules" value="Requires Two Hands (BRB-75), Always Strikes Last (BRB-66)" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+              </selections>
+            </selection>
+            <selection id="35d2-80b4-5f8a-b7d0" entryId="6cc43bd5-049d-41cb-ab3b-8c734773c354" name="Witch Hunter" points="50.0" number="1" type="model" page="0">
+              <rules>
+                <rule ruleId="7a8227f6-35cd-9ee1-399a-a3e26a056bd5" name="Accusation" hidden="false" book="AB" page="37">
+                  <description>.</description>
+                </rule>
+                <rule ruleId="8dd10423-435b-d2bc-844d-245fa3389169" name="Grim Resolve" hidden="false" book="AB" page="37">
+                  <description>.</description>
+                </rule>
+                <rule ruleId="e126cf3f-9614-db6f-08be-de32ab970358" name="Tools of Judgement" hidden="false" book="AB" page="37">
+                  <description>.</description>
+                </rule>
+                <rule ruleId="516ab9ff-f65b-d33d-1486-7bcdf5b09f89::f166faeb-698a-0f39-ffd7-59482b233df7" name="Magic Resistance (*)" hidden="false" book="BRB" page="72">
+                  <description>.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile profileId="2b23adf0-b998-4524-7438-199cfef5f7dc" name="Witch Hunter" type="Model" hidden="false" book="AB" page="37">
+                  <characteristics>
+                    <characteristic name="M" value="4" characteristicId="4d23232344415441232323"/>
+                    <characteristic name="WS" value="4" characteristicId="575323232344415441232323"/>
+                    <characteristic name="BS" value="4" characteristicId="425323232344415441232323"/>
+                    <characteristic name="S" value="4" characteristicId="5323232344415441232323"/>
+                    <characteristic name="T" value="4" characteristicId="5423232344415441232323"/>
+                    <characteristic name="W" value="2" characteristicId="5723232344415441232323"/>
+                    <characteristic name="I" value="4" characteristicId="4923232344415441232323"/>
+                    <characteristic name="A" value="2" characteristicId="4123232344415441232323"/>
+                    <characteristic name="LD" value="8" characteristicId="4c4423232344415441232323"/>
+                    <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                    <characteristic name="MR" value="2" characteristicId="4d5223232344415441232323"/>
+                    <characteristic name="Type" value="Infantry" characteristicId="5479706523232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="2b7db537-004b-32c0-8a55-fabf2f77e72b::91e334ae-14c6-755f-5911-48ff700f784f" name="Hand Weapon" type="Weapon" hidden="false" book="BRB" page="88">
+                  <characteristics>
+                    <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                    <characteristic name="Strength" value="As User" characteristicId="537472656e67746823232344415441232323"/>
+                    <characteristic name="Special Rules" value="None" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="921b843a-5dc4-9c34-ec7c-e905ba6dbab0::3ad66b48-3d43-3461-5a10-36909da16a28" name="Light Armour" type="Armour" hidden="false" book="BRB" page="43">
+                  <characteristics>
+                    <characteristic name="Saving Throw modifier" value="6+" characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
+                    <characteristic name="Special Rules" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="817c-9ba1-595c-3425" entryId="3c46a3dd-9db3-4fee-b60e-386ffbd9d035" entryGroupId="0d923a41-21af-42f3-96d1-ef0062958160" name="Brace of Pistols" points="5.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles>
+                    <profile profileId="d2b876f0-6815-6e5e-ac60-ce44654b8052::45c5137a-6ca2-988d-63c6-53553e05cadc" name="Brace of Pistols (Combat) (FAQ&apos;ed)" type="Weapon" hidden="false" book="BRB" page="91">
+                      <characteristics>
+                        <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                        <characteristic name="Strength" value="As user" characteristicId="537472656e67746823232344415441232323"/>
+                        <characteristic name="Special Rules" value="Extra Attack (BRB-69), Requires Two Hands (BRB-75)" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                    <profile profileId="8535edcf-4b55-e2ce-d0da-410b7d219b04::ac4a0b09-2946-5361-6e8b-da544009207d" name="Brace of Pistols (Shooting) (FAQ&apos;ed)" type="Weapon" hidden="false" book="BRB" page="91">
+                      <characteristics>
+                        <characteristic name="Range" value="12&quot;" characteristicId="52616e676523232344415441232323"/>
+                        <characteristic name="Strength" value="4" characteristicId="537472656e67746823232344415441232323"/>
+                        <characteristic name="Special Rules" value="Armour Piercing (BRB-67), Multiple Shots (4) (BRB-73), Quick to Fire (BRB-73), Requires Two Hands (BRB-75)" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+                <selection id="96e2-b679-bb07-2452" entryId="bc8338f8-dfbe-4577-af25-04ef057f0429" name="Magic Items" points="0.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles/>
+                  <selections>
+                    <selection id="37c9-f817-1abb-e7f3" entryId="a5bd678e-8036-ccd6-9e5f-96f717bc1566::5f571775-3529-672d-41cb-1d2f0fa27120" entryGroupId="a5bd678e-8036-ccd6-9e5f-96f717bc1566::29e2c143-797c-4e2f-aa4e-df2c3d7ede72" name="BRB - Ruby Ring of Ruin" points="25.0" number="1" type="upgrade" page="0">
+                      <rules/>
+                      <profiles>
+                        <profile profileId="a5bd678e-8036-ccd6-9e5f-96f717bc1566::5eb00316-d37d-f5d6-14e6-fef32b2d9bfe" name="Ruby Ring of Ruin" type="Arcane and Enchanted Item" hidden="false" book="BRB" page="505">
+                          <characteristics>
+                            <characteristic name="Magic Property" value="Bound Spell: Power Level 3. Fireball spell (BRB-492)" characteristicId="4d616769632050726f706572747923232344415441232323"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <selections/>
+                    </selection>
+                  </selections>
+                </selection>
+              </selections>
+            </selection>
+          </selections>
+        </category>
+        <category id="0c84-a2b9-e941-269a" categoryId="436f726523232344415441232323" name="Core">
+          <selections>
+            <selection id="ba59-b45b-5177-922e" entryId="3307075a-ece9-4130-b476-2070a9612728" name="Archers" points="0.0" number="1" type="unit" customName="Archer Screen" page="0">
+              <rules>
+                <rule ruleId="2fc2e2ec-6321-0e2c-dea0-c080c72f19b2::c3f431c0-a7fb-42fe-ae67-07c38b7fa74b" name="Regimental Unit" hidden="false" book="AB" page="30">
+                  <description>.</description>
+                </rule>
+                <rule ruleId="ce3c99b9-27f5-e874-75c6-483abee9d18d::496c0e45-bac5-4762-0e70-6467bb98fe43" name="Skirmishers (FAQ&apos;ed)" hidden="false" book="BRB" page="77">
+                  <description>ERRATA
+Free Reform.
+Change “[...]move, provided[...]” to “[...]move, even if it
+marches, provided[...]”. Change “[...]double its Move value.”
+to “[...]double its Movement value.”
+
+Light Troops.
+Change “[...]zero ranks[...]” to “[...]zero ranks in
+combat[...]”.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile profileId="a5b3a927-f8da-bcf2-a583-28a89e916be2::91e334ae-14c6-755f-5911-48ff700f784f" name="Hand Weapon" type="Weapon" hidden="false" book="BRB" page="88">
+                  <characteristics>
+                    <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                    <characteristic name="Strength" value="As User" characteristicId="537472656e67746823232344415441232323"/>
+                    <characteristic name="Special Rules" value="None" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="9837c94a-8344-2601-0a66-380949d3a15a::aca0107e-c868-e705-8b03-fd82e7674c3a" name="Bow" type="Weapon" hidden="false" book="BRB" page="90">
+                  <characteristics>
+                    <characteristic name="Range" value="24&quot;" characteristicId="52616e676523232344415441232323"/>
+                    <characteristic name="Strength" value="3" characteristicId="537472656e67746823232344415441232323"/>
+                    <characteristic name="Special Rules" value="Volley Fire (BRB-78)" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="2493-d7c6-b190-f55d" entryId="48b63478-4ddf-40f4-9947-441e6fd0a2ed" name="Archers" points="70.0" number="10" type="upgrade" page="0">
+                  <rules/>
+                  <profiles>
+                    <profile profileId="f8078965-35b4-6b09-ae80-defed6567070::ba30c7fe-f6a7-905a-de11-791b9d932670" name="Empire Soldier" type="Model" hidden="false" book="AB" page="38">
+                      <characteristics>
+                        <characteristic name="M" value="4" characteristicId="4d23232344415441232323"/>
+                        <characteristic name="WS" value="3" characteristicId="575323232344415441232323"/>
+                        <characteristic name="BS" value="3" characteristicId="425323232344415441232323"/>
+                        <characteristic name="S" value="3" characteristicId="5323232344415441232323"/>
+                        <characteristic name="T" value="3" characteristicId="5423232344415441232323"/>
+                        <characteristic name="W" value="1" characteristicId="5723232344415441232323"/>
+                        <characteristic name="I" value="3" characteristicId="4923232344415441232323"/>
+                        <characteristic name="A" value="1" characteristicId="4123232344415441232323"/>
+                        <characteristic name="LD" value="7" characteristicId="4c4423232344415441232323"/>
+                        <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                        <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                        <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                        <characteristic name="Type" value="Infantry" characteristicId="5479706523232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+              </selections>
+            </selection>
+            <selection id="2c10-6b65-7d6f-b30c" entryId="ce3439d1-5107-4d58-86b2-e9b73b584750" name="Knightly Orders Inner Circle" points="0.0" number="1" type="unit" customName="Cavalry" page="0">
+              <rules/>
+              <profiles>
+                <profile profileId="5900ea7a-ed16-6653-a4e9-59e09fe91076::9f4ff25d-c4c5-33e4-e5a5-f01a6e4635bc" name="Barding" type="Armour" hidden="false" book="BRB" page="83">
+                  <characteristics>
+                    <characteristic name="Saving Throw modifier" value="-1" characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
+                    <characteristic name="Special Rules" value="-1M" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="fa87fbc3-83cb-0afd-e1ed-d46fc9524fb2::b65335cd-c572-49ae-fbb8-48f59ffb85d9" name="Full Plate Armour" type="Armour" hidden="false" book="AB" page="31">
+                  <characteristics>
+                    <characteristic name="Saving Throw modifier" value="4+" characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
+                    <characteristic name="Special Rules" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="461cc2af-e3e2-cc17-977a-505c6117bbd5::91e334ae-14c6-755f-5911-48ff700f784f" name="Hand Weapon" type="Weapon" hidden="false" book="BRB" page="88">
+                  <characteristics>
+                    <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                    <characteristic name="Strength" value="As User" characteristicId="537472656e67746823232344415441232323"/>
+                    <characteristic name="Special Rules" value="None" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="1018-b8bc-9517-6fe0" entryId="2e61cb86-faa2-4a57-aedb-ac9d7ddb21f6" entryGroupId="9e5e9f33-d750-4b35-924e-1ac760eda6d0" name="Champion" points="10.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles>
+                    <profile profileId="55fb58d3-fd61-65b5-cc16-3ac16b5edf4b" name="Inner Circle Preceptor" type="Model" hidden="false" book="AB" page="43">
+                      <characteristics>
+                        <characteristic name="M" value="4" characteristicId="4d23232344415441232323"/>
+                        <characteristic name="WS" value="4" characteristicId="575323232344415441232323"/>
+                        <characteristic name="BS" value="3" characteristicId="425323232344415441232323"/>
+                        <characteristic name="S" value="4" characteristicId="5323232344415441232323"/>
+                        <characteristic name="T" value="3" characteristicId="5423232344415441232323"/>
+                        <characteristic name="W" value="1" characteristicId="5723232344415441232323"/>
+                        <characteristic name="I" value="3" characteristicId="4923232344415441232323"/>
+                        <characteristic name="A" value="2" characteristicId="4123232344415441232323"/>
+                        <characteristic name="LD" value="8" characteristicId="4c4423232344415441232323"/>
+                        <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                        <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                        <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                        <characteristic name="Type" value="-" characteristicId="5479706523232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+                <selection id="b585-177e-97a3-76e9" entryId="ee50d5ee-c846-4d73-b777-e90a1b58bcef" name="Knightly Orders Inner Circle" points="125.0" number="5" type="model" page="0">
+                  <rules/>
+                  <profiles>
+                    <profile profileId="1ee38066-3324-9181-e42f-23b53b13d38c" name="Inner Circle Knight" type="Model" hidden="false" book="AB" page="43">
+                      <characteristics>
+                        <characteristic name="M" value="4" characteristicId="4d23232344415441232323"/>
+                        <characteristic name="WS" value="4" characteristicId="575323232344415441232323"/>
+                        <characteristic name="BS" value="3" characteristicId="425323232344415441232323"/>
+                        <characteristic name="S" value="4" characteristicId="5323232344415441232323"/>
+                        <characteristic name="T" value="3" characteristicId="5423232344415441232323"/>
+                        <characteristic name="W" value="1" characteristicId="5723232344415441232323"/>
+                        <characteristic name="I" value="3" characteristicId="4923232344415441232323"/>
+                        <characteristic name="A" value="1" characteristicId="4123232344415441232323"/>
+                        <characteristic name="LD" value="8" characteristicId="4c4423232344415441232323"/>
+                        <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                        <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                        <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                        <characteristic name="Type" value="-" characteristicId="5479706523232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+                <selection id="54cf-abb7-f6e8-169a" entryId="ec22ae55-8d1e-477b-a09a-43a0156020ae" entryGroupId="f1b59c3d-1558-4d32-9426-1adcfff7d5e2" name="Lance and Shield" points="0.0" number="1" type="unit" page="0">
+                  <rules/>
+                  <profiles>
+                    <profile profileId="0f650fb3-601e-0960-89c6-634f2b0bb9e0::3590b601-4b83-0907-4058-2ad0e58a6d31" name="Lance (mounted models only)" type="Weapon" hidden="false" book="BRB" page="90">
+                      <characteristics>
+                        <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                        <characteristic name="Strength" value="+2 on the charge" characteristicId="537472656e67746823232344415441232323"/>
+                        <characteristic name="Special Rules" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                    <profile profileId="44a44c00-9a50-ac6d-6b0f-babb0008976d::e3b11523-1bd6-9b22-8e8e-980218c9c1d6" name="Shield" type="Armour" hidden="false" book="BRB" page="43">
+                      <characteristics>
+                        <characteristic name="Saving Throw modifier" value="-1" characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
+                        <characteristic name="Special Rules" value="Parry Save (BRB-88)" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+                <selection id="a50b-7d6a-97c6-ccbb" entryId="0b5aac1c-d052-452a-bbf2-bd33e3ddecf2" entryGroupId="9e5e9f33-d750-4b35-924e-1ac760eda6d0" name="Musician" points="10.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles/>
+                  <selections/>
+                </selection>
+                <selection id="15c8-bb88-2be9-f62f" entryId="67158d09-8eab-4004-8dfb-afc4bfdb0dd3" entryGroupId="9e5e9f33-d750-4b35-924e-1ac760eda6d0" name="Standard Bearer" points="10.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles/>
+                  <selections/>
+                </selection>
+                <selection id="84db-d5a6-c44a-8778" entryId="dad69e29-1183-eaac-ddf3-9043fd4426cb::8ea6f327-b615-f8bf-1e15-e7a370f7c655" name="Warhorse" points="0.0" number="1" type="upgrade" page="0">
+                  <rules>
+                    <rule ruleId="dad69e29-1183-eaac-ddf3-9043fd4426cb::08e2a5c3-2309-9682-0935-2c3362e44374::0fbf0d55-00e1-dc6c-e693-296829aaf3c5" name="Swiftstride" hidden="false" book="BRB" page="76">
+                      <description>.</description>
+                    </rule>
+                  </rules>
+                  <profiles>
+                    <profile profileId="dad69e29-1183-eaac-ddf3-9043fd4426cb::bb3c6037-44f1-977b-cd17-2492cc9dc0d0" name="Warhorse" type="Model" hidden="false" book="AB" page="87">
+                      <characteristics>
+                        <characteristic name="M" value="8" characteristicId="4d23232344415441232323"/>
+                        <characteristic name="WS" value="3" characteristicId="575323232344415441232323"/>
+                        <characteristic name="BS" value="0" characteristicId="425323232344415441232323"/>
+                        <characteristic name="S" value="3" characteristicId="5323232344415441232323"/>
+                        <characteristic name="T" value="3" characteristicId="5423232344415441232323"/>
+                        <characteristic name="W" value="1" characteristicId="5723232344415441232323"/>
+                        <characteristic name="I" value="3" characteristicId="4923232344415441232323"/>
+                        <characteristic name="A" value="1" characteristicId="4123232344415441232323"/>
+                        <characteristic name="LD" value="5" characteristicId="4c4423232344415441232323"/>
+                        <characteristic name="ArmourSave" value="-1" characteristicId="41726d6f75725361766523232344415441232323"/>
+                        <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                        <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                        <characteristic name="Type" value="Cavalry" characteristicId="5479706523232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+              </selections>
+            </selection>
+            <selection id="019a-56f2-cdde-984b" entryId="3bb7285d-75d4-42a0-8d0a-0a55fc5dbdae" name="Swordsmen" points="0.0" number="1" type="unit" customName="Interceptors" page="0">
+              <rules>
+                <rule ruleId="b1103bdb-9e23-b09e-bad9-d73a3fa8e98a::c3f431c0-a7fb-42fe-ae67-07c38b7fa74b" name="Regimental Unit" hidden="false" book="AB" page="30">
+                  <description>.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile profileId="d90d35fd-aee9-63b1-cbbd-d19311be27d3::3ad66b48-3d43-3461-5a10-36909da16a28" name="Light Armour" type="Armour" hidden="false" book="BRB" page="43">
+                  <characteristics>
+                    <characteristic name="Saving Throw modifier" value="6+" characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
+                    <characteristic name="Special Rules" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="34cd37f5-69fa-90f8-9d54-25add33fe81c::e3b11523-1bd6-9b22-8e8e-980218c9c1d6" name="Shield" type="Armour" hidden="false" book="BRB" page="43">
+                  <characteristics>
+                    <characteristic name="Saving Throw modifier" value="-1" characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
+                    <characteristic name="Special Rules" value="Parry Save (BRB-88)" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="826d40f1-4736-d579-fb3d-d01ad7d4a84e::91e334ae-14c6-755f-5911-48ff700f784f" name="Hand Weapon" type="Weapon" hidden="false" book="BRB" page="88">
+                  <characteristics>
+                    <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                    <characteristic name="Strength" value="As User" characteristicId="537472656e67746823232344415441232323"/>
+                    <characteristic name="Special Rules" value="None" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="7470-8453-2764-507a" entryId="089fbbfd-b7c3-4887-a617-54492029ff54" entryGroupId="3075a068-d284-4d23-9fc3-0f0c5f3d66cc" name="Champion" points="10.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles>
+                    <profile profileId="786d6061-0d85-ac45-e3c4-fc7b506b8d0d" name="Duellist" type="Model" hidden="false" book="AB" page="38">
+                      <characteristics>
+                        <characteristic name="M" value="4" characteristicId="4d23232344415441232323"/>
+                        <characteristic name="WS" value="4" characteristicId="575323232344415441232323"/>
+                        <characteristic name="BS" value="3" characteristicId="425323232344415441232323"/>
+                        <characteristic name="S" value="3" characteristicId="5323232344415441232323"/>
+                        <characteristic name="T" value="3" characteristicId="5423232344415441232323"/>
+                        <characteristic name="W" value="1" characteristicId="5723232344415441232323"/>
+                        <characteristic name="I" value="4" characteristicId="4923232344415441232323"/>
+                        <characteristic name="A" value="2" characteristicId="4123232344415441232323"/>
+                        <characteristic name="LD" value="7" characteristicId="4c4423232344415441232323"/>
+                        <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                        <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                        <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                        <characteristic name="Type" value="Infantry" characteristicId="5479706523232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+                <selection id="9767-b29c-9d8a-146c" entryId="8b58cc57-e1fd-480c-8f5d-6d2df8736459" name="Swordsmen" points="98.0" number="14" type="model" page="0">
+                  <rules/>
+                  <profiles>
+                    <profile profileId="08983992-91a5-cec7-44fa-3ca19c579fa6::9ef5c98f-6a11-2779-83b5-87841795ffde" name="Empire Swordsman" type="Model" hidden="false" book="AB" page="38">
+                      <characteristics>
+                        <characteristic name="M" value="4" characteristicId="4d23232344415441232323"/>
+                        <characteristic name="WS" value="4" characteristicId="575323232344415441232323"/>
+                        <characteristic name="BS" value="3" characteristicId="425323232344415441232323"/>
+                        <characteristic name="S" value="3" characteristicId="5323232344415441232323"/>
+                        <characteristic name="T" value="3" characteristicId="5423232344415441232323"/>
+                        <characteristic name="W" value="1" characteristicId="5723232344415441232323"/>
+                        <characteristic name="I" value="3" characteristicId="4923232344415441232323"/>
+                        <characteristic name="A" value="1" characteristicId="4123232344415441232323"/>
+                        <characteristic name="LD" value="7" characteristicId="4c4423232344415441232323"/>
+                        <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                        <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                        <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                        <characteristic name="Type" value="Infantry" characteristicId="5479706523232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+                <selection id="bf53-ba43-93da-d043" entryId="173cd87a-4224-4ade-80cd-ebe0d2c5e76a" entryGroupId="a3284dab-7bd8-4ed1-bd4e-796b55793e07" name="Swordsmen" points="0.0" number="1" type="unit" page="0">
+                  <rules/>
+                  <profiles/>
+                  <selections>
+                    <selection id="05ac-75ee-4c5f-9869" entryId="571f44fb-c787-49e7-930a-4d1203e1dd40" name="Swordsmen" points="49.0" number="7" type="model" page="0">
+                      <rules>
+                        <rule ruleId="0c68b635-283b-b5ee-ae4c-0e5518ee0d6b::d57f18d5-a07c-05c8-b6d6-c2a215b846b4" name="Detachment (FAQ&apos;ed)" hidden="false" book="AB" page="30">
+                          <description>Errata:
+Page 30 – Army Special Rules, Detachments.
+Add the following after the second paragraph:
+‘Whether or not a Detachment is Steadfast is determined by
+their Regimental unit. This means that if a Regimental Unit is
+either not engaged in combat itself, or is engaged in combat
+and is Steadfast, then all of its detachments are Steadfast, even
+if fighting an enemy with more ranks. If the Regimental Unit
+is engaged in combat and is not Steadfast, then none of its
+detachments can be Steadfast, even if fighting an enemy with
+less ranks.’</description>
+                        </rule>
+                      </rules>
+                      <profiles>
+                        <profile profileId="dd050b55-25b8-9b50-9965-895bc04b6f23::9ef5c98f-6a11-2779-83b5-87841795ffde" name="Empire Swordsman" type="Model" hidden="false" book="AB" page="38">
+                          <characteristics>
+                            <characteristic name="M" value="4" characteristicId="4d23232344415441232323"/>
+                            <characteristic name="WS" value="4" characteristicId="575323232344415441232323"/>
+                            <characteristic name="BS" value="3" characteristicId="425323232344415441232323"/>
+                            <characteristic name="S" value="3" characteristicId="5323232344415441232323"/>
+                            <characteristic name="T" value="3" characteristicId="5423232344415441232323"/>
+                            <characteristic name="W" value="1" characteristicId="5723232344415441232323"/>
+                            <characteristic name="I" value="3" characteristicId="4923232344415441232323"/>
+                            <characteristic name="A" value="1" characteristicId="4123232344415441232323"/>
+                            <characteristic name="LD" value="7" characteristicId="4c4423232344415441232323"/>
+                            <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                            <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                            <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                            <characteristic name="Type" value="Infantry" characteristicId="5479706523232344415441232323"/>
+                          </characteristics>
+                        </profile>
+                        <profile profileId="a7975326-d558-d912-e47b-a1e9e8af3c48::3ad66b48-3d43-3461-5a10-36909da16a28" name="Light Armour" type="Armour" hidden="false" book="BRB" page="43">
+                          <characteristics>
+                            <characteristic name="Saving Throw modifier" value="6+" characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
+                            <characteristic name="Special Rules" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                          </characteristics>
+                        </profile>
+                        <profile profileId="fd78fbf6-441a-fa38-2a00-7419960a67ab::e3b11523-1bd6-9b22-8e8e-980218c9c1d6" name="Shield" type="Armour" hidden="false" book="BRB" page="43">
+                          <characteristics>
+                            <characteristic name="Saving Throw modifier" value="-1" characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
+                            <characteristic name="Special Rules" value="Parry Save (BRB-88)" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                          </characteristics>
+                        </profile>
+                        <profile profileId="7ef39e1f-25ea-d28e-52dd-1d065a77024f::91e334ae-14c6-755f-5911-48ff700f784f" name="Hand Weapon" type="Weapon" hidden="false" book="BRB" page="88">
+                          <characteristics>
+                            <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                            <characteristic name="Strength" value="As User" characteristicId="537472656e67746823232344415441232323"/>
+                            <characteristic name="Special Rules" value="None" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <selections/>
+                    </selection>
+                  </selections>
+                </selection>
+                <selection id="9cbd-e6a4-2cb5-4242" entryId="173cd87a-4224-4ade-80cd-ebe0d2c5e76a" entryGroupId="a3284dab-7bd8-4ed1-bd4e-796b55793e07" name="Swordsmen" points="0.0" number="1" type="unit" page="0">
+                  <rules/>
+                  <profiles/>
+                  <selections>
+                    <selection id="efc2-9afe-f86f-a1d9" entryId="571f44fb-c787-49e7-930a-4d1203e1dd40" name="Swordsmen" points="49.0" number="7" type="model" page="0">
+                      <rules>
+                        <rule ruleId="0c68b635-283b-b5ee-ae4c-0e5518ee0d6b::d57f18d5-a07c-05c8-b6d6-c2a215b846b4" name="Detachment (FAQ&apos;ed)" hidden="false" book="AB" page="30">
+                          <description>Errata:
+Page 30 – Army Special Rules, Detachments.
+Add the following after the second paragraph:
+‘Whether or not a Detachment is Steadfast is determined by
+their Regimental unit. This means that if a Regimental Unit is
+either not engaged in combat itself, or is engaged in combat
+and is Steadfast, then all of its detachments are Steadfast, even
+if fighting an enemy with more ranks. If the Regimental Unit
+is engaged in combat and is not Steadfast, then none of its
+detachments can be Steadfast, even if fighting an enemy with
+less ranks.’</description>
+                        </rule>
+                      </rules>
+                      <profiles>
+                        <profile profileId="dd050b55-25b8-9b50-9965-895bc04b6f23::9ef5c98f-6a11-2779-83b5-87841795ffde" name="Empire Swordsman" type="Model" hidden="false" book="AB" page="38">
+                          <characteristics>
+                            <characteristic name="M" value="4" characteristicId="4d23232344415441232323"/>
+                            <characteristic name="WS" value="4" characteristicId="575323232344415441232323"/>
+                            <characteristic name="BS" value="3" characteristicId="425323232344415441232323"/>
+                            <characteristic name="S" value="3" characteristicId="5323232344415441232323"/>
+                            <characteristic name="T" value="3" characteristicId="5423232344415441232323"/>
+                            <characteristic name="W" value="1" characteristicId="5723232344415441232323"/>
+                            <characteristic name="I" value="3" characteristicId="4923232344415441232323"/>
+                            <characteristic name="A" value="1" characteristicId="4123232344415441232323"/>
+                            <characteristic name="LD" value="7" characteristicId="4c4423232344415441232323"/>
+                            <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                            <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                            <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                            <characteristic name="Type" value="Infantry" characteristicId="5479706523232344415441232323"/>
+                          </characteristics>
+                        </profile>
+                        <profile profileId="a7975326-d558-d912-e47b-a1e9e8af3c48::3ad66b48-3d43-3461-5a10-36909da16a28" name="Light Armour" type="Armour" hidden="false" book="BRB" page="43">
+                          <characteristics>
+                            <characteristic name="Saving Throw modifier" value="6+" characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
+                            <characteristic name="Special Rules" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                          </characteristics>
+                        </profile>
+                        <profile profileId="fd78fbf6-441a-fa38-2a00-7419960a67ab::e3b11523-1bd6-9b22-8e8e-980218c9c1d6" name="Shield" type="Armour" hidden="false" book="BRB" page="43">
+                          <characteristics>
+                            <characteristic name="Saving Throw modifier" value="-1" characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
+                            <characteristic name="Special Rules" value="Parry Save (BRB-88)" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                          </characteristics>
+                        </profile>
+                        <profile profileId="7ef39e1f-25ea-d28e-52dd-1d065a77024f::91e334ae-14c6-755f-5911-48ff700f784f" name="Hand Weapon" type="Weapon" hidden="false" book="BRB" page="88">
+                          <characteristics>
+                            <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                            <characteristic name="Strength" value="As User" characteristicId="537472656e67746823232344415441232323"/>
+                            <characteristic name="Special Rules" value="None" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <selections/>
+                    </selection>
+                  </selections>
+                </selection>
+              </selections>
+            </selection>
+            <selection id="3492-1f22-45ca-f5c9" entryId="3307075a-ece9-4130-b476-2070a9612728" name="Archers" points="0.0" number="1" type="unit" customName="Wizard Bunker" page="0">
+              <customDescription>Unit of Archers used specifically to hold the wizards.</customDescription>
+              <rules>
+                <rule ruleId="2fc2e2ec-6321-0e2c-dea0-c080c72f19b2::c3f431c0-a7fb-42fe-ae67-07c38b7fa74b" name="Regimental Unit" hidden="false" book="AB" page="30">
+                  <description>.</description>
+                </rule>
+                <rule ruleId="ce3c99b9-27f5-e874-75c6-483abee9d18d::496c0e45-bac5-4762-0e70-6467bb98fe43" name="Skirmishers (FAQ&apos;ed)" hidden="false" book="BRB" page="77">
+                  <description>ERRATA
+Free Reform.
+Change “[...]move, provided[...]” to “[...]move, even if it
+marches, provided[...]”. Change “[...]double its Move value.”
+to “[...]double its Movement value.”
+
+Light Troops.
+Change “[...]zero ranks[...]” to “[...]zero ranks in
+combat[...]”.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile profileId="a5b3a927-f8da-bcf2-a583-28a89e916be2::91e334ae-14c6-755f-5911-48ff700f784f" name="Hand Weapon" type="Weapon" hidden="false" book="BRB" page="88">
+                  <characteristics>
+                    <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                    <characteristic name="Strength" value="As User" characteristicId="537472656e67746823232344415441232323"/>
+                    <characteristic name="Special Rules" value="None" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="9837c94a-8344-2601-0a66-380949d3a15a::aca0107e-c868-e705-8b03-fd82e7674c3a" name="Bow" type="Weapon" hidden="false" book="BRB" page="90">
+                  <characteristics>
+                    <characteristic name="Range" value="24&quot;" characteristicId="52616e676523232344415441232323"/>
+                    <characteristic name="Strength" value="3" characteristicId="537472656e67746823232344415441232323"/>
+                    <characteristic name="Special Rules" value="Volley Fire (BRB-78)" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="53f0-1eeb-892c-2834" entryId="48b63478-4ddf-40f4-9947-441e6fd0a2ed" name="Archers" points="70.0" number="10" type="upgrade" page="0">
+                  <rules/>
+                  <profiles>
+                    <profile profileId="f8078965-35b4-6b09-ae80-defed6567070::ba30c7fe-f6a7-905a-de11-791b9d932670" name="Empire Soldier" type="Model" hidden="false" book="AB" page="38">
+                      <characteristics>
+                        <characteristic name="M" value="4" characteristicId="4d23232344415441232323"/>
+                        <characteristic name="WS" value="3" characteristicId="575323232344415441232323"/>
+                        <characteristic name="BS" value="3" characteristicId="425323232344415441232323"/>
+                        <characteristic name="S" value="3" characteristicId="5323232344415441232323"/>
+                        <characteristic name="T" value="3" characteristicId="5423232344415441232323"/>
+                        <characteristic name="W" value="1" characteristicId="5723232344415441232323"/>
+                        <characteristic name="I" value="3" characteristicId="4923232344415441232323"/>
+                        <characteristic name="A" value="1" characteristicId="4123232344415441232323"/>
+                        <characteristic name="LD" value="7" characteristicId="4c4423232344415441232323"/>
+                        <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                        <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                        <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                        <characteristic name="Type" value="Infantry" characteristicId="5479706523232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+              </selections>
+            </selection>
+          </selections>
+        </category>
+        <category id="f3b3-3dfa-03aa-16f5" categoryId="4465746163686d656e7423232344415441232323" name="Detachment">
+          <selections/>
+        </category>
+        <category id="bffb-0e6f-8ee4-ae9d" categoryId="5370656369616c23232344415441232323" name="Special">
+          <selections>
+            <selection id="c073-6678-0332-e5bc" entryId="5b44389d-6ec1-4083-9765-4e904dfecdc7" name="Greatswords" points="0.0" number="1" type="unit" page="0">
+              <rules>
+                <rule ruleId="b7723dba-6dbf-9221-a81c-8b3e1a956b02::c3f431c0-a7fb-42fe-ae67-07c38b7fa74b" name="Regimental Unit" hidden="false" book="AB" page="30">
+                  <description>.</description>
+                </rule>
+                <rule ruleId="2488d3f0-0b5d-8a9f-35d4-8218d2f616f2::4c56de65-7708-cf1d-0bed-0e4c013d8d92" name="Stubborn" hidden="false" book="BRB" page="76">
+                  <description>.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile profileId="5091d218-8179-ccfb-4fee-59dfff1a3156::b65335cd-c572-49ae-fbb8-48f59ffb85d9" name="Full Plate Armour" type="Armour" hidden="false" book="AB" page="31">
+                  <characteristics>
+                    <characteristic name="Saving Throw modifier" value="4+" characteristicId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
+                    <characteristic name="Special Rules" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="c5beeb3e-3674-276f-c0cc-67334eb2636f::868ba624-13d1-db13-af64-e3cd3c3aa31e" name="Great Weapon" type="Weapon" hidden="false" book="BRB" page="90">
+                  <characteristics>
+                    <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                    <characteristic name="Strength" value="&apos;+2" characteristicId="537472656e67746823232344415441232323"/>
+                    <characteristic name="Special Rules" value="Requires Two Hands (BRB-75), Always Strikes Last (BRB-66)" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="49b7-f872-8dee-9e61" entryId="426bb5c8-aa33-4ae5-a738-47d8b0063cc5" entryGroupId="3a36d28f-040b-4ddf-a419-9814b7393e76" name="Champion" points="10.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles>
+                    <profile profileId="5d0decf1-f666-5508-68c8-a9b363d2ffc1" name="Count&apos;s Champion" type="Model" hidden="false" book="AB" page="40">
+                      <characteristics>
+                        <characteristic name="M" value="4" characteristicId="4d23232344415441232323"/>
+                        <characteristic name="WS" value="4" characteristicId="575323232344415441232323"/>
+                        <characteristic name="BS" value="3" characteristicId="425323232344415441232323"/>
+                        <characteristic name="S" value="3" characteristicId="5323232344415441232323"/>
+                        <characteristic name="T" value="3" characteristicId="5423232344415441232323"/>
+                        <characteristic name="W" value="1" characteristicId="5723232344415441232323"/>
+                        <characteristic name="I" value="3" characteristicId="4923232344415441232323"/>
+                        <characteristic name="A" value="2" characteristicId="4123232344415441232323"/>
+                        <characteristic name="LD" value="8" characteristicId="4c4423232344415441232323"/>
+                        <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                        <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                        <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                        <characteristic name="Type" value="Infantry" characteristicId="5479706523232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+                <selection id="3e2b-48dd-ecd3-8a86" entryId="6fd5dc6e-af7f-4d23-96b9-dbc6203383da" name="Greatswords" points="462.0" number="42" type="model" page="0">
+                  <rules/>
+                  <profiles>
+                    <profile profileId="bb1783de-7cfc-1a30-4c0e-8c125c295534" name="Greatsword" type="Model" hidden="false" book="AB" page="40">
+                      <characteristics>
+                        <characteristic name="M" value="4" characteristicId="4d23232344415441232323"/>
+                        <characteristic name="WS" value="4" characteristicId="575323232344415441232323"/>
+                        <characteristic name="BS" value="3" characteristicId="425323232344415441232323"/>
+                        <characteristic name="S" value="3" characteristicId="5323232344415441232323"/>
+                        <characteristic name="T" value="3" characteristicId="5423232344415441232323"/>
+                        <characteristic name="W" value="1" characteristicId="5723232344415441232323"/>
+                        <characteristic name="I" value="3" characteristicId="4923232344415441232323"/>
+                        <characteristic name="A" value="1" characteristicId="4123232344415441232323"/>
+                        <characteristic name="LD" value="8" characteristicId="4c4423232344415441232323"/>
+                        <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                        <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                        <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                        <characteristic name="Type" value="Infantry" characteristicId="5479706523232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+                <selection id="6cb4-7fd2-6c0a-1e90" entryId="7c47d18b-2f23-48b0-a24f-78409e9295ff" entryGroupId="3a36d28f-040b-4ddf-a419-9814b7393e76" name="Musician" points="10.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles/>
+                  <selections/>
+                </selection>
+                <selection id="765e-bfa4-401e-834f" entryId="927337c2-379b-4626-bb59-335e17e557dd" entryGroupId="3a36d28f-040b-4ddf-a419-9814b7393e76" name="Standard Bearer" points="10.0" number="1" type="upgrade" page="0">
+                  <rules/>
+                  <profiles/>
+                  <selections/>
+                </selection>
+              </selections>
+            </selection>
+          </selections>
+        </category>
+        <category id="cbb0-f28b-92a2-8d4f" categoryId="5261726523232344415441232323" name="Rare">
+          <selections>
+            <selection id="aafd-9aca-e3c5-6475" entryId="986cfb62-a533-4c7c-ab12-3c2c8b715284" name="Luminark of Hysh" points="120.0" number="1" type="unit" page="0">
+              <rules>
+                <rule ruleId="3c36d0b4-53f1-0952-83b6-b7aa0eb78c5e" name="Aura of Protection" hidden="false" book="AB" page="52">
+                  <description>.</description>
+                </rule>
+                <rule ruleId="240508d6-d0fa-d101-affe-7ac0a4f16cc8" name="Solheims Bolt of Illumination" hidden="false" book="AB" page="52">
+                  <description>.</description>
+                </rule>
+                <rule ruleId="b85daab7-9bed-f712-29d2-cc32dde74535" name="Locus of Hysh" hidden="false" book="AB" page="52">
+                  <description>.</description>
+                </rule>
+                <rule ruleId="d4f08195-8797-5a28-1cd5-41895c5c952d::7eca7c36-b36b-52cf-795a-93d1e6ce9676" name="Large Target" hidden="false" book="BRB" page="72">
+                  <description>.</description>
+                </rule>
+                <rule ruleId="300e3295-6c1b-9186-f0cd-10d142070bf6::0fbf0d55-00e1-dc6c-e693-296829aaf3c5" name="Swiftstride" hidden="false" book="BRB" page="76">
+                  <description>.</description>
+                </rule>
+                <rule ruleId="62d8175c-7286-caea-37ac-322b147cbad5::00126939-3f86-0311-d2a7-bc34a050e1fa" name="Impact Hits (D6) (FAQ&apos;ed)" hidden="false" book="BRB" page="71">
+                  <description>ERRATA:
+Change “[...]this rule has no effect.” to “[...]no Impact Hits
+are inflicted.”
+
+Add the following sentence to the end of the third paragraph:
+‘“Look Out Sir!” rolls cannot be taken against Impact Hits.’</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile profileId="b6cffde8-7f37-2eae-5818-35d0a49f5cba" name="Luminark of Hysh" type="Model" hidden="false" book="AB" page="52">
+                  <characteristics>
+                    <characteristic name="M" value="-" characteristicId="4d23232344415441232323"/>
+                    <characteristic name="WS" value="-" characteristicId="575323232344415441232323"/>
+                    <characteristic name="BS" value="-" characteristicId="425323232344415441232323"/>
+                    <characteristic name="S" value="5" characteristicId="5323232344415441232323"/>
+                    <characteristic name="T" value="5" characteristicId="5423232344415441232323"/>
+                    <characteristic name="W" value="5" characteristicId="5723232344415441232323"/>
+                    <characteristic name="I" value="-" characteristicId="4923232344415441232323"/>
+                    <characteristic name="A" value="-" characteristicId="4123232344415441232323"/>
+                    <characteristic name="LD" value="-" characteristicId="4c4423232344415441232323"/>
+                    <characteristic name="ArmourSave" value="5+" characteristicId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                    <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                    <characteristic name="Type" value="Chariot" characteristicId="5479706523232344415441232323"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="1d57-053f-3cbc-8207" entryId="22e3409d-f0a2-f822-ac7d-86a3ada8b5d8" name="Crew" points="0.0" number="2" type="upgrade" page="0">
+                  <rules/>
+                  <profiles>
+                    <profile profileId="049a6b6c-039c-b27a-6b89-1af1da45401f::91e334ae-14c6-755f-5911-48ff700f784f" name="Hand Weapon" type="Weapon" hidden="false" book="BRB" page="88">
+                      <characteristics>
+                        <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                        <characteristic name="Strength" value="As User" characteristicId="537472656e67746823232344415441232323"/>
+                        <characteristic name="Special Rules" value="None" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                    <profile profileId="63998b57-01f9-4643-008e-07f43afbd130::0549f625-5c5f-074f-7ed5-c3c8fb9c8048" name="Acolyte" type="Model" hidden="false" book="AB" page="52">
+                      <characteristics>
+                        <characteristic name="M" value="-" characteristicId="4d23232344415441232323"/>
+                        <characteristic name="WS" value="3" characteristicId="575323232344415441232323"/>
+                        <characteristic name="BS" value="3" characteristicId="425323232344415441232323"/>
+                        <characteristic name="S" value="3" characteristicId="5323232344415441232323"/>
+                        <characteristic name="T" value="-" characteristicId="5423232344415441232323"/>
+                        <characteristic name="W" value="-" characteristicId="5723232344415441232323"/>
+                        <characteristic name="I" value="3" characteristicId="4923232344415441232323"/>
+                        <characteristic name="A" value="1" characteristicId="4123232344415441232323"/>
+                        <characteristic name="LD" value="7" characteristicId="4c4423232344415441232323"/>
+                        <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                        <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                        <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                        <characteristic name="Type" value="-" characteristicId="5479706523232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+                <selection id="aea3-e999-c38f-0a0b" entryId="ce0c186f-06eb-0ff9-a682-6e15e94b456a" name="Steeds" points="0.0" number="2" type="upgrade" page="0">
+                  <rules/>
+                  <profiles>
+                    <profile profileId="64710282-5d19-fa06-2b3f-6399f9313395::bd694977-d316-377d-a7b0-3aa0966feb92" name="Warhorse" type="Model" hidden="false" book="AB" page="87">
+                      <characteristics>
+                        <characteristic name="M" value="8" characteristicId="4d23232344415441232323"/>
+                        <characteristic name="WS" value="3" characteristicId="575323232344415441232323"/>
+                        <characteristic name="BS" value="0" characteristicId="425323232344415441232323"/>
+                        <characteristic name="S" value="3" characteristicId="5323232344415441232323"/>
+                        <characteristic name="T" value="3" characteristicId="5423232344415441232323"/>
+                        <characteristic name="W" value="1" characteristicId="5723232344415441232323"/>
+                        <characteristic name="I" value="3" characteristicId="4923232344415441232323"/>
+                        <characteristic name="A" value="1" characteristicId="4123232344415441232323"/>
+                        <characteristic name="LD" value="5" characteristicId="4c4423232344415441232323"/>
+                        <characteristic name="ArmourSave" value="-1" characteristicId="41726d6f75725361766523232344415441232323"/>
+                        <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                        <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                        <characteristic name="Type" value="Cavalry" characteristicId="5479706523232344415441232323"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selections/>
+                </selection>
+              </selections>
+            </selection>
+            <selection id="77cd-3586-e4cb-1008" entryId="56328793-35ab-4c6b-9d64-eafc47449684" name="Steam Tank" points="250.0" number="1" type="model" page="0">
+              <rules>
+                <rule ruleId="67126a89-d037-145c-8a19-61713941978b" name="Steam Points" hidden="false" book="AB" page="51">
+                  <description>.</description>
+                </rule>
+                <rule ruleId="d48915bb-d0ab-a2e7-4819-b0ea84807338" name="Random Movement (variable)" hidden="false" book="BRB" page="74">
+                  <description>.</description>
+                </rule>
+                <rule ruleId="2e421ee9-686d-f963-53ad-ae3d77f3ac96" name="Steel Behemoth" hidden="false" book="AB" page="51">
+                  <description>.</description>
+                </rule>
+                <rule ruleId="ca9b6ea9-a040-260b-1289-f2c90be2c1fd::7eca7c36-b36b-52cf-795a-93d1e6ce9676" name="Large Target" hidden="false" book="BRB" page="72">
+                  <description>.</description>
+                </rule>
+                <rule ruleId="d4cc8ffa-6da2-82e0-d907-6b1faa3d982b::529c3da3-7f14-edb9-1851-cb1216e36b9c" name="Terror" hidden="false" book="BRB" page="78">
+                  <description>.</description>
+                </rule>
+                <rule ruleId="4f8c01f3-adef-d14e-be16-22fb86724d5c::201091b1-2630-83b9-6680-0545cd958564" name="Unbreakable" hidden="false" book="BRB" page="78">
+                  <description>.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile profileId="6a0abb92-3daa-5794-8693-8938ebfd1d2a" name="Steam Tank" type="Model" hidden="false" book="AB" page="51">
+                  <characteristics>
+                    <characteristic name="M" value="0/var" characteristicId="4d23232344415441232323"/>
+                    <characteristic name="WS" value="-" characteristicId="575323232344415441232323"/>
+                    <characteristic name="BS" value="-" characteristicId="425323232344415441232323"/>
+                    <characteristic name="S" value="6" characteristicId="5323232344415441232323"/>
+                    <characteristic name="T" value="6" characteristicId="5423232344415441232323"/>
+                    <characteristic name="W" value="10" characteristicId="5723232344415441232323"/>
+                    <characteristic name="I" value="-" characteristicId="4923232344415441232323"/>
+                    <characteristic name="A" value="-" characteristicId="4123232344415441232323"/>
+                    <characteristic name="LD" value="-" characteristicId="4c4423232344415441232323"/>
+                    <characteristic name="ArmourSave" value="1+" characteristicId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                    <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                    <characteristic name="Type" value="Chariot" characteristicId="5479706523232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="2a047c68-f69b-43d0-af38-eee3120ee613" name="Engineer Commander" type="Model" hidden="false" book="AB" page="51">
+                  <characteristics>
+                    <characteristic name="M" value="-" characteristicId="4d23232344415441232323"/>
+                    <characteristic name="WS" value="3" characteristicId="575323232344415441232323"/>
+                    <characteristic name="BS" value="4" characteristicId="425323232344415441232323"/>
+                    <characteristic name="S" value="3" characteristicId="5323232344415441232323"/>
+                    <characteristic name="T" value="-" characteristicId="5423232344415441232323"/>
+                    <characteristic name="W" value="-" characteristicId="5723232344415441232323"/>
+                    <characteristic name="I" value="3" characteristicId="4923232344415441232323"/>
+                    <characteristic name="A" value="1" characteristicId="4123232344415441232323"/>
+                    <characteristic name="LD" value="7" characteristicId="4c4423232344415441232323"/>
+                    <characteristic name="ArmourSave" characteristicId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="WardSave" characteristicId="576172645361766523232344415441232323"/>
+                    <characteristic name="MR" characteristicId="4d5223232344415441232323"/>
+                    <characteristic name="Type" value="-" characteristicId="5479706523232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="ed9b5b4f-83b5-1226-fe8a-59ae6e269ffb" name="Steam Cannon" type="Weapon" hidden="false" book="AB" page="51">
+                  <characteristics>
+                    <characteristic name="Range" value="12&quot;(1SP) / 24&quot;(2SP) / 36&quot;(3SP)" characteristicId="52616e676523232344415441232323"/>
+                    <characteristic name="Strength" value="10" characteristicId="537472656e67746823232344415441232323"/>
+                    <characteristic name="Special Rules" value="Multiple Wounds (D6) (BRB-73). Fired directly ahead. If First Artillery Dice is a Misfire is doesn&apos;t fire and take D3 Wounds no ArmourSave." characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="40ac8768-764b-cf89-28db-a4a395d0931e" name="Steam Gun" type="Weapon" hidden="false" book="AB" page="51">
+                  <characteristics>
+                    <characteristic name="Range" value="Teardrop template" characteristicId="52616e676523232344415441232323"/>
+                    <characteristic name="Strength" value="2(1SP) / 3(2SP) / 4(3SP)" characteristicId="537472656e67746823232344415441232323"/>
+                    <characteristic name="Special Rules" value="360 degree fire arc. In Close Combat use Engineer Commanders I." characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="2c2be6f9-2fb5-43e3-1324-bfbf840d60ef" name="Steam Engine" type="Weapon" hidden="false" book="AB" page="51">
+                  <characteristics>
+                    <characteristic name="Range" value="Movement (SP)D6 (max 3 SP)" characteristicId="52616e676523232344415441232323"/>
+                    <characteristic name="Strength" value="As user (Impact Hits), 6 (Grind)" characteristicId="537472656e67746823232344415441232323"/>
+                    <characteristic name="Special Rules" value="On charge: D6+(SP)D3 Impact Hits (BRB-71). Movement phase start already in contact with enemy unit (SP)D3 hits." characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="52441a71-7045-e38e-984d-65ec0186a5a2" name="Hand Weapon (Engineer Commander)" type="Weapon" hidden="false" book="BRB" page="88">
+                  <characteristics>
+                    <characteristic name="Range" value="Combat" characteristicId="52616e676523232344415441232323"/>
+                    <characteristic name="Strength" value="As user" characteristicId="537472656e67746823232344415441232323"/>
+                    <characteristic name="Special Rules" value="None" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+                <profile profileId="9f099196-bef5-5132-6f78-859db9fe529e" name="Repeater Pistol (Engineer Commander)" type="Weapon" hidden="false" book="AB" page="31">
+                  <characteristics>
+                    <characteristic name="Range" value="12&quot;" characteristicId="52616e676523232344415441232323"/>
+                    <characteristic name="Strength" value="4" characteristicId="537472656e67746823232344415441232323"/>
+                    <characteristic name="Special Rules" value="Armour Piercing (BRB-67), Multiple Shots (3) (BRB-73), Quick to Fire (BRB-73), counts as a hand weapon" characteristicId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections/>
+            </selection>
+          </selections>
+        </category>
+      </categories>
+      <forces/>
+    </force>
+  </forces>
+  <rules/>
+</roster>

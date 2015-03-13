@@ -1,24 +1,22 @@
 package rational.model;
 
+import rational.enums.AttackDirectionEnum;
 import rational.enums.SpecialRuleTypeEnum;
-import rational.enums.UnitTypeEnum;
-import rational.service.CloseCombatService;
-import rational.service.specialRules.leadership.LeadershipTestService;
-import rational.service.specialRules.leadership.breaktest.BreakTestService;
-import rational.service.specialRules.leadership.breaktest.impl.DefaultBreakTestService;
-import rational.service.specialRules.leadership.breaktest.impl.StrengthInNumbersBreakTestService;
-import rational.service.specialRules.leadership.impl.ColdBloodedLeadershipTestService;
-import rational.service.specialRules.leadership.impl.DefaultLeadershipTestService;
-import rational.service.specialRules.leadership.impl.StrengthInNumbersLeadershipTestService;
-import rational.service.specialRules.movement.SpecialMovementService;
-import rational.service.specialRules.movement.impl.DefaultSpecialMovementService;
-import rational.service.specialRules.movement.impl.ScurryAwaySpecialMovementService;
-import rational.service.specialRules.movement.impl.SwiftstrideMovementSpecialRuleService;
+import rational.enums.TroopTypeEnum;
+import rational.service.closecombat.CloseCombatService;
+import rational.service.specialRules.leadership.LeadershipTestBehavior;
+import rational.service.specialRules.leadership.breaktest.BreakTestBehavior;
+import rational.service.specialRules.leadership.breaktest.impl.DefaultBreakTestBehavior;
+import rational.service.specialRules.leadership.breaktest.impl.StrengthInNumbersBreakTestBehavior;
+import rational.service.specialRules.leadership.impl.ColdBloodedLeadershipTestBehavior;
+import rational.service.specialRules.leadership.impl.DefaultLeadershipTestBehavior;
+import rational.service.specialRules.leadership.impl.StrengthInNumbersLeadershipTestBehavior;
+import rational.service.specialRules.movement.SpecialMovementBehavior;
+import rational.service.specialRules.movement.impl.DefaultSpecialMovementBehavior;
+import rational.service.specialRules.movement.impl.ScurryAwaySpecialMovementBehavior;
+import rational.service.specialRules.movement.impl.SwiftstrideMovementSpecialRuleBehavior;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class Unit implements Comparator<Unit>, Comparable<Unit> {
     public static int[][] toHitChart = {
@@ -73,20 +71,23 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
     private int combatScore;
     private boolean isFlanked;
     private boolean isBroken;
-    private UnitTypeEnum unitType;
+    private TroopTypeEnum unitType;
 
-    private SpecialMovementService specialMovementService;
-    private LeadershipTestService leadershipTestService;
-    private BreakTestService breakTestService;
+    private Map<Unit, AttackDirectionEnum> engagedUnits = new HashMap<>();
+
+    private SpecialMovementBehavior specialMovementBehavior;
+    private LeadershipTestBehavior leadershipTestBehavior;
+    private BreakTestBehavior breakTestBehavior;
+    private boolean isPursuing;
 
     public void initializeUnit(UnitModel model, int files, List<UnitModel> characters, CloseCombatService combatService){
         this.combatService = combatService;
         model.setCombatService(combatService);
         model.setCharging(this.charging);
         if(null != model.getMount()){
-            this.unitType = UnitTypeEnum.CAVALRY;
+            this.unitType = TroopTypeEnum.CAVALRY;
         }else{
-            this.unitType = UnitTypeEnum.INFANTRY;
+            this.unitType = TroopTypeEnum.INFANTRY;
         }
         this.setUnitModel(model);
         this.getCharacters().addAll(characters);
@@ -106,7 +107,7 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
         }
         int startJ = 0;
 
-        if(this.unitType.equals(UnitTypeEnum.CAVALRY)){
+        if(this.unitType.equals(TroopTypeEnum.CAVALRY)){
             UnitModel[][] mounts;
             if(remainder > 0){
                 mounts = new UnitModel[ranks+1][files];
@@ -138,8 +139,8 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
                     models[i][j] = character;
                     temp.remove(0);
                     startJ++;
-                    if(this.unitType.equals(UnitTypeEnum.CAVALRY)){
-                        if(character.getMount().isCharacter()){
+                    if(this.unitType.equals(TroopTypeEnum.CAVALRY)){
+                        if(character.getMount() instanceof CharacterModel){
                             character.getMount().setCombatService(combatService);
                             this.mounts.getCharacters().add(character.getMount());
                         }
@@ -157,7 +158,7 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
                 copy.setRank(i);
                 copy.setFile(j);
                 models[i][j] = copy;
-                if(this.unitType.equals(UnitTypeEnum.CAVALRY)){
+                if(this.unitType.equals(TroopTypeEnum.CAVALRY)){
                     this.mounts.models[i][j] = copy.getMount();
                 }
             }
@@ -170,7 +171,7 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
                 copy.setRank(ranks);
                 copy.setFile(k);
                 models[ranks][k] = copy;
-                if(this.unitType.equals(UnitTypeEnum.CAVALRY)){
+                if(this.unitType.equals(TroopTypeEnum.CAVALRY)){
                     this.mounts.models[ranks][k] = copy.getMount();
                 }
             }
@@ -189,21 +190,21 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
     public void setRuleServices(){
         List<SpecialRuleTypeEnum> specialRules = this.getUnitModel().getSpecialRules();
         if(specialRules.contains(SpecialRuleTypeEnum.SWIFTSTRIDE)){
-            specialMovementService = new SwiftstrideMovementSpecialRuleService(this);
+            specialMovementBehavior = new SwiftstrideMovementSpecialRuleBehavior(this);
         }else if(specialRules.contains(SpecialRuleTypeEnum.SCURRY_AWAY)){
-            specialMovementService = new ScurryAwaySpecialMovementService(this);
+            specialMovementBehavior = new ScurryAwaySpecialMovementBehavior(this);
         }else{
-            specialMovementService = new DefaultSpecialMovementService(this);
+            specialMovementBehavior = new DefaultSpecialMovementBehavior(this);
         }
         if(specialRules.contains(SpecialRuleTypeEnum.STRENGTH_IN_NUMBERS)){
-            breakTestService = new StrengthInNumbersBreakTestService(this);
-            leadershipTestService = new StrengthInNumbersLeadershipTestService(this);
+            breakTestBehavior = new StrengthInNumbersBreakTestBehavior(this);
+            leadershipTestBehavior = new StrengthInNumbersLeadershipTestBehavior(this);
         }else if(specialRules.contains(SpecialRuleTypeEnum.COLD_BLOODED)){
-            leadershipTestService = new ColdBloodedLeadershipTestService(this);
-            breakTestService = new DefaultBreakTestService(this);
+            leadershipTestBehavior = new ColdBloodedLeadershipTestBehavior(this);
+            breakTestBehavior = new DefaultBreakTestBehavior(this);
         }else{
-            leadershipTestService = new DefaultLeadershipTestService(this);
-            breakTestService = new DefaultBreakTestService(this);
+            leadershipTestBehavior = new DefaultLeadershipTestBehavior(this);
+            breakTestBehavior = new DefaultBreakTestBehavior(this);
         }
     }
 
@@ -241,77 +242,6 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
         return ranks;
     }
 
-    private String getStartLogDivider(){
-        int numDividers = (61 - this.getUnitModel().getName().length()) / 2;
-        String divider = "";
-        for(int i=0; i< numDividers; i++){
-            divider += "*";
-        }
-        return divider;
-    }
-
-    private String getEndLogDivider(String startDivider){
-        String divider = "";
-        for(int i=0; i< 76; i++){
-            divider += "*";
-        }
-        return divider;
-    }
-
-    public int calculateCombatScore(Unit other){
-        String divider = getStartLogDivider();
-        combatService.appendLog( "\n" + divider + " " + this.getUnitModel().getName() + " Combat Score " + divider);
-
-        int score = (other.getWoundsReceived());
-        combatService.appendLog( "    Wounds dealt: " + (other.getWoundsReceived()));
-
-        if(this.charging){
-            score++;
-            combatService.appendLog( "    Charge bonus: 1");
-        }
-        if((other.isFlankAttack() || this.isFlanked) && other.getFullRanks() >= 2){
-            combatService.appendLog( "    Unit is disrupted and receives no rank bonus");
-        }else if(this.getRanks() > 1){
-            int rankBonus = getFullRanks() > 1 ? (getFullRanks() - 1) : 0;
-            rankBonus = rankBonus > 3 ? 3 : rankBonus;
-            score += rankBonus;
-            combatService.appendLog( "    Rank bonus: " + rankBonus);
-            if(this.hasGriffinBattleStandard){
-                score+= rankBonus;
-                combatService.appendLog( "    Griffin Battle Standard bonus: " + rankBonus);
-            }
-        }
-        if(this.hasBanner){
-            score ++;
-            combatService.appendLog( "    Standard bearer bonus: 1");
-        }
-        if(this.flankAttack){
-            score ++;
-            combatService.appendLog( "    Flank attack bonus: 1");
-        }
-        if(this.rearAttack){
-            score += 2;
-            combatService.appendLog( "    Rear attack bonus");
-        }
-        if(this.hasHighGround){
-            score++;
-            combatService.appendLog( "    High Ground bonus: 1");
-        }
-        if(this.hasBattleStandard){
-            score++;
-            combatService.appendLog( "    Battle Standard bonus: 1");
-        }
-        if(this.overkill > 0){
-            score += overkill;
-            combatService.appendLog( "    Challenge overkill bonus: " + overkill);
-        }
-        other.setWoundsReceived(0);
-        combatService.appendLog( "\nTotal Score: " + score);
-        combatService.appendLog( getEndLogDivider(divider) + "\n");
-        this.combatScore = score;
-        return score;
-    }
-
     public int getRankBonus(){
         int rankBonus = getFullRanks() > 1 ? (getFullRanks() - 1) : 0;
         rankBonus = rankBonus > 3 ? 3 : rankBonus;
@@ -326,61 +256,26 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
         return unitModel;
     }
 
-    public int rollCombatDice(Unit defender, Integer amt, int difficulty, boolean reRollAllowed) {
-        Dice d6 = Dice.getD6();
-        List<Integer> attacks = d6.rollSeparateDice(amt);
-        combatService.appendLog( "    " + Arrays.toString(attacks.toArray()));
-
-        int hits = 0;
-        for(int i=0; i<amt; i++) {
-            if(attacks.get(i) >= difficulty){
-                hits++;
-            }
-        }
-
-        if(this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.PREDATORY_FIGHTER) && reRollAllowed){
-            int additionalAttacks = 0;
-            for(int i=0; i<amt; i++) {
-                if(attacks.get(i) == 6){
-                    additionalAttacks++;
-                }
-            }
-            if(additionalAttacks > 0) {
-                combatService.appendLog( "    " + this.getUnitModel().getName() + " gets " + additionalAttacks + " additional attacks....");
-                hits += rollCombatDice(defender, additionalAttacks, difficulty, false);
-            }
-        }
-
-        if(this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST) && reRollAllowed){
-            if(amt - hits > 0) {
-                combatService.appendLog( "    Re-rolling " + (amt - hits) + " misses....");
-
-                if (this.getUnitInitiative() >= defender.getUnitInitiative() &&
-                        !defender.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST)) {
-                    hits += rollCombatDice(defender, amt - hits, difficulty, false);
-                }
-            }
-        }
-
-        return hits;
-    }
-
-
-
     public int getNumAttacks(Unit defender){
         int numAttacks = 0;
         int ranks = this.getSupportingRanks() + 1 > this.getRanks() ? this.getRanks() : this.getSupportingRanks() + 1;
+        boolean longer = getLongerUnit(defender, this.isFlankAttack()).equals(this);
+        float index = 0f;
         if(defender.isFlankAttack()){
-            int flankAttacks = this.getRanks() > defender.getFiles() ? this.getRanks() : defender.getFiles();
-            for(int f = 0; f < flankAttacks; f++){
-                if(!models[f][0].isCharacter()){
+            for(int f = 0; f < this.getRanks(); f++){
+                if(!(models[f][0].isCharacter())){
                     numAttacks += models[f][0].getAttacks();
                     models[f][0].setAttacks(0);
                 }
+                if(longer){
+                    index += models[f][0].getBaseLength();
+                    if(index > defender.getUnitLength() + models[f][0].getBaseWidth()){
+                        break;
+                    }
+                }
             }
         }else if(defender.isRearAttack()){
-            int rearAttacks = this.getFiles() > defender.getFiles() ? defender.getFiles() : this.getFiles();
-            for(int r = this.getFiles(); r < rearAttacks; r++){
+            for(int r = 0; r < this.getFiles(); r++){
                 UnitModel model = models[this.getRanks()-1][r];
                 if(null == model){
                     if(r > 0){
@@ -388,25 +283,41 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
                     }else{
                         break;
                     }
-                }else{
-                    numAttacks += model.getAttacks();
+                }
+                if(!(model.isCharacter())){
+                        numAttacks += model.getAttacks();
                     model.setAttacks(0);
+                }
+                if(longer){
+                    index += model.getBaseWidth();
+                    if(index > defender.getUnitWidth() + model.getBaseWidth()){
+                        break;
+                    }
                 }
             }
         }else {
             for(int i = 0; i < ranks; i++){
-                for(int j = 0; j < this.getFiles(); j++){
+                if(longer){
+                    index = this.getUnitModel().getBaseWidth() / 2;
+                }
+                for(int j = 0; j < this.getFiles()-1; j++){
                     if(null == models[i][j]){
                         break;
                     }
-                    if(!models[i][j].isCharacter()){
+                    if(!(models[i][j].isCharacter())){
                         if(i > 0){
-                            //Supporting ranks do not get more than 1 attack.
+                            //Supporting ranks never get more than 1 attack.
                             numAttacks++;
                         }else {
                             numAttacks += models[i][j].getAttacks();
                         }
                         models[i][j].setAttacks(0);
+                    }
+                    if(longer){
+                        index += models[i][j].getBaseWidth();
+                        if(index > defender.getUnitWidth() + models[i][j].getBaseWidth()){
+                            break;
+                        }
                     }
                 }
             }
@@ -416,25 +327,9 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
         return numAttacks;
     }
 
-    public Unit strikeFirst(Unit other){
-        if(this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST) &&
-                !this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_LAST)){
-            if(!other.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST)){
-                return this;
-            }
-        }else if(other.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST)){
-            return other;
-        }
-        if(this.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_LAST)){
-            if(!other.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_LAST)){
-                return other;
-            }
-        }else if(other.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_LAST)){
-            return this;
-        }
-
-        return this.getUnitInitiative() < other.getUnitInitiative() ? this :
-                (this.getUnitInitiative() == other.getUnitInitiative() ? null : other);
+    private Unit getLongerUnit(Unit other, boolean attackingFlank){
+        int faceLength = attackingFlank ? other.getUnitLength() : other.getUnitWidth();
+        return this.getUnitWidth() > faceLength ? this : other;
     }
 
     public void removeCasualties(int amt){
@@ -539,6 +434,30 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
             if(specialRule.equals(SpecialRuleTypeEnum.FIGHT_IN_EXTRA_RANKS) && !charging) supportingRanks++;
         }
         return supportingRanks;
+    }
+
+    public int getUnitLength(){
+        int length = 0;
+        for(int i = 0; i < this.getRanks(); i++){
+            if(null != models[i][0].getMount()){
+                length += models[i][0].getMount().getBaseLength();
+            }else{
+                length += models[i][0].getBaseLength();
+            }
+        }
+        return length;
+    }
+
+    public int getUnitWidth(){
+        int width = 0;
+        for(UnitModel model : models[0]){
+            if(null != model.getMount()){
+                width += model.getMount().getBaseWidth();
+            }else{
+                width += model.getBaseWidth();
+            }
+        }
+        return width;
     }
 
     public int getLeadership() {
@@ -777,35 +696,55 @@ public class Unit implements Comparator<Unit>, Comparable<Unit> {
         this.combatService = combatService;
     }
 
-    public UnitTypeEnum getUnitType() {
+    public TroopTypeEnum getUnitType() {
         return unitType;
     }
 
-    public void setUnitType(UnitTypeEnum unitType) {
+    public void setUnitType(TroopTypeEnum unitType) {
         this.unitType = unitType;
     }
 
-    public SpecialMovementService getSpecialMovementService() {
-        return specialMovementService;
+    public SpecialMovementBehavior getSpecialMovementBehavior() {
+        return specialMovementBehavior;
     }
 
-    public void setSpecialMovementService(SpecialMovementService specialMovementService) {
-        this.specialMovementService = specialMovementService;
+    public void setSpecialMovementBehavior(SpecialMovementBehavior specialMovementBehavior) {
+        this.specialMovementBehavior = specialMovementBehavior;
     }
 
-    public LeadershipTestService getLeadershipTestService() {
-        return leadershipTestService;
+    public LeadershipTestBehavior getLeadershipTestBehavior() {
+        return leadershipTestBehavior;
     }
 
-    public void setLeadershipTestService(LeadershipTestService leadershipTestService) {
-        this.leadershipTestService = leadershipTestService;
+    public void setLeadershipTestBehavior(LeadershipTestBehavior leadershipTestBehavior) {
+        this.leadershipTestBehavior = leadershipTestBehavior;
     }
 
-    public BreakTestService getBreakTestService() {
-        return breakTestService;
+    public BreakTestBehavior getBreakTestBehavior() {
+        return breakTestBehavior;
     }
 
-    public void setBreakTestService(BreakTestService breakTestService) {
-        this.breakTestService = breakTestService;
+    public void setBreakTestBehavior(BreakTestBehavior breakTestBehavior) {
+        this.breakTestBehavior = breakTestBehavior;
+    }
+
+    public Map<Unit, AttackDirectionEnum> getEngagedUnits() {
+        return engagedUnits;
+    }
+
+    public void setEngagedUnits(Map<Unit, AttackDirectionEnum> engagedUnits) {
+        this.engagedUnits = engagedUnits;
+    }
+
+    public void setIsPursuing(boolean isPursuing) {
+        this.isPursuing = isPursuing;
+    }
+
+    public boolean isPursuing() {
+        return isPursuing;
+    }
+
+    public void setPursuing(boolean isPursuing) {
+        this.isPursuing = isPursuing;
     }
 }

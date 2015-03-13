@@ -1,5 +1,5 @@
 package rational.enums;
 
 public enum UnitTypeEnum {
-    INFANTRY, CAVALRY, MONSTROUS_INFANTRY, MONSTROUS_CAVALRY, MONSTER, WAR_BEAST
+    CORE, SPECIAL, RARE, HERO, LORD
 }

@@ -1,7 +1,7 @@
 package rational.model.combatstage;
 
 import rational.model.Unit;
-import rational.service.CloseCombatService;
+import rational.service.closecombat.CloseCombatService;
 
 public class DefaultCombatStage extends CombatStage {
 

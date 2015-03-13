@@ -18931,3 +18931,4771 @@ Dragon Princes of Calendor has caught Stormvermin!
 
 Stormvermin has been annihilated!
 ********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 16 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 16 attacks
+    [1, 3, 1, 2, 1, 3, 1, 1, 3, 5, 3, 2, 4, 4, 4, 1]
+    Dragon Princes of Calendor hits on 3+
+    8 attacks hit
+    Re-rolling 8 misses....
+    [3, 5, 2, 2, 4, 1, 1, 2]
+    Dragon Princes of Calendor hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [1, 1, 5, 6, 6, 6, 4, 1, 5, 6, 1]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [3, 5, 4, 4]
+    Prince hits on 3+
+    4 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [5, 5, 1, 1]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [1, 1, 1]
+    Drakemaster hits on 3+
+    0 attacks hit
+    Re-rolling 3 misses....
+    [4, 4, 4]
+    Drakemaster hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [2, 4, 2]
+    Stormvermin have a 5+ armor save...
+    [1]
+
+    Dragon Princes of Calendor hits: 18
+    Dragon Princes of Calendor wounds : 10
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 8 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 8 attacks
+    [5, 1, 6, 6, 4, 5, 2, 5]
+    Stormvermin hits on 4+
+    6 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [1, 5, 6, 6, 3, 3]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [1, 6, 2, 1, 4]
+
+    Rolling for Warlord....
+    Warlord has 4 attacks
+    [4, 6, 1, 4]
+    Warlord hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Warlord wounds on 2+
+    [4, 6, 4]
+    Dragon Princes of Calendor have a 5+ armor save...
+    [2, 3, 2]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [4, 6]
+    Fangleader hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Fangleader wounds on 3+
+    [1, 4]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [3]
+
+    Stormvermin hits: 11
+    Stormvermin wounds : 6
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [2, 5, 2, 5, 1, 1]
+    Elven Steeds hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [4, 4]
+    Stormvermin have a 5+ armor save...
+    [3, 2]
+
+    Elven Steeds hits: 2
+    Elven Steeds wounds : 2
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 12
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 16
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 6
+    Rank bonus: 2
+    Standard bearer bonus: 1
+
+Total Score: 9
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 2 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 9... 
+    [4, 6]
+
+Stormvermin fails their break test!
+Stormvermin flees ([4, 3] + 1) = 8 inches
+Dragon Princes of Calendor pursues ([4, 4, 2]) = 8 inches
+
+Dragon Princes of Calendor has caught Stormvermin!
+
+Stormvermin has been annihilated!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 16 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 16 attacks
+    [5, 4, 4, 6, 2, 6, 3, 5, 1, 2, 4, 6, 3, 3, 3, 4]
+    Dragon Princes of Calendor hits on 3+
+    13 attacks hit
+    Re-rolling 3 misses....
+    [1, 2, 4]
+    Dragon Princes of Calendor hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [2, 2, 6, 4, 2, 2, 6, 3, 5, 4, 3, 3, 6, 4]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [4, 4, 1, 2]
+    Prince hits on 3+
+    2 attacks hit
+    Re-rolling 2 misses....
+    [2, 2]
+    Prince hits on 3+
+    0 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [5, 6]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [1, 2, 4]
+    Drakemaster hits on 3+
+    1 attacks hit
+    Re-rolling 2 misses....
+    [3, 4]
+    Drakemaster hits on 3+
+    2 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [2, 5, 2]
+    Stormvermin have a 5+ armor save...
+    [5]
+
+    Dragon Princes of Calendor hits: 19
+    Dragon Princes of Calendor wounds : 16
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 8 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 8 attacks
+    [3, 5, 2, 5, 1, 5, 1, 6]
+    Stormvermin hits on 4+
+    4 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [4, 6, 6, 1]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [1, 1, 3]
+
+    Rolling for Warlord....
+    Warlord has 4 attacks
+    [6, 3, 3, 5]
+    Warlord hits on 3+
+    4 attacks hit
+    Rolling for wounds....
+    Warlord wounds on 2+
+    [4, 3, 4, 3]
+    Dragon Princes of Calendor have a 5+ armor save...
+    [1, 1, 4, 4]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [1, 6]
+    Fangleader hits on 4+
+    1 attacks hit
+    Rolling for wounds....
+    Fangleader wounds on 3+
+    [5]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [3]
+
+    Stormvermin hits: 9
+    Stormvermin wounds : 6
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [3, 3, 5, 1, 5, 1]
+    Elven Steeds hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [2, 3]
+
+    Elven Steeds hits: 2
+    Elven Steeds wounds : 0
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 16
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 20
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 6
+    Rank bonus: 2
+    Standard bearer bonus: 1
+
+Total Score: 9
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 2 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 9... 
+    [1, 6]
+
+Stormvermin has passed their break test.
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 16 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 16 attacks
+    [5, 4, 5, 1, 3, 2, 1, 6, 1, 6, 3, 1, 6, 6, 4, 6]
+    Dragon Princes of Calendor hits on 3+
+    11 attacks hit
+    Re-rolling 5 misses....
+    [2, 2, 2, 4, 6]
+    Dragon Princes of Calendor hits on 3+
+    2 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [5, 4, 1, 1, 4, 5, 5, 1, 6, 4, 2, 3, 3]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [4, 4, 1, 5]
+    Prince hits on 3+
+    3 attacks hit
+    Re-rolling 1 misses....
+    [4]
+    Prince hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [1, 3, 4, 5]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [3, 5, 2]
+    Drakemaster hits on 3+
+    2 attacks hit
+    Re-rolling 1 misses....
+    [5]
+    Drakemaster hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [4, 5, 6]
+    Stormvermin have a 5+ armor save...
+    [5, 4, 6]
+
+    Dragon Princes of Calendor hits: 20
+    Dragon Princes of Calendor wounds : 14
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 8 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 8 attacks
+    [2, 2, 6, 3, 3, 4, 2, 4]
+    Stormvermin hits on 4+
+    3 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [3, 1, 1]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [5]
+
+    Rolling for Warlord....
+    Warlord has 4 attacks
+    [1, 3, 3, 6]
+    Warlord hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Warlord wounds on 2+
+    [5, 3, 4]
+    Dragon Princes of Calendor have a 5+ armor save...
+    [6, 6, 5]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [3, 5]
+    Fangleader hits on 4+
+    1 attacks hit
+    Rolling for wounds....
+    Fangleader wounds on 3+
+    [2]
+
+    Stormvermin hits: 7
+    Stormvermin wounds : 0
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [2, 5, 2, 4, 2, 6]
+    Elven Steeds hits on 4+
+    3 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [3, 5, 5]
+    Stormvermin have a 5+ armor save...
+    [4, 5]
+
+    Elven Steeds hits: 3
+    Elven Steeds wounds : 1
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 15
+    Charge bonus: 1
+    Rank bonus: 2
+    Standard bearer bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 20
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 0
+    Rank bonus: 2
+    Standard bearer bonus: 1
+
+Total Score: 3
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin rolls for a leadership test with a modified leadership of 0... 
+    [5, 6]
+
+Stormvermin fails their break test!
+Stormvermin flees ([3, 5] + 1) = 9 inches
+Dragon Princes of Calendor pursues ([2, 1, 1]) = 3 inches
+
+Stormvermin has escaped!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 16 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 16 attacks
+    [1, 5, 3, 5, 3, 4, 6, 5, 6, 2, 3, 3, 3, 5, 3, 3]
+    Dragon Princes of Calendor hits on 3+
+    14 attacks hit
+    Re-rolling 2 misses....
+    [4, 2]
+    Dragon Princes of Calendor hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [4, 4, 1, 2, 2, 3, 1, 1, 6, 6, 1, 6, 5, 3, 3]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [3, 5, 2, 4]
+    Prince hits on 3+
+    3 attacks hit
+    Re-rolling 1 misses....
+    [2]
+    Prince hits on 3+
+    0 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [5, 5, 4]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [2, 5, 3]
+    Drakemaster hits on 3+
+    2 attacks hit
+    Re-rolling 1 misses....
+    [6]
+    Drakemaster hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [2, 2, 1]
+
+    Dragon Princes of Calendor hits: 21
+    Dragon Princes of Calendor wounds : 14
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 8 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 8 attacks
+    [6, 1, 3, 5, 6, 5, 5, 6]
+    Stormvermin hits on 4+
+    6 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [3, 1, 1, 5, 5, 4]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [4, 6, 6, 3]
+
+    Rolling for Warlord....
+    Warlord has 4 attacks
+    [6, 5, 3, 3]
+    Warlord hits on 3+
+    4 attacks hit
+    Rolling for wounds....
+    Warlord wounds on 2+
+    [6, 5, 4, 1]
+    Dragon Princes of Calendor have a 5+ armor save...
+    [1, 2, 2]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [2, 2]
+    Fangleader hits on 4+
+    0 attacks hit
+
+    Stormvermin hits: 10
+    Stormvermin wounds : 3
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [5, 6, 3, 4, 6, 3]
+    Elven Steeds hits on 4+
+    4 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [2, 6, 4, 6]
+    Stormvermin have a 5+ armor save...
+    [5, 6, 5]
+
+    Elven Steeds hits: 4
+    Elven Steeds wounds : 0
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 14
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 18
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 3
+    Rank bonus: 2
+    Standard bearer bonus: 1
+
+Total Score: 6
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 2 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 9... 
+    [4, 4]
+
+Stormvermin fails their break test!
+Stormvermin flees ([2, 3] + 1) = 6 inches
+Dragon Princes of Calendor pursues ([5, 3, 3]) = 8 inches
+
+Dragon Princes of Calendor has caught Stormvermin!
+
+Stormvermin has been annihilated!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 16 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 16 attacks
+    [4, 5, 3, 6, 5, 4, 4, 2, 4, 6, 6, 3, 4, 6, 4, 1]
+    Dragon Princes of Calendor hits on 3+
+    14 attacks hit
+    Re-rolling 2 misses....
+    [5, 2]
+    Dragon Princes of Calendor hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [6, 1, 5, 3, 4, 1, 2, 1, 4, 4, 6, 3, 2, 1, 3]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [5, 5, 6, 4]
+    Prince hits on 3+
+    4 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [2, 4, 4, 2]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [2, 2, 4]
+    Drakemaster hits on 3+
+    1 attacks hit
+    Re-rolling 2 misses....
+    [5, 5]
+    Drakemaster hits on 3+
+    2 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [6, 5, 6]
+    Stormvermin have a 5+ armor save...
+    [5, 4, 2]
+
+    Dragon Princes of Calendor hits: 22
+    Dragon Princes of Calendor wounds : 17
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 8 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 8 attacks
+    [3, 5, 1, 6, 4, 6, 1, 6]
+    Stormvermin hits on 4+
+    5 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [6, 1, 3, 6, 1]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [6, 2, 2]
+
+    Rolling for Warlord....
+    Warlord has 4 attacks
+    [6, 3, 1, 3]
+    Warlord hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Warlord wounds on 2+
+    [2, 3, 5]
+    Dragon Princes of Calendor have a 5+ armor save...
+    [6, 4, 5]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [2, 3]
+    Fangleader hits on 4+
+    0 attacks hit
+
+    Stormvermin hits: 8
+    Stormvermin wounds : 3
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [3, 6, 3, 1, 6, 1]
+    Elven Steeds hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [4, 4]
+    Stormvermin have a 5+ armor save...
+    [6, 3]
+
+    Elven Steeds hits: 2
+    Elven Steeds wounds : 1
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 18
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 22
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 3
+    Rank bonus: 1
+    Standard bearer bonus: 1
+
+Total Score: 5
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin rolls for a leadership test with a modified leadership of 0... 
+    [6, 3]
+
+Stormvermin fails their break test!
+Stormvermin flees ([4, 1] + 1) = 6 inches
+Dragon Princes of Calendor pursues ([1, 1, 5]) = 6 inches
+
+Dragon Princes of Calendor has caught Stormvermin!
+
+Stormvermin has been annihilated!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 16 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 16 attacks
+    [3, 4, 1, 6, 1, 6, 2, 1, 3, 1, 2, 6, 2, 5, 4, 2]
+    Dragon Princes of Calendor hits on 3+
+    8 attacks hit
+    Re-rolling 8 misses....
+    [6, 5, 5, 1, 1, 4, 1, 4]
+    Dragon Princes of Calendor hits on 3+
+    5 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [4, 1, 1, 6, 3, 5, 4, 3, 3, 3, 1, 5, 4]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [3, 2, 5, 5]
+    Prince hits on 3+
+    3 attacks hit
+    Re-rolling 1 misses....
+    [3]
+    Prince hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [4, 1, 1, 1]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [5, 2, 6]
+    Drakemaster hits on 3+
+    2 attacks hit
+    Re-rolling 1 misses....
+    [1]
+    Drakemaster hits on 3+
+    0 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [4, 1]
+    Stormvermin have a 5+ armor save...
+    [3]
+
+    Dragon Princes of Calendor hits: 19
+    Dragon Princes of Calendor wounds : 12
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 8 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 8 attacks
+    [6, 3, 6, 2, 4, 5, 1, 3]
+    Stormvermin hits on 4+
+    4 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [3, 2, 6, 1]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [6, 5]
+
+    Rolling for Warlord....
+    Warlord has 4 attacks
+    [1, 6, 3, 6]
+    Warlord hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Warlord wounds on 2+
+    [2, 2, 3]
+    Dragon Princes of Calendor have a 5+ armor save...
+    [4, 4, 6]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [1, 4]
+    Fangleader hits on 4+
+    1 attacks hit
+    Rolling for wounds....
+    Fangleader wounds on 3+
+    [3]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [3]
+
+    Stormvermin hits: 8
+    Stormvermin wounds : 2
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [5, 2, 5, 3, 1, 6]
+    Elven Steeds hits on 4+
+    3 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [1, 4, 3]
+    Stormvermin have a 5+ armor save...
+    [6]
+
+    Elven Steeds hits: 3
+    Elven Steeds wounds : 0
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 12
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 16
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 2
+    Rank bonus: 2
+    Standard bearer bonus: 1
+
+Total Score: 5
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 2 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 9... 
+    [6, 3]
+
+Stormvermin fails their break test!
+Stormvermin flees ([4, 4] + 1) = 9 inches
+Dragon Princes of Calendor pursues ([4, 3, 6]) = 10 inches
+
+Dragon Princes of Calendor has caught Stormvermin!
+
+Stormvermin has been annihilated!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 16 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 16 attacks
+    [4, 4, 4, 2, 6, 6, 6, 6, 1, 5, 2, 2, 2, 6, 1, 5]
+    Dragon Princes of Calendor hits on 3+
+    10 attacks hit
+    Re-rolling 6 misses....
+    [4, 3, 2, 1, 4, 5]
+    Dragon Princes of Calendor hits on 3+
+    4 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [1, 3, 2, 1, 6, 2, 1, 1, 2, 1, 3, 3, 4, 1]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [5, 3, 1, 3]
+    Prince hits on 3+
+    3 attacks hit
+    Re-rolling 1 misses....
+    [5]
+    Prince hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [3, 6, 4, 5]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [3, 1, 2]
+    Drakemaster hits on 3+
+    1 attacks hit
+    Re-rolling 2 misses....
+    [2, 5]
+    Drakemaster hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [3, 6]
+    Stormvermin have a 5+ armor save...
+    [1]
+
+    Dragon Princes of Calendor hits: 20
+    Dragon Princes of Calendor wounds : 13
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 8 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 8 attacks
+    [1, 2, 4, 4, 6, 5, 5, 6]
+    Stormvermin hits on 4+
+    6 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [6, 5, 5, 6, 3, 6]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [6, 2, 4, 3, 6, 2]
+
+    Rolling for Warlord....
+    Warlord has 4 attacks
+    [4, 1, 6, 1]
+    Warlord hits on 3+
+    2 attacks hit
+    Rolling for wounds....
+    Warlord wounds on 2+
+    [4, 3]
+    Dragon Princes of Calendor have a 5+ armor save...
+    [6, 4]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [6, 5]
+    Fangleader hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Fangleader wounds on 3+
+    [4, 5]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [1, 2]
+
+    Stormvermin hits: 10
+    Stormvermin wounds : 5
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [3, 5, 1, 2, 2, 2]
+    Elven Steeds hits on 4+
+    1 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [5]
+    Stormvermin have a 5+ armor save...
+    [2]
+
+    Elven Steeds hits: 1
+    Elven Steeds wounds : 1
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 14
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 18
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 5
+    Rank bonus: 2
+    Standard bearer bonus: 1
+
+Total Score: 8
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 2 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 9... 
+    [2, 5]
+
+Stormvermin has passed their break test.
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 23 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 23 attacks
+    [4, 2, 4, 6, 5, 1, 3, 1, 3, 3, 1, 2, 5, 1, 3, 2, 2, 3, 5, 4, 5, 3, 5]
+    Dragon Princes of Calendor hits on 3+
+    15 attacks hit
+    Re-rolling 8 misses....
+    [1, 3, 5, 1, 3, 6, 3, 4]
+    Dragon Princes of Calendor hits on 3+
+    6 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [6, 4, 6, 2, 5, 5, 4, 1, 5, 4, 1, 1, 5, 1, 1, 1, 5, 1, 2, 6, 2]
+
+    Rolling for Prince....
+    Prince has 0 attacks
+    []
+    Prince hits on 3+
+    0 attacks hit
+
+    Rolling for Drakemaster....
+    Drakemaster has 0 attacks
+    []
+    Drakemaster hits on 3+
+    0 attacks hit
+
+    Dragon Princes of Calendor hits: 21
+    Dragon Princes of Calendor wounds : 14
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 10 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 10 attacks
+    [1, 6, 6, 3, 2, 3, 6, 5, 1, 5]
+    Stormvermin hits on 4+
+    5 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [1, 4, 3, 5, 2]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [3, 4, 1]
+
+    Rolling for Warlord....
+    Warlord has 4 attacks
+    [6, 6, 3, 4]
+    Warlord hits on 3+
+    4 attacks hit
+    Rolling for wounds....
+    Warlord wounds on 2+
+    [2, 3, 1, 2]
+    Dragon Princes of Calendor have a 5+ armor save...
+    [5, 4, 1]
+
+    Rolling for Fangleader....
+    Fangleader has 0 attacks
+    []
+    Fangleader hits on 4+
+    0 attacks hit
+
+    Stormvermin hits: 9
+    Stormvermin wounds : 3
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [1, 3, 3, 1, 3, 2]
+    Elven Steeds hits on 4+
+    0 attacks hit
+
+    Elven Steeds hits: 0
+    Elven Steeds wounds : 0
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 14
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 18
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 3
+    Rank bonus: 2
+    Standard bearer bonus: 1
+
+Total Score: 6
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 2 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 9... 
+    [5, 2]
+
+Stormvermin has passed their break test.
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 23 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 23 attacks
+    [6, 4, 6, 2, 6, 2, 3, 4, 5, 1, 5, 6, 6, 3, 6, 3, 1, 3, 5, 1, 4, 1, 3]
+    Dragon Princes of Calendor hits on 3+
+    17 attacks hit
+    Re-rolling 6 misses....
+    [1, 2, 4, 3, 4, 3]
+    Dragon Princes of Calendor hits on 3+
+    4 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [1, 4, 1, 3, 5, 6, 4, 5, 6, 5, 3, 3, 2, 4, 5, 5, 2, 2, 1, 5, 6]
+
+    Rolling for Prince....
+    Prince has 0 attacks
+    []
+    Prince hits on 3+
+    0 attacks hit
+
+    Rolling for Drakemaster....
+    Drakemaster has 0 attacks
+    []
+    Drakemaster hits on 3+
+    0 attacks hit
+
+    Dragon Princes of Calendor hits: 21
+    Dragon Princes of Calendor wounds : 18
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 10 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 10 attacks
+    [4, 5, 3, 4, 4, 6, 4, 6, 3, 5]
+    Stormvermin hits on 4+
+    8 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [5, 4, 1, 4, 2, 3, 3, 5]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [2, 6, 3, 2, 3, 5]
+
+    Rolling for Warlord....
+    Warlord has 4 attacks
+    [5, 3, 1, 1]
+    Warlord hits on 3+
+    2 attacks hit
+    Rolling for wounds....
+    Warlord wounds on 2+
+    [1, 3]
+    Dragon Princes of Calendor have a 5+ armor save...
+    [3]
+
+    Rolling for Fangleader....
+    Fangleader has 0 attacks
+    []
+    Fangleader hits on 4+
+    0 attacks hit
+
+    Stormvermin hits: 10
+    Stormvermin wounds : 3
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [4, 5, 3, 3, 5, 6]
+    Elven Steeds hits on 4+
+    4 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [4, 4, 5, 6]
+    Stormvermin have a 5+ armor save...
+    [3, 3, 1, 2]
+
+    Elven Steeds hits: 4
+    Elven Steeds wounds : 4
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 22
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 26
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 3
+    Rank bonus: 0
+    Standard bearer bonus: 1
+
+Total Score: 4
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin rolls for a leadership test with a modified leadership of 0... 
+    [1, 1]
+
+Stormvermin has passed their break test.
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 31
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Warlord, Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 23 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 23 attacks
+    [3, 1, 1, 3, 6, 1, 6, 6, 4, 4, 2, 3, 6, 1, 5, 4, 2, 5, 3, 6, 2, 2, 2]
+    Dragon Princes of Calendor hits on 3+
+    14 attacks hit
+    Re-rolling 9 misses....
+    [1, 2, 3, 1, 5, 6, 2, 1, 1]
+    Dragon Princes of Calendor hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [6, 1, 6, 5, 5, 6, 4, 6, 4, 1, 3, 2, 3, 5, 6, 5, 5]
+
+    Rolling for Prince....
+    Prince has 0 attacks
+    []
+    Prince hits on 3+
+    0 attacks hit
+
+    Rolling for Drakemaster....
+    Drakemaster has 0 attacks
+    []
+    Drakemaster hits on 3+
+    0 attacks hit
+
+    Dragon Princes of Calendor hits: 17
+    Dragon Princes of Calendor wounds : 15
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 10 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 10 attacks
+    [5, 4, 2, 6, 1, 5, 4, 1, 6, 6]
+    Stormvermin hits on 4+
+    7 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [2, 5, 1, 6, 1, 5, 2]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [5, 1, 6]
+
+    Rolling for Warlord....
+    Warlord has 4 attacks
+    [5, 1, 4, 3]
+    Warlord hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Warlord wounds on 2+
+    [2, 6, 1]
+    Dragon Princes of Calendor have a 5+ armor save...
+    [3, 1]
+
+    Rolling for Fangleader....
+    Fangleader has 0 attacks
+    []
+    Fangleader hits on 4+
+    0 attacks hit
+
+    Stormvermin hits: 10
+    Stormvermin wounds : 3
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [3, 1, 1, 3, 5, 2]
+    Elven Steeds hits on 4+
+    1 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [3]
+
+    Elven Steeds hits: 1
+    Elven Steeds wounds : 0
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 15
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 19
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 3
+    Rank bonus: 2
+    Standard bearer bonus: 1
+
+Total Score: 6
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 2 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 9... 
+    [1, 1]
+
+Stormvermin has passed their break test.
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 3
+    Files: 5
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Lizardmen Kroxigor
+    Model count: 4
+    Ranks: 1
+    Files: 3
+    Model: Kroxigor
+    Characters:  Warlord, Kroxigor Ancient
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 23 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 23 attacks
+    [3, 4, 2, 2, 2, 3, 2, 4, 3, 4, 4, 3, 5, 3, 3, 1, 6, 3, 2, 5, 4, 1, 3]
+    Dragon Princes of Calendor hits on 3+
+    16 attacks hit
+    Re-rolling 7 misses....
+    [5, 1, 1, 1, 4, 1, 3]
+    Dragon Princes of Calendor hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [5, 4, 4, 5, 6, 1, 5, 6, 4, 6, 2, 2, 4, 5, 4, 4, 3, 1, 5]
+    Kroxigor have a 6+ armor save...
+    [2, 4, 1, 4, 1, 2, 1, 3, 2, 5, 1, 2, 2, 1, 4, 1, 6]
+
+    Rolling for Prince....
+    Prince has 0 attacks
+    []
+    Prince hits on 3+
+    0 attacks hit
+
+    Rolling for Drakemaster....
+    Drakemaster has 0 attacks
+    []
+    Drakemaster hits on 3+
+    0 attacks hit
+
+    Dragon Princes of Calendor hits: 19
+    Dragon Princes of Calendor wounds : 16
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [5, 3, 5, 3, 5, 4]
+    Elven Steeds hits on 4+
+    4 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [1, 4, 4, 2]
+    Kroxigor have a 4+ armor save...
+    [3, 1]
+
+    Elven Steeds hits: 4
+    Elven Steeds wounds : 2
+
+
+Kroxigor attacks last
+    Kroxigor gets 0 attacks....
+
+    Rolling for Kroxigor....
+    Kroxigor has 0 attacks
+    []
+    Kroxigor hits on 5+
+    0 attacks hit
+
+    Rolling for Warlord....
+    Warlord has 4 attacks
+    [5, 2, 4, 1]
+    Warlord hits on 3+
+    2 attacks hit
+    Rolling for wounds....
+    Warlord wounds on 2+
+    [4, 4]
+    Dragon Princes of Calendor have a 5+ armor save...
+    [4, 3]
+
+    Rolling for Kroxigor Ancient....
+    Kroxigor Ancient has 4 attacks
+    [2, 6, 5, 6]
+    Kroxigor Ancient gets 2 additional attacks....
+    [1, 4]
+    Kroxigor Ancient hits on 5+
+    3 attacks hit
+    Rolling for wounds....
+    Kroxigor Ancient wounds on 2+
+    [1, 5, 4]
+    Dragon Princes of Calendor have a 6+ armor save...
+    [6, 5]
+
+    Kroxigor hits: 5
+    Kroxigor wounds : 3
+
+
+Kroxigor has been annihilated!
+
+Dragon Princes of Calendor wins!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 2
+    Files: 7
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Lizardmen Kroxigor
+    Model count: 3
+    Ranks: 1
+    Files: 3
+    Model: Kroxigor
+    Characters:  Kroxigor Ancient
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 26 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 26 attacks
+    [1, 2, 3, 6, 3, 2, 5, 1, 1, 1, 5, 4, 4, 3, 4, 1, 5, 1, 6, 3, 4, 2, 1, 5, 3, 3]
+    Dragon Princes of Calendor hits on 3+
+    16 attacks hit
+    Re-rolling 10 misses....
+    [6, 6, 1, 2, 6, 2, 4, 5, 4, 5]
+    Dragon Princes of Calendor hits on 3+
+    7 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [3, 2, 1, 6, 3, 2, 1, 1, 3, 5, 1, 3, 4, 2, 5, 4, 6, 4, 3, 3, 4, 2, 1]
+    Kroxigor have a 6+ armor save...
+    [4, 5, 3, 2, 3, 3, 6, 6, 2, 6, 6, 6, 1, 4, 6, 2, 3, 3]
+
+    Rolling for Prince....
+    Prince has 0 attacks
+    []
+    Prince hits on 3+
+    0 attacks hit
+
+    Rolling for Drakemaster....
+    Drakemaster has 0 attacks
+    []
+    Drakemaster hits on 3+
+    0 attacks hit
+
+    Dragon Princes of Calendor hits: 23
+    Dragon Princes of Calendor wounds : 12
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 8 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 8 attacks
+    [3, 1, 5, 6, 4, 4, 5, 3]
+    Elven Steeds hits on 4+
+    5 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [1, 4, 6, 4, 2]
+    Kroxigor have a 4+ armor save...
+    [2, 6, 3]
+
+    Elven Steeds hits: 5
+    Elven Steeds wounds : 2
+
+
+Kroxigor attacks last
+    Kroxigor gets 0 attacks....
+
+    Rolling for Kroxigor....
+    Kroxigor has 0 attacks
+    []
+    Kroxigor hits on 5+
+    0 attacks hit
+
+    Rolling for Kroxigor Ancient....
+    Kroxigor Ancient has 4 attacks
+    [1, 4, 5, 2]
+    Kroxigor Ancient hits on 5+
+    1 attacks hit
+    Rolling for wounds....
+    Kroxigor Ancient wounds on 2+
+    [6]
+    Dragon Princes of Calendor have a 6+ armor save...
+    [5]
+
+    Kroxigor hits: 1
+    Kroxigor wounds : 1
+
+
+Kroxigor has been annihilated!
+
+Dragon Princes of Calendor wins!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 2
+    Files: 7
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Lizardmen Kroxigor
+    Model count: 3
+    Ranks: 1
+    Files: 3
+    Model: Kroxigor
+    Characters:  Kroxigor Ancient
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 26 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 26 attacks
+    [4, 1, 3, 2, 3, 4, 3, 5, 6, 4, 4, 5, 2, 5, 1, 5, 2, 6, 2, 5, 5, 4, 6, 1, 5, 5]
+    Dragon Princes of Calendor hits on 3+
+    19 attacks hit
+    Re-rolling 7 misses....
+    [4, 5, 5, 3, 1, 6, 4]
+    Dragon Princes of Calendor hits on 3+
+    6 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [1, 6, 3, 4, 5, 1, 3, 3, 2, 6, 5, 2, 5, 5, 6, 4, 5, 6, 1, 1, 2, 1, 5, 2, 4]
+    Kroxigor have a 6+ armor save...
+    [4, 4, 1, 6, 3, 4, 6, 1, 4, 4, 6, 2, 1, 1, 5, 4, 1, 6, 5, 4]
+
+    Rolling for Prince....
+    Prince has 0 attacks
+    []
+    Prince hits on 3+
+    0 attacks hit
+
+    Rolling for Drakemaster....
+    Drakemaster has 0 attacks
+    []
+    Drakemaster hits on 3+
+    0 attacks hit
+
+    Dragon Princes of Calendor hits: 25
+    Dragon Princes of Calendor wounds : 16
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 8 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 8 attacks
+    [3, 4, 6, 2, 4, 5, 6, 1]
+    Elven Steeds hits on 4+
+    5 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [2, 3, 6, 1, 1]
+    Kroxigor have a 4+ armor save...
+    [2]
+
+    Elven Steeds hits: 5
+    Elven Steeds wounds : 1
+
+
+Kroxigor attacks last
+    Kroxigor gets 0 attacks....
+
+    Rolling for Kroxigor....
+    Kroxigor has 0 attacks
+    []
+    Kroxigor hits on 5+
+    0 attacks hit
+
+    Rolling for Kroxigor Ancient....
+    Kroxigor Ancient has 4 attacks
+    [5, 3, 5, 3]
+    Kroxigor Ancient hits on 5+
+    2 attacks hit
+    Rolling for wounds....
+    Kroxigor Ancient wounds on 2+
+    [6, 2]
+    Dragon Princes of Calendor have a 6+ armor save...
+    [4, 1]
+
+    Kroxigor hits: 2
+    Kroxigor wounds : 2
+
+
+Kroxigor has been annihilated!
+
+Dragon Princes of Calendor wins!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 2
+    Files: 7
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Lizardmen Kroxigor
+    Model count: 6
+    Ranks: 1
+    Files: 4
+    Model: Kroxigor
+    Characters:  Kroxigor Ancient
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 26 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 26 attacks
+    [4, 1, 4, 2, 6, 2, 2, 3, 3, 6, 3, 4, 4, 6, 3, 2, 6, 5, 2, 5, 1, 2, 5, 5, 4, 3]
+    Dragon Princes of Calendor hits on 3+
+    18 attacks hit
+    Re-rolling 8 misses....
+    [5, 5, 2, 4, 4, 3, 5, 2]
+    Dragon Princes of Calendor hits on 3+
+    6 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [6, 6, 6, 4, 6, 1, 3, 6, 4, 6, 4, 3, 3, 3, 6, 2, 6, 6, 6, 5, 6, 1, 3, 1]
+    Kroxigor have a 6+ armor save...
+    [3, 1, 4, 6, 4, 2, 5, 4, 5, 4, 1, 6, 3, 2, 4, 4, 5, 4, 4, 6, 5]
+
+    Rolling for Prince....
+    Prince has 0 attacks
+    []
+    Prince hits on 3+
+    0 attacks hit
+
+    Rolling for Drakemaster....
+    Drakemaster has 0 attacks
+    []
+    Drakemaster hits on 3+
+    0 attacks hit
+
+    Dragon Princes of Calendor hits: 24
+    Dragon Princes of Calendor wounds : 18
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 8 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 8 attacks
+    [2, 1, 1, 6, 2, 1, 2, 6]
+    Elven Steeds hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [4, 2]
+    Kroxigor have a 4+ armor save...
+    [6]
+
+    Elven Steeds hits: 2
+    Elven Steeds wounds : 0
+
+
+Kroxigor attacks last
+    Kroxigor gets 0 attacks....
+
+    Rolling for Kroxigor....
+    Kroxigor has 0 attacks
+    []
+    Kroxigor hits on 5+
+    0 attacks hit
+
+    Rolling for Kroxigor Ancient....
+    Kroxigor Ancient has 4 attacks
+    [6, 3, 2, 1]
+    Kroxigor Ancient gets 1 additional attacks....
+    [1]
+    Kroxigor Ancient hits on 5+
+    1 attacks hit
+    Rolling for wounds....
+    Kroxigor Ancient wounds on 2+
+    [1]
+
+    Kroxigor hits: 1
+    Kroxigor wounds : 0
+
+
+Kroxigor has been annihilated!
+
+Dragon Princes of Calendor wins!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Spearmen
+    Model count: 46
+    Ranks: 7
+    Files: 6
+    Model: Spearmen
+    Characters:  Prince, Sentinel
+
+Unit B: Lizardmen Kroxigor
+    Model count: 6
+    Ranks: 1
+    Files: 4
+    Model: Kroxigor
+    Characters:  Kroxigor Ancient
+
+Round 1
+
+
+Spearmen attacks first
+    Spearmen gets 22 attacks....
+
+    Rolling for Spearmen....
+    Spearmen has 22 attacks
+    [6, 6, 6, 6, 4, 3, 1, 2, 3, 5, 2, 2, 5, 4, 1, 6, 5, 2, 2, 1, 3, 1]
+    Spearmen hits on 3+
+    13 attacks hit
+    Re-rolling 9 misses....
+    [4, 5, 4, 4, 2, 4, 5, 6, 3]
+    Spearmen hits on 3+
+    8 attacks hit
+    Rolling for wounds....
+    Spearmen wounds on 4+
+    [5, 5, 2, 5, 2, 2, 3, 1, 3, 6, 3, 6, 4, 6, 1, 3, 3, 3, 1, 1, 3]
+    Kroxigor have a 4+ armor save...
+    [5, 4, 5, 1, 4, 2, 3]
+
+    Rolling for Prince....
+    Prince has 0 attacks
+    []
+    Prince hits on 3+
+    0 attacks hit
+
+    Rolling for Sentinel....
+    Sentinel has 0 attacks
+    []
+    Sentinel hits on 3+
+    0 attacks hit
+
+    Spearmen hits: 21
+    Spearmen wounds : 3
+
+
+Kroxigor attacks last
+    Kroxigor gets 14 attacks....
+
+    Rolling for Kroxigor....
+    Kroxigor has 14 attacks
+    [5, 3, 1, 1, 3, 2, 1, 5, 4, 1, 5, 3, 6, 3]
+    Kroxigor gets 1 additional attacks....
+    [3]
+    Kroxigor hits on 4+
+    5 attacks hit
+    Rolling for wounds....
+    Kroxigor wounds on 2+
+    [6, 5, 6, 1, 5]
+
+    Rolling for Kroxigor Ancient....
+    Kroxigor Ancient has 0 attacks
+    []
+    Kroxigor Ancient hits on 4+
+    0 attacks hit
+
+    Kroxigor hits: 5
+    Kroxigor wounds : 4
+
+
+************************** Spearmen Combat Score **************************
+    Wounds dealt: 3
+    Charge bonus: 1
+    Rank bonus: 3
+    Standard bearer bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 9
+****************************************************************************
+
+
+************************** Kroxigor Combat Score **************************
+    Wounds dealt: 4
+    Rank bonus: 0
+    Standard bearer bonus: 1
+
+Total Score: 5
+****************************************************************************
+
+
+Spearmen wins!
+
+Kroxigor rolls for a leadership test with a modified leadership of 3... 
+    [3, 1]
+
+Kroxigor fails their break test!
+Kroxigor flees ([5, 4]) = 9 inches
+Spearmen pursues ([1, 1]) = 2 inches
+
+Kroxigor has escaped!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 46
+    Ranks: 7
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 23 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 23 attacks
+    [1, 2, 3, 4, 3, 4, 2, 4, 5, 4, 6, 6, 2, 5, 5, 5, 2, 5, 6, 6, 2, 2, 4]
+    Dragon Princes of Calendor hits on 3+
+    16 attacks hit
+    Re-rolling 7 misses....
+    [1, 5, 6, 5, 2, 1, 5]
+    Dragon Princes of Calendor hits on 3+
+    4 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [2, 1, 2, 3, 3, 2, 5, 1, 6, 2, 2, 6, 2, 1, 6, 3, 2, 3, 2, 6]
+
+    Rolling for Prince....
+    Prince has 0 attacks
+    []
+    Prince hits on 3+
+    0 attacks hit
+
+    Rolling for Drakemaster....
+    Drakemaster has 0 attacks
+    []
+    Drakemaster hits on 3+
+    0 attacks hit
+
+    Dragon Princes of Calendor hits: 20
+    Dragon Princes of Calendor wounds : 17
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 11 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 11 attacks
+    [3, 5, 2, 3, 4, 2, 4, 4, 6, 6, 2]
+    Stormvermin hits on 4+
+    6 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [6, 3, 3, 2, 5, 1]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [2, 6, 1, 6]
+
+    Rolling for Fangleader....
+    Fangleader has 0 attacks
+    []
+    Fangleader hits on 4+
+    0 attacks hit
+
+    Stormvermin hits: 6
+    Stormvermin wounds : 2
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [1, 6, 2, 4, 1, 1]
+    Elven Steeds hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [1, 5]
+    Stormvermin have a 5+ armor save...
+    [4]
+
+    Elven Steeds hits: 2
+    Elven Steeds wounds : 1
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 18
+    Charge bonus: 1
+    Rank bonus: 3
+    Standard bearer bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 24
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 2
+    Rank bonus: 1
+    Standard bearer bonus: 1
+
+Total Score: 4
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 1 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 6... 
+    [4, 6]
+
+Stormvermin fails their break test!
+Stormvermin flees ([5, 5] + 1) = 11 inches
+Dragon Princes of Calendor pursues ([6, 1, 5]) = 11 inches
+
+Dragon Princes of Calendor has caught Stormvermin!
+
+Stormvermin has been annihilated!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 46
+    Ranks: 7
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 12 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 12 attacks
+    [1, 1, 3, 2, 1, 5, 6, 6, 4, 4, 5, 6]
+    Dragon Princes of Calendor hits on 3+
+    8 attacks hit
+    Re-rolling 4 misses....
+    [1, 3, 4, 6]
+    Dragon Princes of Calendor hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [4, 6, 6, 1, 3, 6, 4, 5, 3, 2, 4]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [2, 6, 6, 3]
+    Prince hits on 3+
+    3 attacks hit
+    Re-rolling 1 misses....
+    [6]
+    Prince hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [1, 1, 3, 6]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [3, 1, 6]
+    Drakemaster hits on 3+
+    2 attacks hit
+    Re-rolling 1 misses....
+    [3]
+    Drakemaster hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [4, 1, 6]
+    Stormvermin have a 5+ armor save...
+    [2, 4]
+
+    Dragon Princes of Calendor hits: 18
+    Dragon Princes of Calendor wounds : 14
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 9 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 9 attacks
+    [6, 4, 2, 5, 4, 2, 2, 6, 2]
+    Stormvermin hits on 4+
+    5 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [6, 3, 4, 2, 6]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [5, 3, 3, 3]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [4, 2]
+    Fangleader hits on 4+
+    1 attacks hit
+    Rolling for wounds....
+    Fangleader wounds on 3+
+    [6]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [4]
+
+    Stormvermin hits: 6
+    Stormvermin wounds : 0
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 5 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 5 attacks
+    [1, 2, 2, 3, 3]
+    Elven Steeds hits on 4+
+    0 attacks hit
+
+    Elven Steeds hits: 0
+    Elven Steeds wounds : 0
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 14
+    Charge bonus: 1
+    Rank bonus: 3
+    Standard bearer bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 20
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 0
+    Rank bonus: 2
+    Standard bearer bonus: 1
+
+Total Score: 3
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 2 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 7... 
+    [1, 1]
+
+Stormvermin has passed their break test.
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 46
+    Ranks: 7
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 16 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 16 attacks
+    [1, 3, 4, 3, 4, 4, 4, 5, 2, 1, 3, 1, 4, 4, 6, 3]
+    Dragon Princes of Calendor hits on 3+
+    12 attacks hit
+    Re-rolling 4 misses....
+    [3, 2, 4, 4]
+    Dragon Princes of Calendor hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [4, 4, 5, 5, 2, 5, 4, 3, 6, 2, 2, 3, 1, 3, 2]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [5, 2, 4, 5]
+    Prince hits on 3+
+    3 attacks hit
+    Re-rolling 1 misses....
+    [4]
+    Prince hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [1, 1, 5, 1]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [2, 1, 1]
+    Drakemaster hits on 3+
+    0 attacks hit
+    Re-rolling 3 misses....
+    [5, 6, 3]
+    Drakemaster hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [2, 6, 1]
+    Stormvermin have a 5+ armor save...
+    [6]
+
+    Dragon Princes of Calendor hits: 22
+    Dragon Princes of Calendor wounds : 15
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 7 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 7 attacks
+    [2, 5, 3, 5, 2, 3, 4]
+    Stormvermin hits on 4+
+    3 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [6, 5, 3]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [1, 4, 1]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [6, 2]
+    Fangleader hits on 4+
+    1 attacks hit
+    Rolling for wounds....
+    Fangleader wounds on 3+
+    [1]
+
+    Stormvermin hits: 4
+    Stormvermin wounds : 2
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [6, 1, 2, 2, 5, 1]
+    Elven Steeds hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [5, 3]
+    Stormvermin have a 5+ armor save...
+    [5]
+
+    Elven Steeds hits: 2
+    Elven Steeds wounds : 0
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 15
+    Charge bonus: 1
+    Rank bonus: 3
+    Standard bearer bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 21
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 2
+    Rank bonus: 2
+    Standard bearer bonus: 1
+
+Total Score: 5
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 2 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 7... 
+    [6, 3]
+
+Stormvermin fails their break test!
+Stormvermin flees ([2, 5] + 1) = 8 inches
+Dragon Princes of Calendor pursues ([4, 1, 1]) = 5 inches
+
+Stormvermin has escaped!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 46
+    Ranks: 7
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 16 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 16 attacks
+    [6, 6, 3, 2, 6, 3, 2, 2, 4, 6, 2, 6, 5, 1, 2, 2]
+    Dragon Princes of Calendor hits on 3+
+    9 attacks hit
+    Re-rolling 7 misses....
+    [4, 5, 4, 6, 1, 5, 4]
+    Dragon Princes of Calendor hits on 3+
+    6 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [5, 4, 4, 4, 3, 2, 1, 6, 3, 2, 6, 5, 6, 1, 1]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [6, 3, 6, 1]
+    Prince hits on 3+
+    3 attacks hit
+    Re-rolling 1 misses....
+    [1]
+    Prince hits on 3+
+    0 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [4, 5, 2]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [3, 6, 3]
+    Drakemaster hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [1, 1, 5]
+    Stormvermin have a 5+ armor save...
+    [6]
+
+    Dragon Princes of Calendor hits: 21
+    Dragon Princes of Calendor wounds : 15
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [3, 6, 3, 1, 4, 2]
+    Elven Steeds hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [5, 3]
+    Stormvermin have a 5+ armor save...
+    [1]
+
+    Elven Steeds hits: 2
+    Elven Steeds wounds : 1
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 16
+    Charge bonus: 1
+    Rank bonus: 3
+    Standard bearer bonus: 1
+    Flank attack bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 23
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 0
+    Unit is disrupted and receives no rank bonus
+    Standard bearer bonus: 1
+
+Total Score: 1
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 1 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 6... 
+    [2, 2]
+
+Stormvermin has passed their break test.
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 46
+    Ranks: 7
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 16 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 16 attacks
+    [6, 6, 2, 2, 1, 5, 3, 5, 5, 6, 1, 5, 6, 6, 6, 1]
+    Dragon Princes of Calendor hits on 3+
+    11 attacks hit
+    Re-rolling 5 misses....
+    [2, 4, 3, 1, 4]
+    Dragon Princes of Calendor hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [3, 1, 6, 2, 6, 1, 2, 6, 2, 5, 1, 5, 3, 6]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [1, 5, 2, 4]
+    Prince hits on 3+
+    2 attacks hit
+    Re-rolling 2 misses....
+    [2, 2]
+    Prince hits on 3+
+    0 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [2, 3]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [5, 6, 4]
+    Drakemaster hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [4, 6, 5]
+    Stormvermin have a 5+ armor save...
+    [6, 4, 1]
+
+    Dragon Princes of Calendor hits: 19
+    Dragon Princes of Calendor wounds : 15
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [4, 4, 2, 4, 2, 5]
+    Elven Steeds hits on 4+
+    4 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [1, 6, 4, 2]
+    Stormvermin have a 5+ armor save...
+    [5, 5]
+
+    Elven Steeds hits: 4
+    Elven Steeds wounds : 0
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 15
+    Charge bonus: 1
+    Rank bonus: 3
+    Standard bearer bonus: 1
+    Flank attack bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 22
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 0
+    Unit is disrupted and receives no rank bonus
+    Standard bearer bonus: 1
+
+Total Score: 1
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 2 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 7... 
+    [5, 5]
+
+Stormvermin fails their break test!
+Stormvermin flees ([5, 2] + 1) = 8 inches
+Dragon Princes of Calendor pursues ([6, 2, 5]) = 11 inches
+
+Dragon Princes of Calendor has caught Stormvermin!
+
+Stormvermin has been annihilated!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 46
+    Ranks: 7
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 16 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 16 attacks
+    [3, 5, 1, 6, 1, 5, 3, 1, 3, 2, 5, 2, 5, 4, 1, 2]
+    Dragon Princes of Calendor hits on 3+
+    9 attacks hit
+    Re-rolling 7 misses....
+    [4, 3, 2, 2, 5, 2, 2]
+    Dragon Princes of Calendor hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [3, 1, 3, 5, 6, 5, 2, 3, 4, 4, 4, 4]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [3, 4, 5, 6]
+    Prince hits on 3+
+    4 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [3, 5, 6, 3]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [5, 6, 4]
+    Drakemaster hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [5, 6, 6]
+    Stormvermin have a 5+ armor save...
+    [5, 6, 5]
+
+    Dragon Princes of Calendor hits: 19
+    Dragon Princes of Calendor wounds : 15
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [2, 6, 1, 4, 6, 5]
+    Elven Steeds hits on 4+
+    4 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [5, 6, 4, 4]
+    Stormvermin have a 5+ armor save...
+    [1, 3, 3, 5]
+
+    Elven Steeds hits: 4
+    Elven Steeds wounds : 3
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 18
+    Charge bonus: 1
+    Rank bonus: 3
+    Standard bearer bonus: 1
+    Flank attack bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 25
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 0
+    Unit is disrupted and receives no rank bonus
+    Standard bearer bonus: 1
+
+Total Score: 1
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 1 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 6... 
+    [5, 2]
+
+Stormvermin fails their break test!
+Stormvermin flees ([2, 3] + 1) = 6 inches
+Dragon Princes of Calendor pursues ([1, 5, 1]) = 6 inches
+
+Dragon Princes of Calendor has caught Stormvermin!
+
+Stormvermin has been annihilated!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 46
+    Ranks: 7
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 16 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 16 attacks
+    [4, 1, 5, 4, 6, 5, 3, 1, 6, 1, 1, 6, 6, 5, 3, 1]
+    Dragon Princes of Calendor hits on 3+
+    11 attacks hit
+    Re-rolling 5 misses....
+    [3, 2, 6, 2, 2]
+    Dragon Princes of Calendor hits on 3+
+    2 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [1, 3, 2, 1, 2, 1, 2, 6, 3, 2, 3, 5, 5]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [6, 5, 1, 4]
+    Prince hits on 3+
+    3 attacks hit
+    Re-rolling 1 misses....
+    [5]
+    Prince hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [3, 3, 5, 3]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [1, 5, 2]
+    Drakemaster hits on 3+
+    1 attacks hit
+    Re-rolling 2 misses....
+    [6, 3]
+    Drakemaster hits on 3+
+    2 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [3, 6, 6]
+    Stormvermin have a 5+ armor save...
+    [4, 3]
+
+    Dragon Princes of Calendor hits: 20
+    Dragon Princes of Calendor wounds : 16
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [6, 6, 2, 1, 4, 2]
+    Elven Steeds hits on 4+
+    3 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [5, 6, 1]
+    Stormvermin have a 5+ armor save...
+    [3, 2]
+
+    Elven Steeds hits: 3
+    Elven Steeds wounds : 2
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 18
+    Charge bonus: 1
+    Rank bonus: 3
+    Standard bearer bonus: 1
+    Flank attack bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 25
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 0
+    Unit is disrupted and receives no rank bonus
+    Standard bearer bonus: 1
+
+Total Score: 1
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 1 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 6... 
+    [1, 6]
+
+Stormvermin fails their break test!
+Stormvermin flees ([3, 1] + 1) = 5 inches
+Dragon Princes of Calendor pursues ([5, 3, 4]) = 9 inches
+
+Dragon Princes of Calendor has caught Stormvermin!
+
+Stormvermin has been annihilated!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 46
+    Ranks: 7
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 16 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 16 attacks
+    [3, 5, 1, 3, 1, 5, 1, 3, 2, 5, 6, 4, 5, 5, 1, 1]
+    Dragon Princes of Calendor hits on 3+
+    10 attacks hit
+    Re-rolling 6 misses....
+    [3, 2, 4, 1, 6, 6]
+    Dragon Princes of Calendor hits on 3+
+    4 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [5, 2, 1, 1, 5, 4, 5, 4, 4, 4, 5, 6, 1, 3]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [6, 5, 1, 1]
+    Prince hits on 3+
+    2 attacks hit
+    Re-rolling 2 misses....
+    [6, 4]
+    Prince hits on 3+
+    2 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [6, 3, 6, 3]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [4, 3, 5]
+    Drakemaster hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [2, 1, 2]
+
+    Dragon Princes of Calendor hits: 21
+    Dragon Princes of Calendor wounds : 15
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [4, 5, 6, 4, 2, 2]
+    Elven Steeds hits on 4+
+    4 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [2, 2, 3, 6]
+    Stormvermin have a 5+ armor save...
+    [1]
+
+    Elven Steeds hits: 4
+    Elven Steeds wounds : 1
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 16
+    Charge bonus: 1
+    Rank bonus: 3
+    Standard bearer bonus: 1
+    Flank attack bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 23
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 0
+    Unit is disrupted and receives no rank bonus
+    Standard bearer bonus: 1
+
+Total Score: 1
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 1 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 6... 
+    [2, 5]
+
+Stormvermin fails their break test!
+Stormvermin flees ([3, 6] + 1) = 10 inches
+Dragon Princes of Calendor pursues ([3, 1, 2]) = 5 inches
+
+Stormvermin has escaped!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 46
+    Ranks: 7
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 16 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 16 attacks
+    [2, 2, 2, 4, 4, 2, 1, 6, 5, 5, 5, 2, 2, 3, 6, 1]
+    Dragon Princes of Calendor hits on 3+
+    8 attacks hit
+    Re-rolling 8 misses....
+    [1, 1, 4, 2, 4, 6, 2, 6]
+    Dragon Princes of Calendor hits on 3+
+    4 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [1, 2, 3, 3, 5, 6, 1, 6, 2, 3, 2, 5]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [2, 4, 2, 5]
+    Prince hits on 3+
+    2 attacks hit
+    Re-rolling 2 misses....
+    [6, 1]
+    Prince hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [1, 3, 4]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [1, 1, 2]
+    Drakemaster hits on 3+
+    0 attacks hit
+    Re-rolling 3 misses....
+    [6, 5, 5]
+    Drakemaster hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [2, 2, 3]
+
+    Dragon Princes of Calendor hits: 18
+    Dragon Princes of Calendor wounds : 12
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [1, 2, 2, 4, 5, 4]
+    Elven Steeds hits on 4+
+    3 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [3, 5, 3]
+    Stormvermin have a 5+ armor save...
+    [3]
+
+    Elven Steeds hits: 3
+    Elven Steeds wounds : 1
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 13
+    Charge bonus: 1
+    Rank bonus: 3
+    Standard bearer bonus: 1
+    Flank attack bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 20
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 0
+    Unit is disrupted and receives no rank bonus
+    Standard bearer bonus: 1
+
+Total Score: 1
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 2 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 7... 
+    [3, 6]
+
+Stormvermin fails their break test!
+Stormvermin flees ([5, 5] + 1) = 11 inches
+Dragon Princes of Calendor pursues ([1, 2, 2]) = 4 inches
+
+Stormvermin has escaped!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 46
+    Ranks: 7
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 16 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 16 attacks
+    [2, 5, 3, 3, 2, 2, 3, 3, 1, 3, 1, 1, 5, 4, 1, 4]
+    Dragon Princes of Calendor hits on 3+
+    9 attacks hit
+    Re-rolling 7 misses....
+    [1, 6, 1, 6, 3, 3, 6]
+    Dragon Princes of Calendor hits on 3+
+    5 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [2, 4, 4, 6, 3, 4, 5, 1, 2, 1, 4, 3, 6, 6]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [5, 1, 5, 3]
+    Prince hits on 3+
+    3 attacks hit
+    Re-rolling 1 misses....
+    [6]
+    Prince hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [3, 6, 4, 3]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [1, 6, 1]
+    Drakemaster hits on 3+
+    1 attacks hit
+    Re-rolling 2 misses....
+    [2, 6]
+    Drakemaster hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [5, 3]
+    Stormvermin have a 5+ armor save...
+    [2]
+
+    Dragon Princes of Calendor hits: 20
+    Dragon Princes of Calendor wounds : 17
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [6, 4, 1, 6, 6, 4]
+    Elven Steeds hits on 4+
+    5 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [5, 4, 2, 5, 5]
+    Stormvermin have a 5+ armor save...
+    [2, 5, 2, 2]
+
+    Elven Steeds hits: 5
+    Elven Steeds wounds : 3
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 20
+    Charge bonus: 1
+    Rank bonus: 3
+    Standard bearer bonus: 1
+    Flank attack bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 27
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 0
+    Unit is disrupted and receives no rank bonus
+    Standard bearer bonus: 1
+
+Total Score: 1
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 1 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 6... 
+    [4, 5]
+
+Stormvermin fails their break test!
+Stormvermin flees ([1, 4] + 1) = 6 inches
+Dragon Princes of Calendor pursues ([2, 3, 3]) = 6 inches
+
+Dragon Princes of Calendor has caught Stormvermin!
+
+Stormvermin has been annihilated!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 46
+    Ranks: 7
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 30
+    Ranks: 6
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 16 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 16 attacks
+    [1, 1, 6, 5, 4, 4, 5, 6, 1, 3, 1, 2, 4, 4, 2, 3]
+    Dragon Princes of Calendor hits on 3+
+    10 attacks hit
+    Re-rolling 6 misses....
+    [2, 4, 3, 1, 3, 5]
+    Dragon Princes of Calendor hits on 3+
+    4 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [3, 3, 6, 4, 1, 5, 4, 2, 6, 4, 3, 1, 6, 6]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [3, 3, 1, 5]
+    Prince hits on 3+
+    3 attacks hit
+    Re-rolling 1 misses....
+    [3]
+    Prince hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [6, 2, 4, 6]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [5, 5, 2]
+    Drakemaster hits on 3+
+    2 attacks hit
+    Re-rolling 1 misses....
+    [1]
+    Drakemaster hits on 3+
+    0 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [3, 1]
+
+    Dragon Princes of Calendor hits: 20
+    Dragon Princes of Calendor wounds : 16
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 2 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 2 attacks
+    [5, 1]
+    Stormvermin hits on 4+
+    1 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [6]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [1]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [4, 1]
+    Fangleader hits on 4+
+    1 attacks hit
+    Rolling for wounds....
+    Fangleader wounds on 3+
+    [1]
+
+    Stormvermin hits: 2
+    Stormvermin wounds : 1
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [4, 1, 4, 1, 6, 4]
+    Elven Steeds hits on 4+
+    4 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [2, 1, 2, 6]
+    Stormvermin have a 5+ armor save...
+    [1]
+
+    Elven Steeds hits: 4
+    Elven Steeds wounds : 1
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 17
+    Charge bonus: 1
+    Rank bonus: 3
+    Standard bearer bonus: 1
+    Flank attack bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 24
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 1
+    Unit is disrupted and receives no rank bonus
+    Standard bearer bonus: 1
+
+Total Score: 2
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 1 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 6... 
+    [6, 5]
+
+Stormvermin fails their break test!
+Stormvermin flees ([3, 6] + 1) = 10 inches
+Dragon Princes of Calendor pursues ([5, 4, 4]) = 9 inches
+
+Stormvermin has escaped!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 2
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 45
+    Ranks: 9
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 15 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 15 attacks
+    [1, 6, 6, 2, 2, 5, 6, 1, 1, 1, 4, 4, 1, 2, 5]
+    Dragon Princes of Calendor hits on 3+
+    7 attacks hit
+    Re-rolling 8 misses....
+    [6, 1, 1, 5, 6, 2, 2, 6]
+    Dragon Princes of Calendor hits on 3+
+    4 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [6, 5, 5, 1, 5, 4, 4, 2, 5, 3, 4]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [3, 5, 3, 3]
+    Prince hits on 3+
+    4 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [3, 6, 4, 5]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [3, 6, 4]
+    Drakemaster hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [1, 6, 5]
+    Stormvermin have a 5+ armor save...
+    [1, 2]
+
+    Dragon Princes of Calendor hits: 18
+    Dragon Princes of Calendor wounds : 16
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 5 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 5 attacks
+    [4, 4, 3, 4, 2]
+    Stormvermin hits on 4+
+    3 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [1, 2, 1]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [2, 3]
+    Fangleader hits on 4+
+    0 attacks hit
+
+    Stormvermin hits: 3
+    Stormvermin wounds : 0
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [1, 5, 4, 3, 3, 4]
+    Elven Steeds hits on 4+
+    3 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [5, 5, 4]
+    Stormvermin have a 5+ armor save...
+    [4, 4, 4]
+
+    Elven Steeds hits: 3
+    Elven Steeds wounds : 3
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 19
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Flank attack bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 24
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 0
+    Unit is disrupted and receives no rank bonus
+    Standard bearer bonus: 1
+
+Total Score: 1
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 3 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 8... 
+    [5, 2]
+
+Stormvermin fails their break test!
+Stormvermin flees ([2, 4] + 1) = 7 inches
+Dragon Princes of Calendor pursues ([1, 6, 4]) = 10 inches
+
+Dragon Princes of Calendor has caught Stormvermin!
+
+Stormvermin has been annihilated!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 2
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 45
+    Ranks: 9
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 15 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 15 attacks
+    [2, 6, 4, 5, 2, 4, 4, 5, 5, 6, 4, 2, 4, 1, 4]
+    Dragon Princes of Calendor hits on 3+
+    11 attacks hit
+    Re-rolling 4 misses....
+    [5, 4, 2, 6]
+    Dragon Princes of Calendor hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [2, 4, 2, 3, 4, 3, 1, 3, 4, 6, 6, 2, 6, 3]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [2, 4, 5, 4]
+    Prince hits on 3+
+    3 attacks hit
+    Re-rolling 1 misses....
+    [6]
+    Prince hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [1, 6, 2, 2]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [1, 4, 1]
+    Drakemaster hits on 3+
+    1 attacks hit
+    Re-rolling 2 misses....
+    [6, 5]
+    Drakemaster hits on 3+
+    2 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [2, 1, 4]
+    Stormvermin have a 5+ armor save...
+    [4]
+
+    Dragon Princes of Calendor hits: 21
+    Dragon Princes of Calendor wounds : 17
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 5 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 5 attacks
+    [1, 4, 1, 4, 1]
+    Stormvermin hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [4, 3]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [4, 6]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [5, 3]
+    Fangleader hits on 4+
+    1 attacks hit
+    Rolling for wounds....
+    Fangleader wounds on 3+
+    [6]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [3]
+
+    Stormvermin hits: 3
+    Stormvermin wounds : 0
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [2, 1, 2, 3, 1, 5]
+    Elven Steeds hits on 4+
+    1 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [6]
+    Stormvermin have a 5+ armor save...
+    [2]
+
+    Elven Steeds hits: 1
+    Elven Steeds wounds : 1
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 18
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Flank attack bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 23
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 0
+    Unit is disrupted and receives no rank bonus
+    Standard bearer bonus: 1
+
+Total Score: 1
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 3 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 8... 
+    [1, 1]
+
+Stormvermin has passed their break test.
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 2
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 60
+    Ranks: 12
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 15 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 15 attacks
+    [6, 6, 5, 1, 4, 2, 5, 3, 5, 6, 4, 1, 6, 1, 3]
+    Dragon Princes of Calendor hits on 3+
+    11 attacks hit
+    Re-rolling 4 misses....
+    [5, 4, 2, 2]
+    Dragon Princes of Calendor hits on 3+
+    2 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [3, 2, 1, 6, 6, 4, 2, 3, 1, 6, 2, 6, 5]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [3, 6, 5, 1]
+    Prince hits on 3+
+    3 attacks hit
+    Re-rolling 1 misses....
+    [5]
+    Prince hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [2, 4, 3, 4]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [3, 3, 5]
+    Drakemaster hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [3, 6, 4]
+    Stormvermin have a 5+ armor save...
+    [6, 6]
+
+    Dragon Princes of Calendor hits: 20
+    Dragon Princes of Calendor wounds : 15
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 8 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 8 attacks
+    [3, 1, 5, 5, 5, 2, 6, 2]
+    Stormvermin hits on 4+
+    4 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [1, 4, 2, 6]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [2, 1]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [2, 5]
+    Fangleader hits on 4+
+    1 attacks hit
+    Rolling for wounds....
+    Fangleader wounds on 3+
+    [4]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [3]
+
+    Stormvermin hits: 5
+    Stormvermin wounds : 2
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [6, 2, 2, 5, 2, 2]
+    Elven Steeds hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [2, 2]
+
+    Elven Steeds hits: 2
+    Elven Steeds wounds : 0
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 15
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Flank attack bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 20
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 2
+    Unit is disrupted and receives no rank bonus
+    Standard bearer bonus: 1
+
+Total Score: 3
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 3 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 8... 
+    [6, 6]
+
+Stormvermin fails their break test!
+Stormvermin flees ([6, 6] + 1) = 13 inches
+Dragon Princes of Calendor pursues ([3, 3, 1]) = 6 inches
+
+Stormvermin has escaped!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 2
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 60
+    Ranks: 12
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 15 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 15 attacks
+    [5, 3, 2, 5, 5, 6, 3, 3, 1, 3, 5, 6, 4, 2, 5]
+    Dragon Princes of Calendor hits on 3+
+    12 attacks hit
+    Re-rolling 3 misses....
+    [6, 6, 2]
+    Dragon Princes of Calendor hits on 3+
+    2 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [6, 2, 1, 2, 2, 6, 2, 2, 1, 2, 6, 2, 4, 2]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [3, 2, 1, 1]
+    Prince hits on 3+
+    1 attacks hit
+    Re-rolling 3 misses....
+    [6, 5, 2]
+    Prince hits on 3+
+    2 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [3, 1, 6]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [3, 5, 6]
+    Drakemaster hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [1, 5, 2]
+    Stormvermin have a 5+ armor save...
+    [4]
+
+    Dragon Princes of Calendor hits: 20
+    Dragon Princes of Calendor wounds : 15
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 8 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 8 attacks
+    [3, 2, 5, 3, 4, 6, 6, 2]
+    Stormvermin hits on 4+
+    4 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [2, 4, 1, 3]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [5, 5]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [4, 4]
+    Fangleader hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Fangleader wounds on 3+
+    [4, 6]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [1, 6]
+
+    Stormvermin hits: 6
+    Stormvermin wounds : 1
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [4, 2, 6, 2, 2, 1]
+    Elven Steeds hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [4, 6]
+    Stormvermin have a 5+ armor save...
+    [1, 1]
+
+    Elven Steeds hits: 2
+    Elven Steeds wounds : 2
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 17
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Flank attack bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 22
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 1
+    Unit is disrupted and receives no rank bonus
+    Standard bearer bonus: 1
+
+Total Score: 2
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 3 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 8... 
+    [5, 1]
+
+Stormvermin fails their break test!
+Stormvermin flees ([3, 5] + 1) = 9 inches
+Dragon Princes of Calendor pursues ([2, 1, 2]) = 4 inches
+
+Stormvermin has escaped!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 2
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 60
+    Ranks: 12
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 15 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 15 attacks
+    [5, 6, 2, 6, 5, 6, 6, 3, 5, 5, 3, 1, 1, 3, 4]
+    Dragon Princes of Calendor hits on 3+
+    12 attacks hit
+    Re-rolling 3 misses....
+    [3, 5, 3]
+    Dragon Princes of Calendor hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [5, 4, 5, 3, 6, 4, 6, 6, 4, 4, 6, 5, 3, 2, 3]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [3, 6, 2, 2]
+    Prince hits on 3+
+    2 attacks hit
+    Re-rolling 2 misses....
+    [4, 5]
+    Prince hits on 3+
+    2 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [2, 4, 3, 4]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [5, 4, 3]
+    Drakemaster hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [6, 4, 2]
+    Stormvermin have a 5+ armor save...
+    [4, 1]
+
+    Dragon Princes of Calendor hits: 22
+    Dragon Princes of Calendor wounds : 21
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 0 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 0 attacks
+    []
+    Stormvermin hits on 4+
+    0 attacks hit
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [4, 1]
+    Fangleader hits on 4+
+    1 attacks hit
+    Rolling for wounds....
+    Fangleader wounds on 3+
+    [3]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [6]
+
+    Stormvermin hits: 1
+    Stormvermin wounds : 0
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [2, 3, 2, 2, 5, 2]
+    Elven Steeds hits on 4+
+    1 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [3]
+
+    Elven Steeds hits: 1
+    Elven Steeds wounds : 0
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 21
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Rear attack bonus
+    Battle Standard bonus: 1
+
+Total Score: 27
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 0
+    Rank bonus: 3
+    Standard bearer bonus: 1
+
+Total Score: 4
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 3 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 8... 
+    [4, 4]
+
+Stormvermin fails their break test!
+Stormvermin flees ([4, 3] + 1) = 8 inches
+Dragon Princes of Calendor pursues ([1, 6, 4]) = 10 inches
+
+Dragon Princes of Calendor has caught Stormvermin!
+
+Stormvermin has been annihilated!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 2
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 60
+    Ranks: 12
+    Files: 5
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 15 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 15 attacks
+    [6, 5, 2, 3, 4, 4, 2, 1, 6, 3, 4, 3, 5, 4, 6]
+    Dragon Princes of Calendor hits on 3+
+    12 attacks hit
+    Re-rolling 3 misses....
+    [1, 6, 2]
+    Dragon Princes of Calendor hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [4, 5, 2, 2, 4, 6, 6, 3, 6, 3, 6, 6, 6]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [3, 5, 6, 1]
+    Prince hits on 3+
+    3 attacks hit
+    Re-rolling 1 misses....
+    [6]
+    Prince hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [5, 4, 1, 3]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [1, 6, 1]
+    Drakemaster hits on 3+
+    1 attacks hit
+    Re-rolling 2 misses....
+    [1, 6]
+    Drakemaster hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [3, 6]
+    Stormvermin have a 5+ armor save...
+    [4]
+
+    Dragon Princes of Calendor hits: 19
+    Dragon Princes of Calendor wounds : 17
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 5 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 5 attacks
+    [4, 3, 1, 4, 2]
+    Stormvermin hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [3, 2]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [6]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [3, 1]
+    Fangleader hits on 4+
+    0 attacks hit
+
+    Stormvermin hits: 2
+    Stormvermin wounds : 0
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [5, 5, 2, 2, 3, 3]
+    Elven Steeds hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [6, 6]
+    Stormvermin have a 5+ armor save...
+    [1, 4]
+
+    Elven Steeds hits: 2
+    Elven Steeds wounds : 2
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 19
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Rear attack bonus
+    Battle Standard bonus: 1
+
+Total Score: 25
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 0
+    Rank bonus: 3
+    Standard bearer bonus: 1
+
+Total Score: 4
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin remains steadfast.
+Stormverminadds its rank bonus of 3 to it's leadership score.
+
+Stormvermin rolls for a leadership test with a leadership of 8... 
+    [2, 1]
+
+Stormvermin has passed their break test.
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 2
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 60
+    Ranks: 5
+    Files: 12
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 15 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 15 attacks
+    [3, 1, 4, 5, 4, 2, 4, 6, 1, 1, 3, 1, 6, 3, 4]
+    Dragon Princes of Calendor hits on 3+
+    10 attacks hit
+    Re-rolling 5 misses....
+    [3, 4, 1, 2, 2]
+    Dragon Princes of Calendor hits on 3+
+    2 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [4, 2, 3, 1, 4, 5, 1, 3, 2, 1, 1, 3]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [4, 3, 3, 2]
+    Prince hits on 3+
+    3 attacks hit
+    Re-rolling 1 misses....
+    [3]
+    Prince hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [1, 1, 1, 2]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [6, 3, 5]
+    Drakemaster hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [6, 4, 1]
+    Stormvermin have a 5+ armor save...
+    [6, 4]
+
+    Dragon Princes of Calendor hits: 19
+    Dragon Princes of Calendor wounds : 10
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 9 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 9 attacks
+    [2, 6, 5, 4, 6, 2, 5, 5, 4]
+    Stormvermin hits on 4+
+    7 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [1, 1, 1, 1, 6, 1, 5]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [4, 1]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [6, 5]
+    Fangleader hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Fangleader wounds on 3+
+    [6, 3]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [4, 1]
+
+    Stormvermin hits: 9
+    Stormvermin wounds : 2
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [3, 4, 4, 6, 5, 5]
+    Elven Steeds hits on 4+
+    5 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [6, 3, 3, 3, 4]
+    Stormvermin have a 5+ armor save...
+    [3, 4]
+
+    Elven Steeds hits: 5
+    Elven Steeds wounds : 2
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 12
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Rear attack bonus
+    Battle Standard bonus: 1
+
+Total Score: 18
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 2
+    Rank bonus: 3
+    Standard bearer bonus: 1
+
+Total Score: 6
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin rolls for a leadership test with a modified leadership of 0... 
+    [4, 3]
+
+Stormvermin fails their break test!
+Stormvermin flees ([1, 1] + 1) = 3 inches
+Dragon Princes of Calendor pursues ([6, 6, 1]) = 12 inches
+
+Dragon Princes of Calendor has caught Stormvermin!
+
+Stormvermin has been annihilated!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 2
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 60
+    Ranks: 5
+    Files: 12
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 15 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 15 attacks
+    [1, 4, 2, 5, 1, 3, 5, 4, 1, 3, 4, 5, 1, 5, 5]
+    Dragon Princes of Calendor hits on 3+
+    10 attacks hit
+    Re-rolling 5 misses....
+    [2, 4, 5, 6, 1]
+    Dragon Princes of Calendor hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [2, 1, 6, 1, 4, 5, 5, 2, 2, 4, 3, 1, 4]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [1, 6, 3, 1]
+    Prince hits on 3+
+    2 attacks hit
+    Re-rolling 2 misses....
+    [4, 1]
+    Prince hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [6, 4, 2]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [2, 2, 5]
+    Drakemaster hits on 3+
+    1 attacks hit
+    Re-rolling 2 misses....
+    [5, 1]
+    Drakemaster hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [6, 1]
+    Stormvermin have a 5+ armor save...
+    [1]
+
+    Dragon Princes of Calendor hits: 18
+    Dragon Princes of Calendor wounds : 14
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 17 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 17 attacks
+    [2, 6, 4, 1, 2, 6, 4, 5, 2, 4, 1, 1, 5, 1, 1, 2, 4]
+    Stormvermin hits on 4+
+    8 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [4, 1, 4, 5, 5, 3, 3, 3]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [4, 5, 4, 6, 5, 4, 5]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [3, 5]
+    Fangleader hits on 4+
+    1 attacks hit
+    Rolling for wounds....
+    Fangleader wounds on 3+
+    [3]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [6]
+
+    Stormvermin hits: 9
+    Stormvermin wounds : 0
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [6, 2, 2, 4, 6, 5]
+    Elven Steeds hits on 4+
+    4 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [5, 6, 4, 1]
+    Stormvermin have a 5+ armor save...
+    [2, 5, 1]
+
+    Elven Steeds hits: 4
+    Elven Steeds wounds : 2
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 16
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 20
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 0
+    Rank bonus: 2
+    Standard bearer bonus: 1
+
+Total Score: 3
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin rolls for a leadership test with a modified leadership of 0... 
+    [5, 2]
+
+Stormvermin fails their break test!
+Stormvermin flees ([1, 5] + 1) = 7 inches
+Dragon Princes of Calendor pursues ([4, 4, 2]) = 8 inches
+
+Dragon Princes of Calendor has caught Stormvermin!
+
+Stormvermin has been annihilated!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 2
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 60
+    Ranks: 5
+    Files: 12
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 15 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 15 attacks
+    [6, 4, 3, 4, 6, 2, 4, 6, 2, 5, 4, 4, 3, 4, 4]
+    Dragon Princes of Calendor hits on 3+
+    13 attacks hit
+    Re-rolling 2 misses....
+    [3, 5]
+    Dragon Princes of Calendor hits on 3+
+    2 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [2, 5, 6, 1, 1, 4, 1, 6, 2, 2, 2, 1, 6, 2, 1]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [5, 3, 1, 4]
+    Prince hits on 3+
+    3 attacks hit
+    Re-rolling 1 misses....
+    [4]
+    Prince hits on 3+
+    1 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [4, 1, 3, 6]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [1, 6, 6]
+    Drakemaster hits on 3+
+    2 attacks hit
+    Re-rolling 1 misses....
+    [1]
+    Drakemaster hits on 3+
+    0 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [6, 5]
+    Stormvermin have a 5+ armor save...
+    [2, 5]
+
+    Dragon Princes of Calendor hits: 21
+    Dragon Princes of Calendor wounds : 14
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 17 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 17 attacks
+    [3, 4, 3, 4, 5, 3, 6, 5, 3, 2, 2, 1, 4, 2, 5, 2, 5]
+    Stormvermin hits on 4+
+    8 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [2, 2, 2, 2, 4, 5, 4, 5]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [2, 6, 6, 2]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [4, 6]
+    Fangleader hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Fangleader wounds on 3+
+    [2, 3]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [2]
+
+    Stormvermin hits: 10
+    Stormvermin wounds : 3
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [1, 1, 6, 3, 2, 4]
+    Elven Steeds hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [1, 4]
+    Stormvermin have a 5+ armor save...
+    [4]
+
+    Elven Steeds hits: 2
+    Elven Steeds wounds : 1
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 15
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 19
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 3
+    Rank bonus: 2
+    Standard bearer bonus: 1
+
+Total Score: 6
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin rolls for a leadership test with a modified leadership of 0... 
+    [3, 3]
+
+Stormvermin fails their break test!
+Stormvermin flees ([5, 1] + 1) = 7 inches
+Dragon Princes of Calendor pursues ([4, 3, 2]) = 7 inches
+
+Dragon Princes of Calendor has caught Stormvermin!
+
+Stormvermin has been annihilated!
+********************************************************************************************************************************************************
+
+Unit A: High Elves Dragon Princes of Calendor
+    Model count: 16
+    Ranks: 2
+    Files: 6
+    Model: Dragon Princes of Calendor
+    Characters:  Prince, Drakemaster
+
+Unit B: Skaven Stormvermin
+    Model count: 60
+    Ranks: 5
+    Files: 12
+    Model: Stormvermin
+    Characters:  Fangleader
+
+Round 1
+
+
+Dragon Princes of Calendor attacks first
+    Dragon Princes of Calendor gets 15 attacks....
+
+    Rolling for Dragon Princes of Calendor....
+    Dragon Princes of Calendor has 15 attacks
+    [4, 6, 5, 4, 3, 5, 2, 1, 3, 4, 4, 5, 1, 4, 3]
+    Dragon Princes of Calendor hits on 3+
+    12 attacks hit
+    Re-rolling 3 misses....
+    [6, 6, 6]
+    Dragon Princes of Calendor hits on 3+
+    3 attacks hit
+    Rolling for wounds....
+    Dragon Princes of Calendor wounds on 2+
+    [1, 4, 6, 6, 3, 1, 2, 5, 5, 5, 4, 4, 4, 5, 1]
+
+    Rolling for Prince....
+    Prince has 4 attacks
+    [6, 1, 1, 2]
+    Prince hits on 3+
+    1 attacks hit
+    Re-rolling 3 misses....
+    [6, 2, 6]
+    Prince hits on 3+
+    2 attacks hit
+    Rolling for wounds....
+    Prince wounds on 2+
+    [3, 1, 2]
+
+    Rolling for Drakemaster....
+    Drakemaster has 3 attacks
+    [2, 6, 6]
+    Drakemaster hits on 3+
+    2 attacks hit
+    Re-rolling 1 misses....
+    [2]
+    Drakemaster hits on 3+
+    0 attacks hit
+    Rolling for wounds....
+    Drakemaster wounds on 4+
+    [5, 2]
+    Stormvermin have a 5+ armor save...
+    [5]
+
+    Dragon Princes of Calendor hits: 20
+    Dragon Princes of Calendor wounds : 14
+
+
+Stormvermin attacks at initiative 5
+    Stormvermin gets 3 attacks....
+
+    Rolling for Stormvermin....
+    Stormvermin has 3 attacks
+    [6, 2, 4]
+    Stormvermin hits on 4+
+    2 attacks hit
+    Rolling for wounds....
+    Stormvermin wounds on 3+
+    [6, 5]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [4, 6]
+
+    Rolling for Fangleader....
+    Fangleader has 2 attacks
+    [3, 6]
+    Fangleader hits on 4+
+    1 attacks hit
+    Rolling for wounds....
+    Fangleader wounds on 3+
+    [6]
+    Dragon Princes of Calendor have a 3+ armor save...
+    [5]
+
+    Stormvermin hits: 3
+    Stormvermin wounds : 0
+
+
+Elven Steeds attacks at initiative 4
+    Elven Steeds gets 6 attacks....
+
+    Rolling for Elven Steeds....
+    Elven Steeds has 6 attacks
+    [2, 2, 1, 4, 1, 1]
+    Elven Steeds hits on 4+
+    1 attacks hit
+    Rolling for wounds....
+    Elven Steeds wounds on 4+
+    [1]
+
+    Elven Steeds hits: 1
+    Elven Steeds wounds : 0
+
+
+***************** Dragon Princes of Calendor Combat Score *****************
+    Wounds dealt: 14
+    Charge bonus: 1
+    Rank bonus: 1
+    Standard bearer bonus: 1
+    Flank attack bonus: 1
+    Battle Standard bonus: 1
+
+Total Score: 19
+****************************************************************************
+
+
+************************* Stormvermin Combat Score *************************
+    Wounds dealt: 0
+    Unit is disrupted and receives no rank bonus
+    Standard bearer bonus: 1
+
+Total Score: 1
+****************************************************************************
+
+
+Dragon Princes of Calendor wins!
+
+Stormvermin rolls for a leadership test with a modified leadership of 0... 
+    [1, 4]
+
+Stormvermin fails their break test!
+Stormvermin flees ([2, 6] + 1) = 9 inches
+Dragon Princes of Calendor pursues ([5, 4, 6]) = 11 inches
+
+Dragon Princes of Calendor has caught Stormvermin!
+
+Stormvermin has been annihilated!
+********************************************************************************************************************************************************

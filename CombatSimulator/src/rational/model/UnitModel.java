@@ -1,22 +1,28 @@
 package rational.model;
 
 import rational.enums.SpecialRuleTypeEnum;
-import rational.service.CloseCombatService;
-import rational.service.specialRules.tohit.ToHitService;
-import rational.service.specialRules.tohit.impl.DefaultToHitService;
-import rational.service.specialRules.tohit.impl.PredatoryStrikeService;
-import rational.service.specialRules.tohit.impl.StrikeFirstToHitSpecialRuleService;
-import rational.service.specialRules.towound.ToWoundService;
-import rational.service.specialRules.towound.impl.DefaultToWoundService;
+import rational.enums.TroopTypeEnum;
+import rational.enums.UnitTypeEnum;
+import rational.model.equipment.Armor;
+import rational.model.equipment.Equipment;
+import rational.model.equipment.Weapon;
+import rational.service.closecombat.CloseCombatService;
+import rational.service.specialRules.tohit.ToHitBehavior;
+import rational.service.specialRules.tohit.impl.DefaultToHitBehavior;
+import rational.service.specialRules.tohit.impl.PredatoryStrikeBehavior;
+import rational.service.specialRules.tohit.impl.StrikeFirstToHitSpecialRuleBehavior;
+import rational.service.specialRules.towound.ToWoundBehavior;
+import rational.service.specialRules.towound.impl.DefaultToWoundBehavior;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class UnitModel {
 
     private String name;
     private String race;
-
     private int movement;
     private int weaponSkill;
     private int ballisticSkill;
@@ -26,25 +32,29 @@ public class UnitModel {
     private int initiative;
     private int attacks;
     private int leadership;
+    private Integer basePointValue;
+    private TroopTypeEnum troopType;
+    private UnitTypeEnum unitType;
     private Integer armorSave = 7;
     private Integer wardSave = 7;
+    private boolean isCharacter;
+    private UnitModel champion;
+    private UnitModel mount;
+    private List<SpecialRuleTypeEnum> specialRules = new ArrayList<>();
+    private Map<Equipment, Integer> upgrades = new HashMap<>();
+    private Integer baseWidth;
+    private Integer baseLength;
+
     private Weapon weapon;
     private Armor armor;
     private Armor shield;
-    private List<SpecialRuleTypeEnum> specialRules = new ArrayList<>();
     private int rank;
     private int file;
-    private boolean isCharacter;
-    private UnitModel mount;
-    private UnitModel champion;
     private boolean charging;
 
     private CloseCombatService combatService;
-    private ToHitService toHitService;
-    private ToWoundService toWoundService;
-
-    public UnitModel() {
-    }
+    private ToHitBehavior toHitBehavior;
+    private ToWoundBehavior toWoundBehavior;
 
     public UnitModel(UnitModel copy){
         this.name = copy.name;
@@ -68,12 +78,15 @@ public class UnitModel {
         this.mount = copy.mount;
         this.champion = copy.champion;
         this.charging = copy.charging;
+        this.baseLength = copy.baseLength;
+        this.baseWidth = copy.baseWidth;
         setCombatService(copy.combatService);
     }
 
     public UnitModel(String name, String race, int movement, int weaponSkill, int ballisticSkill, int strength, int toughness, int wounds,
                      int initiative, int attacks, int leadership, boolean isCharacter, Integer armorSave, Integer wardSave, Weapon weapon,
-                     Armor armor, Armor shield, List<SpecialRuleTypeEnum> specialRules, UnitModel mount, UnitModel champion) {
+                     Armor armor, Armor shield, List<SpecialRuleTypeEnum> specialRules, UnitModel mount, UnitModel champion, Integer basePointValue,
+                     Integer baseWidth, Integer baseLength) {
         this.name = name;
         this.race = race;
         this.movement = movement;
@@ -85,32 +98,35 @@ public class UnitModel {
         this.initiative = initiative;
         this.attacks = attacks;
         this.leadership = leadership;
-        this.isCharacter = isCharacter;
         this.armorSave = armorSave;
         this.wardSave = wardSave;
         this.weapon = weapon;
+        this.isCharacter = isCharacter;
         this.armor = armor;
         this.shield = shield;
         this.specialRules = specialRules;
         this.mount = mount;
         this.champion = champion;
+        this.basePointValue = basePointValue;
+        this.baseLength = baseLength;
+        this.baseWidth = baseWidth;
     }
 
     public void setRuleServices(){
         List<SpecialRuleTypeEnum> specialRules = this.getSpecialRules();
         if(specialRules.contains(SpecialRuleTypeEnum.ALWAYS_STRIKE_FIRST)){
-            toHitService = new StrikeFirstToHitSpecialRuleService(this);
+            toHitBehavior = new StrikeFirstToHitSpecialRuleBehavior(this);
         }else if(specialRules.contains(SpecialRuleTypeEnum.PREDATORY_FIGHTER)){
-            toHitService = new PredatoryStrikeService(this);
+            toHitBehavior = new PredatoryStrikeBehavior(this);
         }else{
-            toHitService = new DefaultToHitService(this);
+            toHitBehavior = new DefaultToHitBehavior(this);
         }
         if(specialRules.contains(SpecialRuleTypeEnum.POISONED_ATTACKS)){
 
         }else if(specialRules.contains(SpecialRuleTypeEnum.AUTO_WOUND)){
 
         }else{
-            toWoundService = new DefaultToWoundService(this);
+            toWoundBehavior = new DefaultToWoundBehavior(this);
         }
     }
 
@@ -231,9 +247,9 @@ public class UnitModel {
 
     public List<SpecialRuleTypeEnum> getSpecialRules() {
         List<SpecialRuleTypeEnum> modifiedList = new ArrayList<>(specialRules);
-        if(null != this.armor) modifiedList.addAll(armor.getSpecialRules());
-        if(null != this.shield) modifiedList.addAll(shield.getSpecialRules());
-        if(null != this.weapon) modifiedList.addAll(this.weapon.getSpecialRules());
+        if(null != this.armor && null != this.armor.getSpecialRules()) modifiedList.addAll(armor.getSpecialRules());
+        if(null != this.shield && null != this.shield.getSpecialRules()) modifiedList.addAll(shield.getSpecialRules());
+        if(null != this.weapon && null != this.weapon.getSpecialRules()) modifiedList.addAll(this.weapon.getSpecialRules());
         return modifiedList;
     }
 
@@ -317,14 +333,6 @@ public class UnitModel {
         this.file = file;
     }
 
-    public boolean isCharacter() {
-        return isCharacter;
-    }
-
-    public void setCharacter(boolean character) {
-        this.isCharacter = character;
-    }
-
     public Integer getArmorSave() {
         return armorSave;
     }
@@ -357,12 +365,12 @@ public class UnitModel {
         this.champion = champion;
     }
 
-    public ToHitService getToHitService() {
-        return toHitService;
+    public ToHitBehavior getToHitBehavior() {
+        return toHitBehavior;
     }
 
-    public void setToHitService(ToHitService toHitService) {
-        this.toHitService = toHitService;
+    public void setToHitBehavior(ToHitBehavior toHitBehavior) {
+        this.toHitBehavior = toHitBehavior;
     }
 
     //    @Override
@@ -392,11 +400,67 @@ public class UnitModel {
         setRuleServices();
     }
 
-    public ToWoundService getToWoundService() {
-        return toWoundService;
+    public ToWoundBehavior getToWoundBehavior() {
+        return toWoundBehavior;
     }
 
-    public void setToWoundService(ToWoundService toWoundService) {
-        this.toWoundService = toWoundService;
+    public void setToWoundBehavior(ToWoundBehavior toWoundBehavior) {
+        this.toWoundBehavior = toWoundBehavior;
+    }
+
+    public Integer getBasePointValue() {
+        return basePointValue;
+    }
+
+    public void setBasePointValue(Integer basePointValue) {
+        this.basePointValue = basePointValue;
+    }
+
+    public TroopTypeEnum getTroopType() {
+        return troopType;
+    }
+
+    public void setTroopType(TroopTypeEnum troopType) {
+        this.troopType = troopType;
+    }
+
+    public UnitTypeEnum getUnitType() {
+        return unitType;
+    }
+
+    public void setUnitType(UnitTypeEnum unitType) {
+        this.unitType = unitType;
+    }
+
+    public Map<Equipment, Integer> getUpgrades() {
+        return upgrades;
+    }
+
+    public void setUpgrades(Map<Equipment, Integer> upgrades) {
+        this.upgrades = upgrades;
+    }
+
+    public Integer getBaseWidth() {
+        return baseWidth;
+    }
+
+    public void setBaseWidth(Integer baseWidth) {
+        this.baseWidth = baseWidth;
+    }
+
+    public Integer getBaseLength() {
+        return baseLength;
+    }
+
+    public void setBaseLength(Integer baseLength) {
+        this.baseLength = baseLength;
+    }
+
+    public boolean isCharacter() {
+        return isCharacter;
+    }
+
+    public void setCharacter(boolean isCharacter) {
+        this.isCharacter = isCharacter;
     }
 }

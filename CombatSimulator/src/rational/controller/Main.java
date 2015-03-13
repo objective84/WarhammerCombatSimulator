@@ -1,30 +1,73 @@
 package rational.controller;
 
+import rational.enums.AttackDirectionEnum;
+import rational.model.Army;
 import rational.model.Unit;
 import rational.model.UnitModel;
 import rational.repository.Constants;
-import rational.service.CloseCombatService;
-import rational.service.DefaultCloseCombatService;
+import rational.service.closecombat.CloseCombatService;
+import rational.service.closecombat.impl.DefaultCloseCombatService;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Enumeration;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipFile;
+import java.util.zip.ZipInputStream;
 
 public class Main {
     CloseCombatService combatService = new DefaultCloseCombatService();
+    Army armyA;
+    Army armyB;
 
     Unit unitA;
     Unit unitB;
+    Unit unitC;
     int startingModelsA;
     int startingModelsB;
+    int startingModelsC;
 
 
     public static void main(String[] args){
         Main main = new Main();
+//        File unZippedFile = main.unZip(new File("C:\\Users\\pvarnerhowland\\BattleScribe\\data\\Warhammer Fantasy 8th ed\\High Elves - 8thBRB_8thAB.catz"));
+
         main.start();
+    }
+
+    private File unZip(File input) {
+        File output = new File("unzippedFile");
+        OutputStream out = null;
+        try {
+            ZipFile zipFile = new ZipFile(input);
+            Enumeration<? extends ZipEntry> entries = zipFile.entries();
+            while (entries.hasMoreElements()) {
+                ZipEntry entry = entries.nextElement();
+                File entryDestination = new File(output, entry.getName());
+                entryDestination.getParentFile().mkdirs();
+                InputStream in = zipFile.getInputStream(entry);
+                ZipInputStream zis = new ZipInputStream(in);
+                out = new FileOutputStream(entryDestination);
+                byte[] buffer = new byte[8192];
+                int bytes;
+                while ((bytes = in.read(buffer)) > 0) {
+                    out.write(buffer, 0, bytes);
+                }
+            }
+        } catch (FileNotFoundException e) {
+//            LOG.warn(e.getMessage());
+        } catch (IOException e) {
+//            LOG.warn(e.getMessage());
+        } finally {
+            try {
+                out.close();
+            } catch (IOException e) {
+//                LOG.warn(e.getMessage());
+            }
+        }
+        return output;
     }
     public void start(){
         createUnits();
@@ -34,39 +77,57 @@ public class Main {
     }
 
     public void createUnits(){
+        armyA = new Army();
+        armyB = new Army();
+
         unitA = new Unit();
         unitB = new Unit();
+        unitC = new Unit();
         startingModelsA = 15;
-        startingModelsB = 30;
+        startingModelsB = 25;
+        startingModelsC = 60;
 
         unitA.setHasBanner(true);
         unitA.setHasMusician(true);
         unitA.setHasChampion(true);
-        unitA.setFlankAttack(false);
         unitA.setHasBattleStandard(true);
         unitA.setDefaultNumModels(startingModelsA);
         unitA.setCharging(true);
-        unitA.initializeUnit(new UnitModel(Constants.Models.HighElves.dragonPrinces), 5, Arrays.asList(
+        unitA.initializeUnit(new UnitModel(Constants.Models.HighElves.dragonPrinces), 6, Arrays.asList(
                         new UnitModel(Constants.Models.HighElves.prince)), combatService);
         combatService.appendLog("Unit A: " + unitA.toString());
 
         unitB.setHasBanner(true);
         unitB.setHasMusician(true);
         unitB.setHasChampion(true);
-        unitB.setFlankAttack(false);
+        unitB.setHasBattleStandard(true);
         unitB.setDefaultNumModels(startingModelsB);
-        unitB.initializeUnit(Constants.Models.Skaven.stormvermin, 5, Arrays.asList(Constants.Models.Skaven.warlord), combatService);
+        unitB.initializeUnit(new UnitModel(Constants.Models.HighElves.highElfSpearmen), 5, new ArrayList<UnitModel>(), combatService);
         combatService.appendLog("Unit B: " + unitB.toString());
+
+        unitC.setHasBanner(true);
+        unitC.setHasMusician(true);
+        unitC.setHasChampion(true);
+        unitC.setDefaultNumModels(startingModelsB);
+        unitC.initializeUnit(Constants.Models.Skaven.stormvermin, 12, new ArrayList<UnitModel>(), combatService);
+        combatService.appendLog("Unit C: " + unitC.toString());
+
+        unitA.getEngagedUnits().put(unitC, AttackDirectionEnum.FRONT);
+        unitB.getEngagedUnits().put(unitC, AttackDirectionEnum.FLANK);
+        unitC.getEngagedUnits().put(unitA, AttackDirectionEnum.FRONT);
+        unitC.getEngagedUnits().put(unitB, null);
+        armyA.getUnits().addAll(Arrays.asList(unitA, unitB));
+        armyB.getUnits().add(unitC);
     }
 
     public void individualRounds(int numRounds){
-        for(int i = 1; i<= numRounds; i++) {
-            combatService.appendLog("Round " + i + "\n");
-            combatService.resolveCombat(unitA, unitB);
-            if(unitA.getNumModels() == 0 || unitB.getNumModels() == 0){
-                break;
-            }
-        }
+//        for(int i = 1; i<= numRounds; i++) {
+//            combatService.appendLog("Round " + i + "\n");
+            combatService.resolveCombat(armyA, armyB);
+//            if(unitA.getNumModels() == 0 || unitB.getNumModels() == 0){
+//                break;
+//            }
+//        }
 
         System.out.println(combatService.getLog());
 //        System.out.println(unitA.getCombatScore());
@@ -99,7 +160,7 @@ public class Main {
         BigDecimal brokenB = BigDecimal.ZERO;
 
         for(int i = 0; i<numBattles; i++){
-            Unit winner = combatService.resolveCombat(unitA, unitB);
+            Unit winner = combatService.resolveCombat(armyA, armyB);
             if(null != winner) {
                 if (winner.equals(unitA)) {
                     modelAWins++;

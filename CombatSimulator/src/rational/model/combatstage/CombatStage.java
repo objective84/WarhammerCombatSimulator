@@ -3,7 +3,7 @@ package rational.model.combatstage;
 import rational.enums.SpecialRuleTypeEnum;
 import rational.model.Unit;
 import rational.model.UnitModel;
-import rational.service.CloseCombatService;
+import rational.service.closecombat.CloseCombatService;
 
 import java.util.Comparator;
 import java.util.List;
@@ -39,24 +39,24 @@ public abstract class CombatStage implements Comparator<CombatStage>, Comparable
     }
 
     public void attack(Unit attacker, Unit defender){
-        List<Integer> attacks = attacker.getUnitModel().getToHitService().doSpecialRule(attacker.getNumAttacks(defender), defender);
-        List<Integer> hits = attacker.getUnitModel().getToHitService().checkForHit(attacks);
+        List<Integer> attacks = attacker.getUnitModel().getToHitBehavior().doSpecialRule(attacker.getNumAttacks(defender), defender);
+        List<Integer> hits = attacker.getUnitModel().getToHitBehavior().checkForHit(attacks);
         int totalHits = hits.size();
         int wounds = 0;
         if(!hits.isEmpty()){
-            wounds += attacker.getUnitModel().getToWoundService().rollToWound(attacker.getUnitModel(), defender.getUnitModel(), hits, attacker.getUnitModel().getStrength(),
+            wounds += attacker.getUnitModel().getToWoundBehavior().rollToWound(attacker.getUnitModel(), defender.getUnitModel(), hits, attacker.getUnitModel().getStrength(),
                     attacker.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.NO_ARMOR_SAVE),
                     attacker.getUnitModel().getSpecialRules().contains(SpecialRuleTypeEnum.NO_WARD_SAVE));
         }
 
         if(attacker.getCharacters() != null && !attacker.getCharacters().isEmpty()){
             for(UnitModel character : attacker.getCharacters()) {
-                attacks = character.getToHitService().doSpecialRule(character.getAttacks(),defender);
-                hits = character.getToHitService().checkForHit(attacks);
+                attacks = character.getToHitBehavior().doSpecialRule(character.getAttacks(),defender);
+                hits = character.getToHitBehavior().checkForHit(attacks);
                 totalHits += hits.size();
                 int heroWounds;
                 if (!hits.isEmpty()) {
-                        heroWounds = character.getToWoundService().rollToWound(character, defender.getUnitModel(), hits, character.getStrength(),
+                        heroWounds = character.getToWoundBehavior().rollToWound(character, defender.getUnitModel(), hits, character.getStrength(),
                                 character.getSpecialRules().contains(SpecialRuleTypeEnum.NO_ARMOR_SAVE),
                                 character.getSpecialRules().contains(SpecialRuleTypeEnum.NO_WARD_SAVE));
                         wounds += heroWounds;
